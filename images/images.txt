@@ -1,0 +1,28 @@
+images.txt
+
+Some 1900x500 pictures ready for use without cropping include:
+
+  feature: pic gray pipeline w24-1900x500.jpg
+  credit: cofely.pl
+  creditlink: http://www.cofely.pl/wp-content/uploads/2015/09/w24-1900x500.jpg
+
+o	http://www.gunnars.com/wp-content/uploads/2012/05/bkg_planet12.jpg
+o	http://www.westcoast.co.nz/content/images/2128/1900x500crop/Blowholes_Sunset_Low_Res_1900x500.jpg
+o	http://www.capebusinessenglish.com/wp-content/uploads/2014/04/waterfront-Cape-town-2000-x-500-1-1900x475.jpg
+o	http://lewatonline.com/wp-content/uploads/2015/02/Slider-Final1-1900x500.jpg
+o	http://www.dm-automobile.de/sites/default/files/auto_start_1900x500.jpg
+o	http://store.hp.com/wcsstore/hpusstore/Treatment/om_keyborad_1900x500.jpg
+o	http://sharmscubaservice.com/wp-content/uploads/2015/04/SSS6-slider-1900x500.gif
+o	http://www.redclefmusic.com/wp-content/uploads/2014/04/header3-1900x500.jpg
+o	http://www.cofely.pl/wp-content/uploads/2015/09/45-1900x500.jpg
+o	http://sharmscubaservice.com/wp-content/uploads/2015/04/SSS5-slider-1900x500.gif
+o	http://bazaronline.co.uk/avactis-images/whole-foods-100-percent-organic-1900x500.jpg
+o	
+o	http://shannonside.net/wp-content/uploads/kitchen-home-garden-design-in-cottage-design-modern-cottage-design-ideas-1900x500.jpg
+o	http://grocerstreets.com/wp-content/uploads/2016/01/grocery-header-21-1900x500.jpg
+o	http://www.cofely.pl/wp-content/uploads/2015/09/5-1900x500.jpg
+o	https://www.easterisland.travel/images/tours/slider/ahu-tongariki-moai-statues-easter-island-ahu-tongariki-woman-child-1900x500.jpg
+o	http://allteck.ca/wp-content/uploads/2015/10/Transmission-main-banner-original-e1448645130212-1900x500.jpg?679111
+o	http://hfcclub.com/wp-content/uploads/2015/11/Deer-1900x500.jpg
+o	http://allteck.ca/wp-content/uploads/2015/10/INDUSTRIES-WE-SERVE-TOP-BANNER-1900x500.jpg?679111
+

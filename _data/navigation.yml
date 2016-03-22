@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Calendar
+  url: /calendar/
+
+- title: Shop
+  url: /shop/
+
+- title: Posts
+  url: /posts/
+
+- title: Evangelist
+  url: /evangelist/
+
+- title: Theming
+  url: /theming/
