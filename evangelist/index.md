@@ -12,6 +12,7 @@ image:
 {% include _toc.html %}
 
 Pages in this series:
+
 {% include evangelist_links.html %}
 
 ### What do technical evangelists do?

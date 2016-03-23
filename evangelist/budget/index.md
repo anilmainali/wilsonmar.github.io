@@ -12,7 +12,8 @@ comments: true
 
 {% include _toc.html %}
 
-This is one in a series:
+This is part of a series:
+
 {% include evangelist_links.html %}
 
 ## The spreadsheet

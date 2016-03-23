@@ -2,6 +2,8 @@ images.txt
 
 Some 1900x500 pictures ready for use without cropping include:
 
+  feature: pic blue planet curves 1900x500.jpg
+
   feature: pic gray pipeline w24-1900x500.jpg
   credit: cofely.pl
   creditlink: http://www.cofely.pl/wp-content/uploads/2015/09/w24-1900x500.jpg

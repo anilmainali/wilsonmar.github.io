@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Crop (Mask) images using Sketch on Macs"
+title: "Crop (Mask) images"
 excerpt: "Get just the right 1900x500 picture for your Jekyll website"
 tags: [JavaScript, Load Testing, LoadRunner]
 image:
@@ -13,7 +13,16 @@ comments: true
 
 {% include _toc.html %}
 
-## Sketch
+## Photo editing programs
+
+Adobe Photoshop 
+is the choice of professionals, and premium features means money.
+Add a lot of training if you're not into frustration.
+
+Windows machines come with Paint (in)
+
+
+## Sketch on Mac OSX
 
 I have adopted Sketch on my Mac.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Building a team remotely?"
 excerpt: "8 questions to ask"
-tags: [remote, telework, test]
+tags: [remote, telework, test, teamwork]
 image:
-  feature: pic blue planet curves 1900x500.jpg
+  feature: pic ENERGIZED-SERVICES-e1448057282767-1900x500.jpg
   credit: 
   creditlink: 
 comments: true
