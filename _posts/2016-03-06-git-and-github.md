@@ -55,18 +55,28 @@ Behind the scenes, the service that generates the HTML is called Jekyll and it u
 
 GitHub's on-line text editor shows both raw markdown and HTML generated from it. Because GitHub provides an applications programming interface, several alternatives to GitHub’s online text editor have been created.
 
-The dillenger online editor does what the GitHub editor does, but can also store files in Google Drive and Dropbox.
+The dillenger online editor does what the GitHub editor does, 
+but can also store files in Google Drive and Dropbox.
 
 The stackedit browser app does all that and stores markdown files within the browser for temporary offline edits.
 
-There are also mobile apps that display content from GitHub can also render the static HTML into a repo branch named “gh-pages” which is automatically sent to a GitHub.io website for all users to view.
+There are also mobile apps that display content from GitHub.
+
+If you name a repository with your account name followed by .github.io, 
+with markdown text in its master branch, GitHub will automatically 
+generate HTML and serve them to vistors.
+
+Markdown in additional repositories under the same account
+can appear as projects under the account's github.io domain 
+if they are in a orphan branch named gh-pages.
 
 ### Wiki GitHub
 Markdown text can also be written in a wiki that can be created alongside each repo to present documentation associated with programming code.
 
 In its wiki, GitHub can render alternative markdown flavors such as .asciidoc and others.
 
-Unlike code in GitHub, GitHub’s wiki does not (currently) accept pull requests from strangers. One now has to be named a member or contributor to change  wiki contents. [Page 36]
+Unlike code in GitHub, GitHub’s wiki does not (currently) accept pull requests from strangers. 
+One now has to be named a member or contributor to change wiki contents.
 
 However, there is a 3rd-party who runs a ghw node.js app to generate wiki markup into gh-pages.
 
@@ -75,7 +85,16 @@ For those who want to browse and edit markdown offline, a git client from severa
 
 The multi-platform and multi-lingual client program Haroopad (http://pad.haroopress.com/user.html#download) and mou both display two panes on their program so that markdown text is edited on the left pane while the formatted display is shown on the right pane.
 
-But for high quality display of HTML with markdown, many prefer to use their own favorite text editor, then display markdown locally using the open-source Python web server called grip (https://github.com.com/joeyespo/grip). It uses the rendering API provided by GitHub to format markdown into HTML for display. Grip developers are working on an internal renderer for offline use. Grip can also generate HTML files for transfer to a custom web server for public access, such as gitbook.com, leapub.com, and others. Leanpub can also receive files via Dropbox. 
+But for high quality display of HTML with markdown, many prefer to use their own favorite text editor, then display markdown locally using the open-source Python web server called 
+Grip (https://github.com.com/joeyespo/grip). 
+It uses the rendering API provided by GitHub to format markdown into HTML for display. Grip developers are working on an internal renderer for offline use. 
+
+Although Grip can also generate HTML for transfer to a custom web server for public access,
+the most accurate way to create HTML from markdown is running Jekyll under Ruby and other gems.
+The resulting files can be pushed back to GitHub or the generated _sitse files can be sent to
+3rd-party hosting services
+such as Heroku or specialized hosting services such as 
+gitbook.com, leapub.com, and others. Leanpub can also receive files via Dropbox. 
 
 ### Alternative formats
 Work reformatting and transferring to a web host may be automated on the server as part of a Continuous Integration toolchain. 
