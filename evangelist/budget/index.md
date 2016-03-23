@@ -12,6 +12,9 @@ comments: true
 
 {% include _toc.html %}
 
+This is one in a series:
+{% include evangelist_links.html %}
+
 ## The spreadsheet
 
 ![Click here to download spreadsheet: Dev_evangelism_budget_v02_wm_2016.03.22.xlsx]({{ site.url }}/assets/Dev_evangelism_budget_v02_wm_2016.03.22.xlsx)
@@ -65,6 +68,6 @@ less holidays, vacations, and
 a margin for various more urgent items that 
 come up to eat up time along the way.
 
-> It's better to under-commit and over-deliver than over-commit and under-deliver.
+> It's better to under-commit and over-deliver than<br />over-commit and under-deliver.
 
 You can sort this spreadsheet by various columns.
