@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Museum roadtrip USA"
-excerpt: "Museums in every state, list geographically"
+excerpt: "Major museums in every state, so you can visit every one."
 tags: [trave, roadtrip, museums]
 image:
-  feature: pic ENERGIZED-SERVICES-e1448057282767-1900x500.jpg
+  feature: pic orange auto_start_1900x500.jpg
   credit: 
   creditlink: 
 comments: true
@@ -29,6 +29,11 @@ During conversion to markdown, I realized that markdown is much more sensitive t
 
 * every line must have ending 
 * `&nbsp;` helps to break out of some issues.
+* If li> starts it must end tag or indentions occur.
+
+<iframe src="http://wilsonmar.github.io/_includes/us_states_museums.html" frameborder="0" scrolling="no" height="720" width="960"></iframe>
+
+{: .image-pull-right}
 
 <hr />
 
@@ -50,31 +55,33 @@ Fairbanks</li>
 <a name="WA"></a>
 
 > <strong>Washington</strong>
+
 <ul>
 <li><a target="_blank" href="http://www.tacomaartmuseum.org/">Tacoma Art Museum</a></li>
 <li><a target="_blank" href="http://www.maryhillmuseum.org/">Maryhill Museum of Art</a>, Goldendale</li>
 <li><a target="_blank" href="http://www.museumofnwart.org/">Museum of Northwest Art</a>, La Conner</li>
-<li> Spokane: </li>
-
-    <ul>
-    <li><a target="_blank" href="http://www.northwestmuseum.org/">Northwest Museum of Arts and Culture</a></li>
-    <li><a target="_blank" href="http://www.gonzaga.edu/Campus+Resources/Museums+and+Libraries/Jundt+Art+Museum/default.htm">Jundt Art Center and Museum at Gonzaga University</a></li>
-    </ul>
-&nbsp;
-
-<li> Seattle:
-    <ul>
-    <li><a target="_blank" href="http://www.cocaseattle.org/">Center on Contemporary Art</a></li>
-    <li><a target="_blank" href="http://www.fryeart.org/">Frye Art Museum</a></li>
-    <li><a target="_blank" href="http://www.henryart.org/">Henry Art Gallery at the University of Washington</a></li>
-    <li><a target="_blank" href="http://www.seattleartmuseum.org/">Seattle Art Museum</a></li>
-    <li><a target="_blank" href="http://www.wingluke.org/">Wing Luke Asian Museum</a></li>
-    <li> Music Project rock 'n' roll museum </li>
-    <li><a target="_blank" href="http://www.bellevueart.org/">Bellevue Art Museum</a></li>
-    </ul>
-</li>
-
 </ul>
+
+### Spokane:
+
+<ul>
+<li><a target="_blank" href="http://www.northwestmuseum.org/">Northwest Museum of Arts and Culture</a></li>
+<li><a target="_blank" href="http://www.gonzaga.edu/Campus+Resources/Museums+and+Libraries/Jundt+Art+Museum/default.htm">
+Jundt Art Center and Museum at Gonzaga University</a></li>
+</ul>
+
+### Seattle:
+
+<ul>
+<li><a target="_blank" href="http://www.cocaseattle.org/">Center on Contemporary Art</a></li>
+<li><a target="_blank" href="http://www.fryeart.org/">Frye Art Museum</a></li>
+<li><a target="_blank" href="http://www.henryart.org/">Henry Art Gallery at the University of Washington</a></li>
+<li><a target="_blank" href="http://www.seattleartmuseum.org/">Seattle Art Museum</a></li>
+<li><a target="_blank" href="http://www.wingluke.org/">Wing Luke Asian Museum</a></li>
+<li> Music Project rock 'n' roll museum </li>
+<li><a target="_blank" href="http://www.bellevueart.org/">Bellevue Art Museum</a></li>
+</ul>
+
 
 <a name="OR"></a>
 
@@ -90,27 +97,25 @@ Fairbanks</li>
 <li><a target="_blank" href="http://uoma.uoregon.edu/">University of Oregon Museum of Art</a>, Eugene </li>
 </ul>
 
-&nbsp;
-
 <a name="CA"></a>
 
 > <strong>California</strong>
 
 <ul>
-<li><a target="_blank" href="http://www.crockerartmuseum.org/">Crocker Art Museum</a> Sacramento</li>
+<li><a target="_blank" href="http://www.crockerartmuseum.org/">Crocker Art Museum</a>, Sacramento</li>
 <li><a target="_blank" href="http://www.hagginmuseum.org/">Stockton - Haggin Museum</a></li>
-<li><a target="_blank" href="http://www.svma.org/">Sonoma Valley Museum of Art</a> Sonoma</li>
-<li><a target="_blank" href="http://www.sonoma.edu/ArtGallery/default.html">Sonoma State University Art Gallery</a> Rohnert Park</li>
-<li><a target="_blank" href="http://www.dirosapreserve.org/">di Rosa Preserve</a> Napa</li>
+<li><a target="_blank" href="http://www.svma.org/">Sonoma Valley Museum of Art</a>, Sonoma</li>
+<li><a target="_blank" href="http://www.sonoma.edu/ArtGallery/default.html">Sonoma State University Art Gallery</a>, Rohnert Park</li>
+<li><a target="_blank" href="http://www.dirosapreserve.org/">di Rosa Preserve</a>, Napa</li>
 </ul>
 
-<strong>San Francisco Bay</strong>
+### San Francisco Bay:
 
 <ul>
 <li><a target="_blank" href="http://www.museumca.org/">Oakland Museum of California</a></li>
 <li><a target="_blank" href="http://www.yerbabuenaarts.org/">Yerba Buena Center for the Arts</a>, San Francisco</li>
 <li><a target="_blank" href="http://www.stmarys-ca.edu/arts/art_gallery/">Art Museum at Saint Mary's College</a>, Moraga</li>
-<li><a target="_blank" href="http://www.judahmagnesmuseum.org/">Judah L. Magnes Museum</a>, Berkeley</li
+<li><a target="_blank" href="http://www.judahmagnesmuseum.org/">Judah L. Magnes Museum</a>, Berkeley</li>
 <li><a target="_blank" href="http://www.bampfa.berkeley.edu/">Berkeley Art Museum + Pacific Film Archive at U.C. Berkeley</a></li>
 <li><a target="_blank" href="http://www.sfmoma.org">San Francisco Museum of Modern Art</a></li>
 <li><a target="_blank" href="http://www.asianart.org/">Asian Art Museum of San Francisco</a></li>
@@ -126,7 +131,7 @@ Fairbanks</li>
 </ul>
 
 
-<strong>San Jose</strong>
+### San Jose:
 
 <ul>
 <li><a target="_blank" href="http://www.sjmusart.org/">San Jose Museum of Art</a></li>
@@ -143,7 +148,7 @@ Fairbanks</li>
 </ul>
 
 
-Santa Barbara and Central Coast
+### Santa Barbara and Central Coast:
 
 <ul>
 <li><a target="_blank" href="http://www.oma-online.org/">Oceanside Museum of Art</a></li>
@@ -156,7 +161,7 @@ Santa Barbara and Central Coast
 <li><a target="_blank" href="http://www.vcmha.org/">Ventura County Museum of History and Art</a>, Ventura</li>
 </ul>
 
-Los Angeles 
+### Los Angeles:
 
 <ul>
 <li><a target="_blank" href="http://www.getty.edu/museum/">J. Paul Getty Museum</strong></a></li>
@@ -179,8 +184,7 @@ Los Angeles
 <li><a target="_blank" href="http://www.pacificasiamuseum.org/">Pacific Asia Museum</a>, Pasadena</li>
 </ul>
 
-
-Orange County
+### Orange County:
 
 <ul>
 <li><a target="_blank" href="http://www.molaa.com/">Museum of Latin American Art</a>, Long Beach</li>
@@ -195,7 +199,7 @@ Orange County
 </ul>
 
 
-Inland Empire:
+### Inland Empire:
 
 <ul>
 <li><a target="_blank" href="http://www.scrippscollege.edu/dept/gallery/">Ruth Chandler Williamson Gallery at Scripps College</a>, Claremont</li>
@@ -210,7 +214,7 @@ Inland Empire:
 </ul>
 
 
-San Diego 
+### San Diego:
 
 <ul>
 <li><a target="_blank" href="http://www.mopa.org/">Museum of Photographic Arts</a></li>
@@ -221,8 +225,6 @@ San Diego
 <li><a target="_blank" href="http://stuartcollection.ucsd.edu/">Stuart Collection of Sculpture at U.C. San Diego</a></li>
 <li><a target="_blank" href="http://www.sdmart.org/">San Diego Museum Of Art</a></li>
 </ul>
-
-&nbsp;
 
 <a name="HI"></a>
 
@@ -311,7 +313,7 @@ San Diego
 <li><a target="_blank" href="http://www.fine-art.com/museum/moa.html">The Museum of Outdoor Arts</a>, Englewood</li>
 </ul> 
 
-Denver:
+### Denver:
 
 <ul>
 <li><a target="_blank" href="http://www.denverartmuseum.org/">Denver Museum of Art</a></li>
@@ -331,7 +333,7 @@ Denver:
 <li><a target="_blank" href="http://www.roswellmuseum.org/">Roswell Museum and Art Center</a></li>
 </ul>
 
-Santa Fe
+### Santa Fe:
 
 <ul>
 <li><a target="_blank" href="http://www.okeeffemuseum.org/">Georgia O'Keeffe Museum</a></li>
@@ -340,7 +342,7 @@ Santa Fe
 <li><a target="_blank" href="http://www.nmlegis.gov/">New Mexico Legislature Art Gallery</a></li>
 </ul>
 
-Taos
+### Taos:
 
 <ul>
 <li><a target="_blank" href="http://harwoodmuseum.org/">Harwood Museum at the U. of New Mexico</a></li>
@@ -374,7 +376,7 @@ Taos
 </ul>
 
 
-Dallas
+### Dallas:
 
 <ul>
 <li><a target="_blank" href="http://www.crowcollection.org/">Crow Collection of Asian Art</a></li>
@@ -389,7 +391,7 @@ Dallas
 <li><a target="_blank" href="http://www.baylor.edu/Art/index.php?id=5310">Baylor University Art Galleries</a>, Waco</li>
 </ul>
 
-Austin:
+### Austin:
 
 <ul>
 <li><a target="_blank" href="http://www.hrc.utexas.edu/">Ransom Humanities Research Center at the University of Texas</a>, Austin</li>
@@ -398,13 +400,13 @@ Austin:
 <li><a target="_blank" href="http://www.main.org/mexic-arte/">Mexic-Arte Museum</a>, Austin</li>
 </ul>
 
-Houston:
+### Houston:
 
 <ul>
 <li> Baker Planetarium</li>
 <li><a target="_blank" href="http://www.ricegallery.org/">Rice University Art Gallery</a>, Houston</li>
 <li><a target="_blank" href="http://www.hfac.uh.edu/blaffer/">Blaffer Gallery at the University of Houston</a></li>
-<li><a target="_blank" href="http://mfah.org/">Museum of Fine Arts</strong></a>, Houston
+<li><a target="_blank" href="http://mfah.org/">Museum of Fine Arts</strong></a>, Houston</li>
 <li><a target="_blank" href="http://www.camh.org/">Contemporary Arts Museum, Houston</a></li>
 <li> Museum of Medical Science</li>
 <li> Burke Museum of Fine Arts</li>
@@ -424,9 +426,9 @@ Houston:
 > <strong> Montana </strong>
 
 <ul>
-<li><a target="_blank" href="http://www.artmissoula.org/">Art Museum of Missoula</a></li>
-<li><a target="_blank" href="http://www.cmrussell.org/">C.M. Russell Museum</a>, Great Falls</li>
 <li><a target="_blank" href="http://www.holtermuseum.org/index.html">Holter Museum of Art</a>, Helena</li>
+<li><a target="_blank" href="http://www.cmrussell.org/">C.M. Russell Museum</a>, Great Falls</li>
+<li><a target="_blank" href="http://www.artmissoula.org/">Art Museum of Missoula</a></li>
 <li><a target="_blank" href="http://www.umt.edu/partv/famus/">University of Montana Museum of Fine Arts</a>, Missoula</li>
 <li><a target="_blank" href="http://yellowstone.artmuseum.org/">Yellowstone Art Museum</a>, Billings</li>
 </ul>
@@ -579,7 +581,7 @@ Houston:
 
 > <strong> Illinois </strong>
 
-<a href="2chicago.htm">Chicago<img alt="another page on this site" src="http://merc.tv/img/icons/go.png" width="11" height="12" /></a>
+### Chicago:
 
 <ul>
 <li> Museum of Contemporary Art</li>
@@ -612,7 +614,7 @@ Houston:
 
 > <strong> Indiana </strong>
 
-Indianapolis 
+### Indianapolis:
 
 <ul>
 <li>Indianapolis Children's Museum</li>
@@ -643,14 +645,14 @@ Indianapolis
 
 > <strong> Ohio </strong>
 
-Cincinnati:
+### Cincinnati:
 
 <ul>
 <li> Cincinnati Art Museum</li>
 <li> Museum Center of Union Terminal</li>
 </ul>
 
-Cleveland
+### Cleveland:
 
 <ul>
 <li> Cleveland Museum of Art</li>
@@ -662,7 +664,7 @@ Cleveland
 > <strong> Missouri </strong>
 
 
-Kansas City:
+### Kansas City:
 
 <ul>
 <li><a target="_blank" href="http://www.albrecht-kemper.org/">Albrecht-Kemper Museum of Art</a>, St. Joseph</li>
@@ -670,7 +672,7 @@ Kansas City:
 <li><a target="_blank" href="http://www.nelson-atkins.org/"><strong>Nelson-Atkins Museum of Art</strong></a>, Kansas City</li>
 </ul>
 
-St. Louis
+### St. Louis:
 
 <ul>
 <li><a target="_blank" href="http://www.contemporarystl.org/">Contemporary Art Museum St. Louis</a></li>
@@ -762,7 +764,7 @@ St. Louis
 <ul>
 <li><a target="_blank" href="http://www.themuseum.org/">Alexandria Museum of Art</a></li>
 <li><a target="_blank" href="http://www.cacno.org/">Contemporary Arts Center New Orleans</a></li>
-<li><a target="_blank" href="http://lsm.crt.state.la.us/">Louisiana State Museum</a>, New Orleans
+<li><a target="_blank" href="http://lsm.crt.state.la.us/">Louisiana State Museum</a>, New Orleans</li>
 <li><a target="_blank" href="http://appl003.lsu.edu/museum/moa.nsf/index/">Louisiana State University Museum of Art</a>, Baton Rouge</li>
 <li><a target="_blank" href="http://www.centenary.edu/meadows/">Meadows Museum of Art at Centenary College</a>, Shreveport</li>
 <li><a target="_blank" href="http://www.noma.org/">New Orleans Museum of Art</a></li>
@@ -773,8 +775,6 @@ St. Louis
 </ul>
 
 <hr />
-
-&nbsp;
 
 <a name="DownEastCoast"></a>
 
@@ -824,7 +824,7 @@ St. Louis
 
 > <strong> Massachusettes</strong>
 
-Boston:
+### Boston:
 
 <ul>
 <li><a target="_blank" href="http://www.artsonthepoint.com/">Arts on the Point Sculpture Park</a>, Boston</li>
@@ -836,18 +836,18 @@ Boston:
 <li>Museum of Science and Hayden Planetarium</a></li>
 </ul>
 
-Cambridge (North of Boston):
+### Cambridge (North of Boston):
 
 <ul>
 <li><a target="_blank" href="http://www.artmuseums.harvard.edu/home/"><strong>Harvard University Art Museums</strong></a>, Cambridge</li>
 <li><a target="_blank" href="http://www.peabody.harvard.edu/">Peabody Museum of Archaeology and Ethnology at Harvard University</a>, Cambridge</li>
-<li>Fogg Art Museum</a></li>
-<li>MIT Museum</a></li>
-<li>Arthur M. Sackler Museum</a></li>
+<li>Fogg Art Museum</li>
+<li>MIT Museum</li>
+<li>Arthur M. Sackler Museum</li>
 <li><a target="_blank" href="http://www.brandeis.edu/rose/">Rose Art Museum at Brandeis University</a>, Waltham</li>
 </ul>
 
-Westward on the Mass Turnpike 90:
+### Westward on the Mass Turnpike 90:
 
 <ul>
 <li><a target="_blank" href="http://www.museumofbadart.org/">Museum of Bad Art</a>, Dedham</li>
@@ -862,7 +862,7 @@ Westward on the Mass Turnpike 90:
 <li><a target="_blank" href="http://www.quadrangle.org/">The Springfield Museums at the Quadrangle</a></li>
 </ul>
 
-Northward Mass up 95:
+### Northward Mass up 95:
 
 <ul>
 <li><a target="_blank" href="http://www.griffinmuseum.org/">Griffin Museum of Photography</a>, Winchester</li>
@@ -872,7 +872,7 @@ Northward Mass up 95:
 <li><a target="_blank" href="http://www.pem.org/">Peabody Essex Museum</a>, Salem</li>
 </ul>
 
-SouthEast of Boston on 3 to the tip:
+### SouthEast of Boston on 3 to the tip:
 
 <ul>
 <li><a target="_blank" href="http://www.fullermuseum.org/">Fuller Craft Museum</a>, Brockton</li>
@@ -885,7 +885,7 @@ SouthEast of Boston on 3 to the tip:
 <li><a target="_blank" href="http://www.cahoonmuseum.org/">Cahoon Museum of American Art</a>, Cotuit</li>
 </ul>
 
-Western Mass up 91:
+### Western Mass up 91:
 
 <ul>
 <li><a target="_blank" href="http://www.decordova.org/">DeCordova Museum and Sculpture Park</a> Lincoln</li>
@@ -897,12 +897,12 @@ Western Mass up 91:
 <li><a target="_blank" href="http://www.massmoca.org/">Massachusetts Museum of Contemporary Art</a> North Adams</li>
 </ul>
 
-South Mass:
+### South Mass:
 
 <ul>
 <li><a target="_blank" href="http://AttleboroMuseum.org/">Attleboro Museum and Center for the Arts</a></li>
 <li><a target="_blank" href="http://www.newbedfordartmuseum.org/">New Bedford Art Museum</a></li>
-<li>Isabella Steward Gardner Museum</a></li>
+<li>Isabella Steward Gardner Museum</li>
 <li> Sterling and Francine Clark Art Institute, Williamstown</li>
 </ul>
 
@@ -911,8 +911,8 @@ South Mass:
 > <strong>Rhode Island </strong>
 
 <ul>
-<li><a target="_blank" href="http://www.brown.edu/Facilities/David_Winton_Bell_Gallery/">David Winton Bell Gallery at Brown University</a> Providence</li>
-<li><a target="_blank" href="http://www.risd.edu/museum.cfm"><strong>Rhode Island School of Design Museum of Art</a> Providence</strong></li>
+<li><a target="_blank" href="http://www.brown.edu/Facilities/David_Winton_Bell_Gallery/">David Winton Bell Gallery at Brown University</a>, Providence</li>
+<li><a target="_blank" href="http://www.risd.edu/museum.cfm"><strong>Rhode Island School of Design Museum of Art</strong></a> Providence</li>
 <li><a target="_blank" href="http://www.newportartmuseum.com/">Newport Art Museum</a></li>
 <li><a target="_blank" href="http://www.americanillustration.org/">National Museum of American Illustration</a>, Newport</li>
 </ul>
@@ -962,74 +962,6 @@ South Mass:
 
 > <strong>New York</strong>
 
-New York City:
-
-<ul>
-<li><a target="_blank" href="http://www.alternativemuseum.org/">Alternative Museum</a></li>
-<li><a target="_blank" href="http://www.folkartmuseum.org/">American Folk Art Museum</a></li>
-<li><a target="_blank" href="http://www.amnh.org/">American Museum of Natural History</a></li>
-<li><a target="_blank" href="http://www.brooklynmuseum.org/">Brooklyn Museum of Art</a></li>
-<li><a target="_blank" href="http://chelseaartmuseum.org/">Chelsea Art Museum</a></li>
-<li><a target="_blank" href="http://ndm.si.edu/">Cooper-Hewitt, National Design Museum</a></li>
-<li><a target="_blank" href="http://www.daheshmuseum.org/">Dahesh Museum</a></li>
-<li><a target="_blank" href="http://www.diacenter.org/">Dia Center for the Arts</a></li>
-<li><a target="_blank" href="http://www.bxma.org/">Bronx Museum of Art</a></li>
-<li><a target="_blank" href="http://www.diachelsea.org/">Dia: Chelsea</a></li>
-<li><a target="_blank" href="http://www.icp.org/">International Center of Photography</a></li>
-<li><a target="_blank" href="http://www.thejewishmuseum.org/">> <strong>Jewish Museum</strong></a></li>
-<li><a target="_blank" href="http://ca80.lehman.cuny.edu/gallery/">Lehman College Art Gallery</a></li>
-<li><a target="_blank" href="http://www.morganlibrary.org/">Morgan Library</a></li>
-<li><a target="_blank" href="http://www.elmuseo.org/">El Museo del Barrio</a></li>
-<li><a target="_blank" href="http://www.africanart.org/">Museum for African Art</a></li>
-<li><a target="_blank" href="http://www.moma.org/">> <strong>Museum of Modern Art (MOMA)</strong></a></li>
-<li><a target="_blank" href="http://www.mcny.org/">> <strong>Museum of the City of New York</strong></a></li>
-<li><a target="_blank" href="http://www.nationalacademy.org/">Museum of the National Academy of Design</a></li>
-<li><a target="_blank" href="http://www.nmai.si.edu/">National Museum of the American Indian</a></li>
-<li><a target="_blank" href="http://www.neuegalerie.org/">Neue Galerie Museum for German and Austrian Art</a></li>
-<li><a target="_blank" href="http://www.newmuseum.org/">New Museum of Contemporary Art</a></li>
-<li><a target="_blank" href="http://www.nyhistory.org/">New-York Historical Society</a></li>
-<li><a target="_blank" href="http://www.roerich.org/">Nicholas Roerich Museum</a></li>
-<li><a target="_blank" href="http://www.queensmuseum.org/">Queens Museum of Art</a></li>
-<li><a target="_blank" href="http://www.brooklynx.org/rotunda/default.asp">Rotunda Gallery</a></li>
-<li><a target="_blank" href="http://www.rmanyc.org/">Rubin Museum of Art: Art of the Himalayas</a></li> 
-<li><a target="_blank" href="http://www.siiasmuseum.org/">Staten Island Institute of Arts and Sciences</a></li>
-<li><a target="_blank" href="http://www.studiomuseuminharlem.org/">Studio Museum in Harlem</a></li>
-<li><a target="_blank" href="http://www.ukrainianmuseum.org/">Ukrainian Museum</a></li>
-<li><a target="_blank" href="http://www.whitney.org/">> <strong>Whitney Museum of American Art</strong></a></li>
-<li> American Museum of Natural History</li>
-<li> Brooklyn Museum</li>
-<li> Gallery of Modern Art</li>
-<li> Metropolitan Museum of Art and the Cloisters</li>
-<li> Morgan Library</li>
-<li> Museum of Holograph</li>
-<li><a target="_blank" href=http://www.metmuseum.org/>Metropolitan Museum of Art (the Met)</a></li>
-<li>Solomon R. Guggenheim Museum, with <a target="_blank" href=http://www.Guggenheim.com/> Guggenheim.com</a> for motorcycles and 
-<a target="_blank" href=http://www.Guggenheim.org/>Guggenheim.org</a> for environmental art</li>
-<li> Museum of the American Indian</li>
-<li><a target="_blank" href="http://www.nyu.edu/greyart/">Grey Art Gallery at New York University</a>, New York City</li>
-<li><a target="_blank" href="http://www.frick.org/">> <strong>Frick Collection</strong></a>, New York City</li>
-<li><a target="_blank" href="http://www.guggenheim.org/new_york_index.shtml">> <strong>Guggenheim Museum</strong></a>, New York City</li>
-<li><a target="_blank" href="http://hispanicsociety.org/">Hispanic Society of America</a>, New York City</li>
-</ul>
-
-Albany/Rochester 
-
-<ul>
-<li><a target="_blank" href="http://www.eastmanhouse.org/">George Eastman House International Museum of Photography and Film</a>, Rochester</li>
-<li><a target="_blank" href="http://mag.rochester.edu/">Memorial Art Gallery at the University of Rochester</a></li>
-<li><a target="_blank" href="http://www.strongmuseum.org/">Strong Museum</a>, Rochester</li>
-<li><a target="_blank" href="http://www.albany.edu/museum/">University Art Museum</a>, Albany</li>
-</ul>
-
-Buffalo 
-
-<ul>
-<li><a target="_blank" href="http://www.albrightknox.org/ak_index.html">Albright-Knox Art Gallery</a>, Buffalo</li>
-<li><a target="_blank" href="http://www.artgallery.buffalo.edu/">State University at Buffalo Art Gallery</a></li>
-<li><a target="_blank" href="http://www.burchfield-penney.org/">The Burchfield Penney Art Center</a>, Buffalo</li>
-</ul>
-
-Other:
 
 <ul>
 <li><a target="_blank" href="http://www.adkmuseum.org/">The Adirondack Museum</a>, Blue Mountain Lake</li>
@@ -1075,11 +1007,99 @@ Other:
 <li><a target="_blank" href="http://sumweb.syr.edu/suart/">Syracuse University Art Collection</a></li>
 </ul>
 
+### New York City:
+
+<ul>
+<li><a target="_blank" href="http://www.alternativemuseum.org/">Alternative Museum</a></li>
+<li><a target="_blank" href="http://www.folkartmuseum.org/">American Folk Art Museum</a></li>
+<li><a target="_blank" href="http://www.amnh.org/">American Museum of Natural History</a></li>
+<li><a target="_blank" href="http://www.brooklynmuseum.org/">Brooklyn Museum of Art</a></li>
+<li><a target="_blank" href="http://chelseaartmuseum.org/">Chelsea Art Museum</a></li>
+<li><a target="_blank" href="http://ndm.si.edu/">Cooper-Hewitt, National Design Museum</a></li>
+<li><a target="_blank" href="http://www.daheshmuseum.org/">Dahesh Museum</a></li>
+<li><a target="_blank" href="http://www.diacenter.org/">Dia Center for the Arts</a></li>
+<li><a target="_blank" href="http://www.bxma.org/">Bronx Museum of Art</a></li>
+<li><a target="_blank" href="http://www.diachelsea.org/">Dia: Chelsea</a></li>
+<li><a target="_blank" href="http://www.icp.org/">International Center of Photography</a></li>
+<li><a target="_blank" href="http://www.thejewishmuseum.org/">> <strong>Jewish Museum</strong></a></li>
+<li><a target="_blank" href="http://ca80.lehman.cuny.edu/gallery/">Lehman College Art Gallery</a></li>
+<li><a target="_blank" href="http://www.morganlibrary.org/">Morgan Library</a></li>
+<li><a target="_blank" href="http://www.elmuseo.org/">El Museo del Barrio</a></li>
+<li><a target="_blank" href="http://www.africanart.org/">Museum for African Art</a></li>
+<li><a target="_blank" href="http://www.moma.org/">> <strong>Museum of Modern Art (MOMA)</strong></a></li>
+<li><a target="_blank" href="http://www.mcny.org/">> <strong>Museum of the City of New York</strong></a></li>
+<li><a target="_blank" href="http://www.nationalacademy.org/">Museum of the National Academy of Design</a></li>
+<li><a target="_blank" href="http://www.nmai.si.edu/">National Museum of the American Indian</a></li>
+<li><a target="_blank" href="http://www.neuegalerie.org/">Neue Galerie Museum for German and Austrian Art</a></li>
+<li><a target="_blank" href="http://www.newmuseum.org/">New Museum of Contemporary Art</a></li>
+<li><a target="_blank" href="http://www.nyhistory.org/">New-York Historical Society</a></li>
+<li><a target="_blank" href="http://www.roerich.org/">Nicholas Roerich Museum</a></li>
+<li><a target="_blank" href="http://www.queensmuseum.org/">Queens Museum of Art</a></li>
+<li><a target="_blank" href="http://www.brooklynx.org/rotunda/default.asp">Rotunda Gallery</a></li>
+<li><a target="_blank" href="http://www.rmanyc.org/">Rubin Museum of Art: Art of the Himalayas</a></li>
+<li><a target="_blank" href="http://www.siiasmuseum.org/">Staten Island Institute of Arts and Sciences</a></li>
+<li><a target="_blank" href="http://www.studiomuseuminharlem.org/">Studio Museum in Harlem</a></li>
+<li><a target="_blank" href="http://www.ukrainianmuseum.org/">Ukrainian Museum</a></li>
+<li><a target="_blank" href="http://www.whitney.org/">> <strong>Whitney Museum of American Art</strong></a></li>
+<li> American Museum of Natural History</li>
+<li> Brooklyn Museum</li>
+<li> Gallery of Modern Art</li>
+<li> Metropolitan Museum of Art and the Cloisters</li>
+<li> Morgan Library</li>
+<li> Museum of Holograph</li>
+<li><a target="_blank" href=http://www.metmuseum.org/>Metropolitan Museum of Art (the Met)</a></li>
+<li>Solomon R. Guggenheim Museum, with <a target="_blank" href=http://www.Guggenheim.com/> Guggenheim.com</a> for motorcycles and 
+<a target="_blank" href=http://www.Guggenheim.org/>Guggenheim.org</a> for environmental art</li>
+<li> Museum of the American Indian</li>
+<li><a target="_blank" href="http://www.nyu.edu/greyart/">Grey Art Gallery at New York University</a>, New York City</li>
+<li><a target="_blank" href="http://www.frick.org/"> <strong>Frick Collection</strong></a>, New York City</li>
+<li><a target="_blank" href="http://www.guggenheim.org/new_york_index.shtml">> <strong>Guggenheim Museum</strong></a>, New York City</li>
+<li><a target="_blank" href="http://hispanicsociety.org/">Hispanic Society of America</a>, New York City</li>
+</ul>
+
+### Albany/Rochester:
+
+<ul>
+<li><a target="_blank" href="http://www.eastmanhouse.org/">George Eastman House International Museum of Photography and Film</a>, Rochester</li>
+<li><a target="_blank" href="http://mag.rochester.edu/">Memorial Art Gallery at the University of Rochester</a></li>
+<li><a target="_blank" href="http://www.strongmuseum.org/">Strong Museum</a>, Rochester</li>
+<li><a target="_blank" href="http://www.albany.edu/museum/">University Art Museum</a>, Albany</li>
+</ul>
+
+### Buffalo:
+
+<ul>
+<li><a target="_blank" href="http://www.albrightknox.org/ak_index.html">Albright-Knox Art Gallery</a>, Buffalo</li>
+<li><a target="_blank" href="http://www.artgallery.buffalo.edu/">State University at Buffalo Art Gallery</a></li>
+<li><a target="_blank" href="http://www.burchfield-penney.org/">The Burchfield Penney Art Center</a>, Buffalo</li>
+</ul>
+
+
+
 <a name="PA"></a>
 
 > <strong>Pennsylvania</strong>
 
-Philadelphia
+<ul>
+<li><a target="_blank" href="http://www.allentownartmuseum.org/">Allentown Art Museum</a></li>
+<li><a target="_blank" href="http://www.lvc.edu/gallery/">Arnold Art Gallery at Lebanon Valley College</a>, Annville</li>
+<li><a target="_blank" href="http://www.barnesfoundation.org/">Barnes Foundation</a>, Merion</li>
+<li><a target="_blank" href="http://www.brandywinemuseum.org/">Brandywine River Museum</a>, Chadds Ford</li>
+<li><a target="_blank" href="http://www.demuth.org/">Charles Demuth Foundation and Museum</a>, Lancaster</li>
+<li><a target="_blank" href="http://www.erieartmuseum.org/">Erie Art Museum</a>, Erie</li>
+<li><a target="_blank" href="http://Everhart-Museum.org/">Everhart Museum</a>, Scranton</li>
+<li><a target="_blank" href="http://www.glencairnmuseum.org/">Glencairn Museum</a>, Bryn Athyn</li>
+<li><a target="_blank" href="http://www.michenerartmuseum.org/">James Michener Art Museum</a>, Doylestown</li>
+<li><a target="_blank" href="http://services.juniata.edu/museum/">Juniata College Museum of Art</a>, Huntingdon</li>
+<li><a target="_blank" href="http://www.psu.edu/dept/palmermuseum/">Palmer Museum of Art at Pennsylvania State University</a>, University Park</li>
+<li><a target="_blank" href="http://www.readingpublicmuseum.org/">Reading Public Museum</a>, Reading</li>
+<li><a target="_blank" href="http://www.bucknell.edu/SamekArtGallery/">Samek Art Gallery at Bucknell University</a>, Lewisburg</li>
+<li><a target="_blank" href="http://www.sama-art.org/">Southern Alleghenies Museum of Art</a>, Johnstown</li>
+<li><a target="_blank" href="http://www.statemuseumpa.org/">State Museum of Pennsylvania</a>, Harrisburg</li>
+<li><a target="_blank" href="http://www.widener.edu/?pageId=60">Widener University Art Gallery and Collection</a>, Chester</li>
+</ul>
+
+### Philadelphia:
 
 <ul>
 <li><a target="_blank" href="http://www.libertymuseum.org/">National Liberty Museum</a></li>
@@ -1103,7 +1123,7 @@ Philadelphia
 <li><a target="_blank" href="http://www.woodmereartmuseum.org/">Woodmere Art Museum</a></li>
 </ul>
 
-Pittsburgh:
+### Pittsburgh:
 
 <ul>
 <li><a target="_blank" href="http://www.cmoa.org/">Carnegie Museum of Art</a></li>
@@ -1114,27 +1134,6 @@ Pittsburgh:
 <li> Carnie Museum of Natural History</li>
 </ul>
 
-Other:
-
-<ul>
-<li><a target="_blank" href="http://www.allentownartmuseum.org/">Allentown Art Museum</a></li>
-<li><a target="_blank" href="http://www.lvc.edu/gallery/">Arnold Art Gallery at Lebanon Valley College</a>, Annville</li>
-<li><a target="_blank" href="http://www.barnesfoundation.org/">Barnes Foundation</a>, Merion</li>
-<li><a target="_blank" href="http://www.brandywinemuseum.org/">Brandywine River Museum</a>, Chadds Ford</li>
-<li><a target="_blank" href="http://www.demuth.org/">Charles Demuth Foundation and Museum</a>, Lancaster</li>
-<li><a target="_blank" href="http://www.erieartmuseum.org/">Erie Art Museum</a>, Erie</li>
-<li><a target="_blank" href="http://Everhart-Museum.org/">Everhart Museum</a>, Scranton</li>
-<li><a target="_blank" href="http://www.glencairnmuseum.org/">Glencairn Museum</a>, Bryn Athyn</li>
-<li><a target="_blank" href="http://www.michenerartmuseum.org/">James Michener Art Museum</a>, Doylestown</li>
-<li><a target="_blank" href="http://services.juniata.edu/museum/">Juniata College Museum of Art</a>, Huntingdon</li>
-<li><a target="_blank" href="http://www.psu.edu/dept/palmermuseum/">Palmer Museum of Art at Pennsylvania State University</a>, University Park</li>
-<li><a target="_blank" href="http://www.readingpublicmuseum.org/">Reading Public Museum</a>, Reading</li>
-<li><a target="_blank" href="http://www.bucknell.edu/SamekArtGallery/">Samek Art Gallery at Bucknell University</a>, Lewisburg</li>
-<li><a target="_blank" href="http://www.sama-art.org/">Southern Alleghenies Museum of Art</a>, Johnstown</li>
-<li><a target="_blank" href="http://www.statemuseumpa.org/">State Museum of Pennsylvania</a>, Harrisburg</li>
-<li><a target="_blank" href="http://www.widener.edu/?pageId=60">Widener University Art Gallery and Collection</a>, Chester</li>
-</ul>
-
 <a name="DE"></a>
 
 > <strong>Delaware</strong>
@@ -1142,7 +1141,7 @@ Other:
 <ul>
 <li><a target="_blank" href="http://www.biggsmuseum.org/">Biggs Museum of American Art</a>, Dover</li>
 <li><a target="_blank" href="http://www.delart.org/">Delaware Art Museum</a>, Wilmington</li>
-<li><a target="_blank" href="http://www.museums.udel.edu/">University of Delaware Gallery</a>, Newark
+<li><a target="_blank" href="http://www.museums.udel.edu/">University of Delaware Gallery</a>, Newark</li>
 <li><a target="_blank" href="http://www.winterthur.org/">Winterthur Museum, Garden and Library</a></li>
 </ul>
 
@@ -1152,18 +1151,13 @@ Other:
 
 <ul>
 <li><a target="_blank" href="http://www.hmoa.org/">Huntington Museum of Art</a></li>
-<li><a target="_blank" href="http://members.aol.com/wvmuseumofglass/">West Virginia Museum of American Glass</a>, Weston
+<li><a target="_blank" href="http://members.aol.com/wvmuseumofglass/">West Virginia Museum of American Glass</a>, Weston</li>
 </ul>
-<a name="VA"></a>> <strong>Virginia</strong>
 
-Williamsburg:
-<ul>
-<li><a target="_blank" href="http://www.wm.edu/muscarelle/">Muscarelle Museum of Art at the College of William and Mary</a></li>
-<li> Abby Aldrich
-<li> Rockefeller Folk Art Collection
-<li> Colonial Williamsburg Villege
-</ul> 
-Other:
+<a name="VA"></a>
+
+> <strong>Virginia</strong>
+
 <ul> 
 <li><a target="_blank" href="http://www.pubinfo.vcu.edu/artweb/gallery/">Anderson Gallery at the VCU School for the Arts</a>, Richmond</li>
 <li><a target="_blank" href="http://www.artmuseumroanoke.org/">Art Museum of Western Virginia</a>, Roanoke</li>
@@ -1181,6 +1175,15 @@ Other:
 <li><a target="_blank" href="http://www.wkrac.org/">William King Regional Arts Center</a>, Abingdon</li>
 </ul>
 
+### Williamsburg:
+
+<ul>
+<li><a target="_blank" href="http://www.wm.edu/muscarelle/">Muscarelle Museum of Art at the College of William and Mary</a></li>
+<li> Abby Aldrich</li>
+<li> Rockefeller Folk Art Collection</li>
+<li> Colonial Williamsburg Villege</li>
+</ul> 
+
 <a name="DC"></a>
 
 > <strong>Washington DC</strong>
@@ -1194,25 +1197,25 @@ See the US Constitution, Bill of Rights and the Declaration of Independence.
 But the Emancipation Proclamation is open to the public just 4 days a year around MLK Holiday Jan. 13-16 Friday-Monday 10 a.m.-5:30 p.m. </li>
 <li><a target="_blank" href="http://www.si.edu/organiza/museums/artsack/start.htm">
 The Smithsonian Institution: The Freer Gallery of Art and The Arthur M. Sackler Gallery</a></li>
-<li><a target="_blank" href="http://www.asia.si.edu/">> <strong>Sackler/Freer Galleries</strong></a></li>
+<li><a target="_blank" href="http://www.asia.si.edu/"><strong>Sackler/Freer Galleries</strong></a></li>
 <li><a target="_blank" href="http://www.museum.oas.org/">Art Museum of the Americas</a></li>
-<li><a target="_blank" href="http://www.corcoran.org/">> <strong>Corcoran Gallery of Art</strong></a></li>
+<li><a target="_blank" href="http://www.corcoran.org/"><strong>Corcoran Gallery of Art</strong></a></li>
 <li><a target="_blank" href="http://www.gwu.edu/~dimock/">Dimock Gallery at George Washington University</a></li>
 <li><a target="_blank" href="http://www.doaks.org/">Dumbarton Oaks Research Library and Collection</a></li>
 <li><a target="_blank" href="http://www.hillwoodmuseum.org/">Hillwood Museum and Gardens</a></li>
 <li><a target="_blank" href="http://hirshhorn.si.edu/">> <strong>Hirshhorn Museum and Sculpture Garden</strong></a></li>
 <li><a target="_blank" href="http://www.howard.edu/library/art@Howard/">Howard University Gallery of Art</a></li>
 <li><a target="_blank" href="http://www.kreegermuseum.com/">Kreeger Museum</a></li>
-<li><a target="_blank" href="http://www.nga.gov/home.htm">> <strong>U.S. National Gallery of Art</strong></a></li>
+<li><a target="_blank" href="http://www.nga.gov/home.htm"><strong>U.S. National Gallery of Art</strong></a></li>
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11007"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
 <li><a target="_blank" href="http://www.nmafa.si.edu/">National Museum of African Art</a></li>
-<li><a target="_blank" href="http://americanart.si.edu/">> <strong>Smithsonian American Art Museum</strong></a></li>
-<li><a target="_blank" href="http://www.nmwa.org/">> <strong>National Museum of Women in the Arts</strong></a></li>
-<li><a target="_blank" href="http://www.npg.si.edu/">> <strong>National Portrait Gallery</strong></a></li>
+<li><a target="_blank" href="http://americanart.si.edu/"><strong>Smithsonian American Art Museum</strong></a></li>
+<li><a target="_blank" href="http://www.nmwa.org/"><strong>National Museum of Women in the Arts</strong></a></li>
+<li><a target="_blank" href="http://www.npg.si.edu/"><strong>National Portrait Gallery</strong></a></li>
 <li><a target="_blank" href="http://www.aoc.gov/cc/art/nsh/index.cfm">National Statuary Hall</a></li>
-<li><a target="_blank" href="http://www.phillipscollection.org/">> <strong>Phillips Collection</strong></a> 1600 21st Street, NW 20009 Closed Mondays </li>
+<li><a target="_blank" href="http://www.phillipscollection.org/"><strong>Phillips Collection</strong></a> 1600 21st Street, NW 20009 Closed Mondays </li>
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11046"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
-<li><a target="_blank" href="http://www.si.edu/">> <strong>Smithsonian Institution</strong></a></li>
+<li><a target="_blank" href="http://www.si.edu/"><strong>Smithsonian Institution</strong></a></li>
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11791"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
 <li><a target="_blank" href="http://www.textilemuseum.org/">Textile Museum</a></li>
 <li><a target="_blank" href="http://www.uschs.org/04_history/subs_collection/04b.html">U.S. Capital Art Collection</a></li>
@@ -1230,11 +1233,11 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li><a target="_blank" href="http://www.africanartmuseum.org/">African Art Museum of Maryland</a>, Columbia</li>
 <li><a target="_blank" href="http://www.avam.org/">American Visionary Art Museum</a>, Baltimore</li>
 <li><a target="_blank" href="http://www.artgallery.umd.edu/">Art Gallery at the University of Maryland</a>, College Park</li>
-<li><a target="_blank" href="http://www.artbma.org/">> <strong>Baltimore Museum of Art</strong></a></li>
+<li><a target="_blank" href="http://www.artbma.org/"><strong>Baltimore Museum of Art</strong></a></li>
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11069"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
 <li><a target="_blank" href="http://www.contemporary.org/">Contemporary Museum</a>, Baltimore</li>
 <li><a target="_blank" href="http://www.mdarchives.state.md.us/msa/speccol/sc4600/sc4680/html/intro_peabody.html">Peabody Gallery of Art</a>, Baltimore</li>
-<li><a target="_blank" href="http://www.thewalters.org/index.html">> <strong>Walters Art Gallery</strong></a>, Baltimore</li>
+<li><a target="_blank" href="http://www.thewalters.org/index.html"><strong>Walters Art Gallery</strong></a>, Baltimore</li>
 <li><a target="_blank" href="http://www.wardmuseum.org/">Ward Museum of Wildfowl Art</a>, Salisbury</li>
 <li><a target="_blank" href="http://www.washcomuseum.org/">Washington County Museum of Fine Arts</a>, Hagerstown</li>
 </ul>
@@ -1247,7 +1250,7 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li><a target="_blank" href="http://www.ackland.org/">Ackland Art Museum at the University of North Carolina</a>, Chapel Hill</li>
 <li><a target="_blank" href="http://ashevilleart.org/">Asheville Art Museum</a></li>
 <li><a target="_blank" href="http://www.camnc.org/">Contemporary Art Museum</a>, Raleigh</li>
-<li><a target="_blank" href="http://www.duke.edu/web/duma/">Duke University Museum of Art</a>, Durham
+<li><a target="_blank" href="http://www.duke.edu/web/duma/">Duke University Museum of Art</a>, Durham</li>
 <li><a target="_blank" href="http://www.guilford.edu/original/libraryart/artgallery/Art.html">Guilford College Art Gallery</a>, Greensboro</li>
 <li><a target="_blank" href="http://www.hickorymuseumofart.org/">Hickory Museum of Art</a></li>
 <li><a target="_blank" href="http://www.mintmuseum.org/">Mint Museum of Art</a>, Charlotte</li>
@@ -1255,10 +1258,14 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11248"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
 <li><a target="_blank" href="http://www.ncsu.edu/gad/">North Carolina State University Gallery of Art and Design</a>, Raleigh</li>
 <li><a target="_blank" href="http://www.reynoldahouse.org/">Reynolda House Museum of American Art</a>, Winston-Salem</li>
-<li><a target="_blank" href="http://www.secca.org/">Southeastern Center for Contemporary Art (SECCA)</a>, Winston-Salem
-<li><a target="_blank" href="http://www.wfu.edu/academics/art/main.htm">Wake Forest University Art Collections</a>, Winston-Salem
+<li><a target="_blank" href="http://www.secca.org/">Southeastern Center for Contemporary Art (SECCA)</a>, Winston-Salem</li>
+<li><a target="_blank" href="http://www.wfu.edu/academics/art/main.htm">Wake Forest University Art Collections</a>, Winston-Salem</li>
 </ul>
-<a name="SC"></a>> <strong>South Carolina</strong>
+
+<a name="SC"></a>
+
+> <strong>South Carolina</strong>
+
 <ul>
 <li><a target="_blank" href="http://www.bjumg.org/">Bob Jones University Museum and Gallery</a>, Greenville</li>
 <li><a target="_blank" href="http://www.greenvillemuseum.org/">Greenville County Museum of Art</a></li>
@@ -1268,13 +1275,20 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li><a target="_blank" href="http://www.brookgreen.org/bridge.html">Huntington Sculpture Garden</a>, Pawleys Island</li>
 <li><a target="_blank" href="http://www.spartanburgartmuseum.org/">Spartanburg County Museum of Art</a></li>
 </ul>
+
+<a name="GA"></a>
+
 > <strong>Georgia</strong>
+
 <ul>
 <li><a target="_blank" href="http://www.albanymuseum.com/">Albany Museum of Art</a></li>
 <li><a target="_blank" href="http://www.boothmuseum.org/">Booth Western Art Museum</a>, Cartersville</li>
 <li><a target="_blank" href="http://www.columbusmuseum.com/">Columbus Museum</a></li>
 <li><a target="_blank" href="http://www.uga.edu/gamuseum/">Georgia Museum of Art at the University of Georgia</a>, Athens</li>
-<li> Atlanta
+</ul> 
+
+Atlanta
+
 <ul>
 <li><a target="_blank" href="http://carlos.emory.edu/">Carlos Museum at Emory University</a></li>
 <li><a target="_blank" href="http://www.high.org/">High Museum of Art</a></li>
@@ -1334,5 +1348,5 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li><a target="_blank" href="http://www.vbmuseum.org/">Vero Beach Museum of Art</a></li>
 <li><a target="_blank" href="http://www.vizcayamuseum.org/">Vizcaya Museum and Gardens</a>, Miami
 <li><a target="_blank" href="http://www.wolfsonian.fiu.edu/">The Wolfsonian at Florida International University</a>, Miami Beach
-</p></ul>
+</ul>
 

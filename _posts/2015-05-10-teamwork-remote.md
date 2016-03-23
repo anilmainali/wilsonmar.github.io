@@ -11,8 +11,8 @@ comments: true
 ---
 <i>{{ page.excerpt }}</i>
 
-I've worked with and built several teams, 
-including a 3-shift international 24-hour operation around the world 
+I've worked with and built several teams,
+including a 3-shift international 24-hour operation around the world
 (in Mexico, Israel, India, China).
 
 When it works, it's marvelous how much can be done at 3 times the speed.
