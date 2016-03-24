@@ -9,10 +9,6 @@ image:
   creditlink: 
 comments: true
 ---
-<i>{{ page.excerpt }}</i>
-<hr />
-{% include _toc.html %}
-
 I've worked with and built several teams,
 including a 3-shift international 24-hour operation around the world
 (in Mexico, Israel, India, China).

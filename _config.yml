@@ -1,8 +1,9 @@
 # Site wide configuration
 
 title:            WilsonMar.GitHub.io
-locale:           en_US
 url:
+locale:           en_US
+encoding:         UTF-8
 github:
    repo:  https://github.com/wilsonmar/wilsonmar.github.io
 

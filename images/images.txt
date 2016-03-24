@@ -1,9 +1,19 @@
 images.txt
 
+  credit:
+  creditlink:
+
 Some 1900x500 pictures ready for use without cropping include:
 
-  feature: pic blue planet curves 1900x500.jpg
+  feature: pic color calendar 1900x475.png
+  credit: Life Journey Church
+  creditlink: http://lifejourney.church/hot-topics/events-calendar/
 
+  feature: pic blue black stars spin 1900x500.jpg
+  credit: Jeremy Thomas
+  creditlink: https://www.flickr.com/photos/132218932@N03/page2
+
+  feature: pic blue planet curves 1900x500.jpg
   feature: pic gray pipeline w24-1900x500.jpg
   credit: cofely.pl
   creditlink: http://www.cofely.pl/wp-content/uploads/2015/09/w24-1900x500.jpg
