@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mac OSX Utilitiess"
+title: "Mac OSX Utilities"
 excerpt: "The Swiss Army Knife from Steve Jobs"
 tags: [apple, mac, utilities]
 image:
