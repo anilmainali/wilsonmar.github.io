@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Text Editors on Mac OSX"
-excerpt: "Text me"
+excerpt: "One second saved per minute = 1.666% better living"
 tags: [apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic RichTextEditorToolBar 1900x500.jpg
+  credit: MH Education
+  creditlink: http://highered.mheducation.com/sites/0000065899/student_view0/question_editor/rich_text_editor_toolbar.html
 comments: true
 ---
 <i>{{ page.excerpt }}</i>

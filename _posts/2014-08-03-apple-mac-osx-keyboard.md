@@ -4,9 +4,9 @@ title: "Mac OSX Keyboard"
 excerpt: "Can you do it in the dark?"
 tags: [apple, mac, keyboard]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic white keyboard british 1900x500.jpg
+  credit: Parallels
+  creditlink: http://kb.parallels.com/en/113541
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
