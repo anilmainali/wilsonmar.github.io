@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sceen Capture and Image File Management on Mac OSX"
+title: "Screen Capture and Image File Management on Mac OSX"
 excerpt: "Did I really see that?"
 tags: [apple, mac, setup]
 image:

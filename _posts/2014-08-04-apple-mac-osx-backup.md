@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Mac OSX Backup Archival and Restore"
-excerpt: "Restore your life"
+title: "Backup Archival and Restore on Mac OSX"
+excerpt: "Save your life"
 tags: [apple, mac, setup, USB]
 image:
   feature: pic black macbook 1900x500.jpg
