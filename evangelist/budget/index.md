@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Budget
+title: Budget spreadsheet
 modified: 2016-03-01
 excerpt: "Your future, in a box."
+tags: [budget, spreadsheet, files, jekyll]
 image:
   feature: pic white blue spreasheet 1900x500.jpg
   credit: blog.marketo.com

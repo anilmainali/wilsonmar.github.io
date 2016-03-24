@@ -21,7 +21,7 @@ This "bucket list" is geographical of sorts, arranged along routes I would need 
 * <a class="TopicChoice" href="#DownMississippi"> Down the Mississippi River</a>
 * <a class="TopicChoice" href="#DownEastCoast"> Down the Atlantic Eastern Seaboard</a>
 
-Clickable map:
+Click states of the union below, major cities on the right.
 
 <img src="https://cloud.githubusercontent.com/assets/300046/14015545/77b35900-f17f-11e5-83b7-f931da813eb2.gif" alt="USA states" usemap="#us-states" />
 <map name="us-states">
@@ -101,13 +101,13 @@ Juneau</li>
 <li><a target="_blank" href="http://www.tacomaartmuseum.org/">Tacoma Art Museum</a></li>
 <li><a target="_blank" href="http://www.maryhillmuseum.org/">Maryhill Museum of Art</a>, Goldendale</li>
 <li><a target="_blank" href="http://www.museumofnwart.org/">Museum of Northwest Art</a>, La Conner</li>
-</ul>
+</ul>xf
 
 ### Spokane:
 
 <ul>
 <li><a target="_blank" href="http://www.northwestmuseum.org/">Northwest Museum of Arts and Culture</a></li>
-<li><a target="_blank" href="http://www.gonzaga.edu/Campus+Resources/Museums+and+Libraries/Jundt+Art+Museum/default.htm">
+<li><a target="_blank" href="http://www.gonzaga.edu/Campus-Resources/Museums-and-Libraries/Jundt-Art-Museum/">
 Jundt Art Center and Museum at Gonzaga University</a></li>
 </ul>
 
@@ -115,11 +115,13 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 
 <ul>
 <li><a target="_blank" href="http://www.cocaseattle.org/">Center on Contemporary Art</a></li>
-<li><a target="_blank" href="http://www.fryeart.org/">Frye Art Museum</a></li>
 <li><a target="_blank" href="http://www.henryart.org/">Henry Art Gallery at the University of Washington</a></li>
 <li><a target="_blank" href="http://www.seattleartmuseum.org/">Seattle Art Museum</a></li>
 <li><a target="_blank" href="http://www.wingluke.org/">Wing Luke Asian Museum</a></li>
 <li><a target="_blank" href="http://empmuseum.org/">EAP Museum (Music Project rock 'n' roll museum)</a></li>
+</ul>
+
+<ul>
 <li><a target="_blank" href="http://www.bellevueart.org/">Bellevue Art Museum</a></li>
 </ul>
 
@@ -153,24 +155,26 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 ### San Francisco Bay:
 
 <ul>
-<li><a target="_blank" href="http://www.museumca.org/">Oakland Museum of California</a></li>
 <li><a target="_blank" href="http://www.yerbabuenaarts.org/">Yerba Buena Center for the Arts</a>, San Francisco</li>
-<li><a target="_blank" href="http://www.stmarys-ca.edu/arts/art_gallery/">Art Museum at Saint Mary's College</a>, Moraga</li>
-<li><a target="_blank" href="http://www.judahmagnesmuseum.org/">Judah L. Magnes Museum</a>, Berkeley</li>
-<li><a target="_blank" href="http://www.bampfa.berkeley.edu/">Berkeley Art Museum + Pacific Film Archive at U.C. Berkeley</a></li>
 <li><a target="_blank" href="http://www.sfmoma.org">San Francisco Museum of Modern Art</a></li>
 <li><a target="_blank" href="http://www.asianart.org/">Asian Art Museum of San Francisco</a></li>
 <li><a target="_blank" href="http://www.sfsu.edu/~gallery/">San Francisco State University Fine Arts Gallery</a></li>
 <li><a target="_blank" href="http://www.usfca.edu/library/thacher/">Thacher Gallery at the University of San Francisco</a></li>
 <li> California Academy of Science</li>
 <li><a target="_blank" href="http://www.famsf.org/legion/index.asp">California Museum of the Legion Of Honor</a></li>
-<li> San Francisco Museum of Art</li>
+<li><a target="_blank" href="https://www.sfmoma.org/">San Francisco Museum of Modern Art</a></li>
 <li><a target="_blank" href="http://www.famsf.org/deyoung/index.asp">M H de Young Museum</a>, San Francisco </li>
 <li><a target="_blank" href="http://www.friendsofphotography.org/">Friends of Photography/Ansel Adams Center</a>, San Francisco</li>
 <li><a target="_blank" href="http://www.jmsf.org/">The Jewish Museum</a>, San Francisco</a></li>
 <li><a target="_blank" href="http://www.mocfa.org/">Museum of Craft and Folk Art</a> </li>
 </ul>
 
+<ul>
+<li><a target="_blank" href="http://www.stmarys-ca.edu/arts/art_gallery/">Art Museum at Saint Mary's College</a>, Moraga</li>
+<li><a target="_blank" href="http://www.museumca.org/">Oakland Museum of California</a></li>
+<li><a target="_blank" href="http://www.judahmagnesmuseum.org/">Judah L. Magnes Museum</a>, Berkeley</li>
+<li><a target="_blank" href="http://www.bampfa.berkeley.edu/">Berkeley Art Museum + Pacific Film Archive at U.C. Berkeley</a></li>
+</ul>
 
 ### San Jose:
 
@@ -185,13 +189,13 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 <li><a target="_blank" href="http://www.tritonmuseum.org/">Triton Museum of Art</a>, Santa Clara</li>
 <li><a target="_blank" href="http://www.stowitts.org/">Hubert Julian Stowitts Museum and Library</a>, Pacific Grove</li>
 <li><a target="_blank" href="http://www.montereyart.org/">Monterey Museum of Art</a></li>
-<li><a target="_blank" href="http://www.fresnomet.org/">Fresno Metropolitan Museum</a></li>
 </ul>
 
 
-### Santa Barbara and Central Coast:
+### Santa Barbara (Central Coast):
 
 <ul>
+<li><a target="_blank" href="http://hearstcastle.org/">Hearst Castle</a>, San Simeon</li>
 <li><a target="_blank" href="http://www.oma-online.org/">Oceanside Museum of Art</a></li>
 <li><a target="_blank" href="http://www.uam.ucsb.edu/">Art Museum at U.C. Santa Barbara</a></li>
 <li><a target="_blank" href="http://www.sbmuseart.org/">Santa Barbara Museum of Art</a></li>
@@ -220,6 +224,8 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 <li><a target="_blank" href="http://southwestmuseum.org/">Southwest Museum</a>, Los Angeles</li>
 <li><a target="_blank" href="http://www.autry-museum.org/">Autry Museum of Western Heritage</a></li>
 <li><a target="_blank" href="http://www.caam.ca.gov/">California African-American Museum</a>, Los Angeles</li>
+</ul>
+<ul>
 <li><a target="_blank" href="http://www.huntington.org/">Huntington Library</a>, San Marino</li>
 <li><a target="_blank" href="http://www.nortonsimon.org/">Norton Simon Museum</a>, Pasadena</li>
 <li><a target="_blank" href="http://www.pacificasiamuseum.org/">Pacific Asia Museum</a>, Pasadena</li>
@@ -228,15 +234,17 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 ### Orange County:
 
 <ul>
-<li>Disneyland</a></li>
 <li><a target="_blank" href="http://www.molaa.com/">Museum of Latin American Art</a>, Long Beach</li>
 <li><a target="_blank" href="http://www.lbma.org/">Long Beach Museum of Art</a></li>
 <li><a target="_blank" href="http://www.csulb.edu/~uam/">California State University Art Museum</a>, Long Beach</li>
 <li><a target="_blank" href="http://www.csulb.edu/library/arts/">California State University Library</a>, Long Beach</li>
+</ul>
+<ul>
 <li><a target="_blank" href="http://www.ci.fullerton.ca.us/museum/">Fullerton Museum Center</a></li>
-<li><a target="_blank" href="http://www.ocma.net/">Orange County Museum of Art</a>, Newport Beach</li>
+<li><a target="_blank" href="https://disneyland.disney.go.com/">Disneyland</a>, Anaheim</li>
 <li><a target="_blank" href="http://www.bowers.org/">Bowers Museum of Cultural Art</a>, Santa Ana</li>
 <li><a target="_blank" href="http://www.irvinemuseum.org/">Irvine Museum</a></li>
+<li><a target="_blank" href="http://www.ocma.net/">Orange County Museum of Art</a>, Newport Beach</li>
 <li><a target="_blank" href="http://www.lagunaartmuseum.org/">Laguna Art Museum</a>, Laguna Beach</li>
 </ul>
 
@@ -1354,11 +1362,9 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li> Gainsville: Florida State Museum </li>
 <li> Sarasota: Ringling Museum of Art</li>
 <li><a target="_blank" href="http://www.appletonmuseum.org/">Appleton Museum of Art</a>, Ocala</li>
-<li><a target="_blank" href="http://www.bocamuseum.org/">Boca Raton Museum of Art</a></li>
 <li><a target="_blank" href="http://www.artandscience.org/">Brevard Museum of Art and Science</a>, Melbourne</li>
 <li><a target="_blank" href="http://www.rollins.edu/cfam/">Cornell Fine Arts Museum at Rollins College</a>, Winter Park</li>
 <li><a target="_blank" href="http://www.cummer.org/">Cummer Museum of Art and Gardens</a>, Jacksonville</li>
-<li><a target="_blank" href="http://floridamuseum.org/">Florida International Museum</a>, St. Petersburg</li>
 <li><a target="_blank" href="http://www.mofa.fsu.edu/">Florida State University Museum of Fine Arts</a>, Tallahassee</li>
 <li><a target="_blank" href="http://www.gulfcoastmuseum.org/">Gulf Coast Museum of Art</a>, Largo</li>
 <li><a target="_blank" href="http://www.harn.ufl.edu/">Harn Museum at the University of Florida</a>, Gainesville</li>
@@ -1371,20 +1377,25 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li><a target="_blank" href="http://www.morikami.org/">Morikami Museum and Japanese Gardens</a>, Delray Beach</li>
 <li><a target="_blank" href="http://www.morsemuseum.org/">Morse Museum of American Art</a>, Winter Park</li>
 <li><a target="_blank" href="http://www.moas.org/">Museum of Arts and Sciences</a>, Daytona Beach</li>
-<li><a target="_blank" href="http://www.fine-arts.org/">Museum of Fine Arts</a>, St. Petersburg</li>
-<li><a target="_blank" href="http://www.norton.org/"><strong>Norton Museum of Art</strong></a>, West Palm Beach</li>
 <li><a target="_blank" href="http://omart.org/">Orlando Museum of Art</a></li>
 <li><a target="_blank" href="http://www.ormondartmuseum.org/">Ormond Memorial Art Museum and Gardens</a>, Ormond Beach</li>
 <li><a target="_blank" href="http://www.palmbeachica.org/">Palm Beach Institute of Contemporary Art</a>, Lake Worth</li>
 <li><a target="_blank" href="http://www.pensacolamuseumofart.org/">Pensacola Museum of Art</a></li>
 <li><a target="_blank" href="http://www.polkmuseumofart.org/">Polk Museum of Art</a>, Lakeland</li>
-<li><a target="_blank" href="http://salvadordalimuseum.org/">Salvador Dal&iacute; Museum</a>, St. Petersburg</li>
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11054"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
 <li><a target="_blank" href="http://www.smponline.org/">Southeast Museum of Photography</a>, Daytona Beach</li>
 <li><a target="_blank" href="http://www.tampagov.net/dept_Museum/">Tampa Museum of Art</a></li>
 <li><a target="_blank" href="http://cam.arts.usf.edu/">University of South Florida Contemporary Art Museum</a>, Tampa</li>
 <li><a target="_blank" href="http://www.vbmuseum.org/">Vero Beach Museum of Art</a></li>
 <li>Disneyworld EPCOT</a></li>
+</ul>
+
+### St. Petersburg:
+
+<ul>
+<li><a target="_blank" href="http://floridamuseum.org/">Florida International Museum</a>, St. Petersburg</li>
+<li><a target="_blank" href="http://www.fine-arts.org/">Museum of Fine Arts</a>, St. Petersburg</li>
+<li><a target="_blank" href="http://salvadordalimuseum.org/">Salvador Dal&iacute; Museum</a>, St. Petersburg</li>
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="scripts/allr.pl?&c=c&search=11054"><font COLOR="#FF0000">Posters from this museum</font></a></li -->
 </ul>
 
 ### Miami:
@@ -1397,4 +1408,6 @@ US Holocost Memorial Museum</a> 10-5:30 every day, but timed passes are necessar
 <li><a target="_blank" href="http://www.bassmuseum.org/">Bass Museum of Art</a>, Miami Beach</li>
 <li><a target="_blank" href="http://www.vizcayamuseum.org/">Vizcaya Museum and Gardens</a>, Miami
 <li><a target="_blank" href="http://www.wolfsonian.fiu.edu/">The Wolfsonian at Florida International University</a>, Miami Beach
+<li><a target="_blank" href="http://www.bocamuseum.org/">Boca Raton Museum of Art</a></li>
+<li><a target="_blank" href="http://www.norton.org/"><strong>Norton Museum of Art</strong></a>, West Palm Beach</li>
 </ul>
