@@ -10,7 +10,7 @@ image:
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
-
+<hr />
 {% include _toc.html %}
 
 I've worked with and built several teams,

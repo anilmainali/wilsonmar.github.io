@@ -6,6 +6,7 @@ tags: [sample post, click maps, test]
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
+<hr />
 
 Clickable map:
 

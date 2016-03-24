@@ -10,6 +10,7 @@ image:
   creditlink: 
 ---
 <i>{{ page.excerpt }}</i>
+<hr />
 
 JavaScript is popular.
 
