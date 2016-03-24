@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Museums roadtrip USA"
-excerpt: "Major museums in every state, so you can visit every one."
+title: "Museums Roadtrip USA"
+excerpt: "Visual art in every state and city"
 tags: [trave, roadtrip, museums]
 image:
   feature: pic orange auto_start_1900x500.jpg
