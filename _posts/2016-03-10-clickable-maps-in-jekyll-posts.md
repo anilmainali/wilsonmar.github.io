@@ -7,21 +7,30 @@ comments: true
 ---
 <i>{{ page.excerpt }}</i>
 
-On a desktop internt browser, mouse over this map of the US (may take a while to load):
+Clickable map:
+
+<img src="https://cloud.githubusercontent.com/assets/300046/14015545/77b35900-f17f-11e5-83b7-f931da813eb2.gif" alt="Us states" usemap="#us-states" />
+<map name="us-states">
+{% for s in site.collections['us-states'] %}
+<area shape="poly" coords="28,197,46,185,72,199,72,241,88,243,102,261,92,263,70,241,42,243,28,257,12,259,34,243,20,233,16,223,34,215,22,207,30,205,28,197"
+    href="#AK" 
+    alt="AK" title="State" >
+{% endfor %}
+
 
 <iframe src="https://www.makeaclickablemap.com/map.php?dd079c4716f558afc7fca114027f699f7c2c005f" frameborder="0" scrolling="no" height="720" width="960"></iframe>
 
 TECHNNICAL NOTE: The above is within an iframe.
 
-This is an upgrade of my <a target="_blank" href="http://wilsonmar.com/1usa.htm">
-Roadtrips to visit museums across the USA [exits this website]</a>
+This is an upgrade of my terrible <a target="_blank" href="http://wilsonmar.com/1usa.htm">
+Roadtrips to visit museums across the USA</a>
 
 But I was not able to get them working by doing an include:
 
-{% include 1loadrun_map.html %}
 
-    WARNING: Click outside this site to my old site.
- 
+   &#123;% include us_states_museums.html %}
+
+
 If you know me, I've got a bunch of complicated diagrams with lots of boxes and lines.
 
 So I've been creating animations in PowerPoint, then recording explanations in videos 
@@ -33,6 +42,7 @@ That diagram on my website I would craft coordinates around each clickable area
 Well, as of March 2016, GitHub hasn't gotten around to support click maps on graphics files.
 
 ## SVG if you have it
+
 Scaled Vector Graphics stay sharp on all sizes.
 
    * http://freehtml5maps.com

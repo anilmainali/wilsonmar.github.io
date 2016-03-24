@@ -21,13 +21,63 @@ This "bucket list" is geographical of sorts, arranged along routes I would need 
 * <a class="TopicChoice" href="#DownMississippi"> Down the Mississippi River</a>
 * <a class="TopicChoice" href="#DownEastCoast"> Down the Atlantic Eastern Seaboard</a>
 
-<hr />
+Clickable map:
 
-<!-- iframe src="http://wilsonmar.github.io/_includes/us_states_museums.html" frameborder="0" scrolling="no" height="720" width="960"></iframe -->
-
-{: .image-pull-right}
-
-<hr />
+<img src="https://cloud.githubusercontent.com/assets/300046/14015545/77b35900-f17f-11e5-83b7-f931da813eb2.gif" alt="USA states" usemap="#us-states" />
+<map name="us-states">
+{% for s in site.collections['us-states'] %}
+<area shape="poly" coords="264,157,286,155,292,193,276,195,270,199,264,157" title="Alabama" href="#AL" alt="AL">
+<area shape="poly" coords="28,197,46,185,72,199,72,241,88,243,102,261,92,263,70,241,42,243,28,257,12,259,34,243,20,233,16,223,34,215,22,207,30,205,28,197" title="Alaska" href="#AK" alt="AK">
+<area shape="poly" coords="70,137,106,137,100,189,84,187,60,173,70,133,70,137,70,137" title="Arizona" href="#AZ" alt="AZ = Arizona">
+<area shape="poly" coords="250,153,242,179,220,177,218,171,216,145,252,143,250,155,250,153" title="Arkansas" href="#AR" alt="AR = Arkansas">
+<area shape="poly" coords="10,79,38,81,30,109,62,151,56,173,40,169,20,145,4,101,10,75,26,79,10,79,10,79" title="California" href="#CA" alt="CA = California">
+<area shape="poly" coords="108,103,158,107,154,141,104,137,110,101,128,103,108,103" title="Colorado" href="#CO" alt="CO = Colorado">
+<area shape="poly" coords="374,107,405,105,405,123,372,125,374,107" title="Conneticut" href="#CT" alt="CT = Conneticut">
+<area shape="poly" coords="370,143,402,145,405,157,362,157,370,143" title="Delaware" href="#DE" alt="DE = Delaware">
+<area shape="poly" coords="275,193,325,187,327,197,341,219,341,233,335,237,317,215,315,205,307,195,293,203,275,193" title="Florida" href="#FL" alt="FL = Florida">
+<area shape="poly" coords="297,153,283,155,297,191,321,189,321,169,297,153" title="Georgia" href="#GA" alt="GA = Georgia">
+<area shape="poly" coords="98,233,142,263,156,251,162,239,164,229,136,231,94,221,100,235,98,233" title="Hawaii" href="#HI" alt="HI = Hawaii">
+<area shape="poly" coords="68,21,76,21,72,35,80,47,80,55,84,65,100,69,94,93,56,83,66,51,70,19,68,21" title="Idaho" href="#ID" alt="ID = Idaho">
+<area shape="poly" coords="242,91,258,89,266,123,256,139,234,109,248,87,242,91" title="Illinois" href="#IL" alt="IL = Illinois">
+<area shape="poly" coords="261,95,265,123,265,131,285,117,277,91,261,95" title="Indiana" href="#IN" alt="IN = Indiana">
+<area shape="poly" coords="198,87,206,111,232,109,240,99,240,91,232,79,198,87" title="Iowa" href="#IA" alt="IA = Iowa">
+<area shape="poly" coords="158,111,158,135,214,139,214,127,208,113,158,111" title="Kansas" href="#KS" alt="KS = Kansas">
+<area shape="poly" coords="263,133,275,129,289,115,303,121,307,129,299,135,251,141,269,131,263,133" title="Kentucky" href="#KY" alt="KY = Kentucky">
+<area shape="poly" coords="222,179,246,179,244,197,258,193,262,213,226,209,224,177,222,179" title="Louisiana" href="#LA" alt="LA = Louisiana">
+<area shape="poly" coords="363,37,373,59,373,47,387,31,377,9,365,15,363,37" title="Maine" href="#ME" alt="ME = Maine">
+<area shape="poly" coords="376,159,405,159,405,175,374,177,376,159" title="Maryland" href="#MD" alt="MD = Maryland">
+<area shape="poly" coords="378,74,380,88,404,88,404,72,378,74" title="Massachusetts" href="#MA" alt="MA = Massachusetts">
+<area shape="poly" coords="265,73,269,83,265,93,293,91,295,71,281,53,271,53,267,69,265,73,265,73" title="Michigan" href="#MI" alt="MI = Michigan">
+<area shape="poly" coords="194,31,222,33,242,35,224,51,222,63,222,73,234,79,196,85,194,31" title="Minnesota" href="#MN" alt="MN = Minnesota">
+<area shape="poly" coords="265,159,271,199,257,201,259,195,241,197,251,155,265,159" title="Mississippi" href="#MS" alt="MS = Mississippi">
+<area shape="poly" coords="206,113,234,111,256,139,248,147,214,145,208,111,206,113" title="Missouri" href="#MO" alt="MT = Missouri">
+<area shape="poly" coords="78,23,148,31,146,67,84,63,78,35,80,19,78,23" title="Montana" href="#MT" alt="MT = Montana">
+<area shape="poly" coords="146,85,148,103,158,105,164,109,206,109,198,85,144,87,146,85" title="Nebraska" href="#NB" alt="NB = Nebraska">
+<area shape="poly" coords="40,83,76,87,64,151,32,109,40,83,40,83" title="Neveda" href="#NV" alt="NV = Neveda">
+<area shape="poly" coords="298,11,330,9,330,25,298,25,298,11" title="New Hampshire" href="#NH" alt="NH = New Hampshire">
+<area shape="poly" coords="372,127,404,125,405,141,368,139,376,125,372,127" title="New Jersey" href="#NJ" alt="NJ = New Jersey">
+<area shape="poly" coords="106,137,100,191,122,187,148,187,150,139,106,137,106,137" title="New Mexico" href="#NM" alt="NM = New Mexico">
+<area shape="poly" coords="313,79,331,63,337,45,349,45,359,65,357,79,345,65,315,77,313,79,313,79" title="New York" href="#NY" alt="NY = New York">
+<area shape="poly" coords="309,137,295,151,319,149,337,153,357,131,351,129,309,137,309,137" title="North Carolina" href="#NC" alt="NC = North Carolina">
+<area shape="poly" coords="146,31,148,57,198,57,190,31,146,31,146,31" title="North Dakota" href="#ND" alt="ND = North Dakota">
+<area shape="poly" coords="281,93,285,113,299,121,311,101,309,85,299,93,281,93,281,93" title="Ohio" href="#OH" alt="OH = Ohio">
+<area shape="poly" coords="148,145,174,145,174,163,218,171,216,143,150,139,150,145,156,143,148,145,148,145" title="Oklahoma" href="#OK" alt="OK = Oklahoma">
+<area shape="poly" coords="20,41,8,73,16,77,22,77,28,77,36,79,42,81,48,83,56,83,66,49,20,41,20,41" title="Oregon" href="#OR" alt="OR = Oregon">
+<area shape="poly" coords="309,83,345,71,351,93,313,105,309,83,309,83" title="Pennsylvania" href="#PA" alt="PA = Pennsylvania">
+<area shape="poly" coords="376,93,405,93,405,107,376,105,376,93" title="Rhode Island" href="#RI" alt="RI = Rhode Island">
+<area shape="poly" coords="301,155,321,149,337,155,325,175,301,157,301,155,301,155" title="South Carolina" href="#SC" alt="SC = South Carolina">
+<area shape="poly" coords="146,59,198,61,198,83,146,83,148,57,146,59,146,59" title="South Dakota" href="#SD" alt="SD = South Dakota">
+<area shape="poly" coords="255,145,251,157,297,153,311,133,255,145,255,145" title="Tennessee" href="#TN" alt="TN = Tennessee">
+<area shape="poly" coords="150,145,172,145,174,167,198,173,218,173,228,207,204,221,198,231,202,247,180,241,154,207,146,219,120,189,154,189,152,145,150,145,150,145" title="Texas" href="#TX" alt="TX = Texas">
+<area shape="poly" coords="78,89,96,91,96,103,110,103,106,135,70,133,78,89,78,89" title="Utah" href="#UT" alt="UT = Utah">
+<area shape="poly" coords="298,29,332,29,332,47,294,45,298,29" title="Vermont" href="#VT" alt="VT = Vermont">
+<area shape="poly" coords="307,127,297,137,351,127,349,113,341,111,341,105,329,107,315,131,307,127,307,127" title="Virginia" href="#VA" alt="VA = Virginia">
+<area shape="poly" coords="32,13,68,19,64,47,20,39,20,13,30,19,32,13,32,13" title="Washington" href="#WA" alt="WA = Washington">
+<area shape="poly" coords="303,119,313,129,329,103,311,105,299,121,313,127,303,119,303,119" title="West Virginia" href="#WV" alt="WV = West Virginia">
+<area shape="poly" coords="228,51,256,55,254,89,238,89,234,77,224,71,230,49,236,53,228,51,228,51" title="Wisconsin" href="#WI" alt="WI = Wisconsin">
+<area shape="poly" coords="146,71,144,103,96,99,102,63,148,69,146,71,146,71" title="Wyoming" href="#WY" alt="WY = Wyoming">
+{% endfor %}
+</map>
 
 <a name="DownWestCoast"></a>
 

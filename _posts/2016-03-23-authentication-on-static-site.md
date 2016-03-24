@@ -4,9 +4,9 @@ title: "Authenticate users on Jekyll site"
 excerpt: "So you can personalize content"
 tags: [authentication, personalization, jekyll]
 image:
-  feature: pic ENERGIZED-SERVICES-e1448057282767-1900x500.jpg
-  credit: 
-  creditlink: 
+  feature: pic blue findbiometrics.com 1900x500.jpg
+  credit: Findbiometrics
+  creditlink: http://findbiometrics.com/ear-based-authentication-system-patented-by-amazon-26183/
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
@@ -20,24 +20,26 @@ One of the limitations of using a static site Jekyll template is visitors don't 
 Jekyll was not built to ask users for their login credentials
 (like Wordpress and other CMS systems do).
 
+Since there is currently no mechanism for additional plug-ins to GitHub.io hosting,
+an alternative hosting service is needed.
+
 So what to do?
 
 ## Jekyll-auth
 
 All is described at: https://github.com/benbalter/jekyll-auth
 
-Fabian kostadinov also has an 
-[explanation](http://fabian-kostadinov.github.io/2014/11/13/installation-of-jekyll-auth/)
-
 0. Create a GitHub **Organization** to make use of its membership authentication and access features.
-0. Create a GitHub project under that organization.
-0. Create a Jekyll site within that project.
+0. Create a GitHub **project** under that organization.
+0. Create a Jekyll **site** within that project.
 0. Create a GitHub **Application**
 0. Install <a target="_blank" href="https://toolbelt.heroku.com/">Heroku toolbelt</a> 
    to work with Heroku (Heroku gem doesn't work for this).
 0. Host the site on Heroku, which has extra capabilities not offered by GitHub.io.
 
-More detail:
+Fabian kostadinov
+[explains it all](http://fabian-kostadinov.github.io/2014/11/13/installation-of-jekyll-auth/)
+with this diagram:
 
 <img alt="Jekyll-auth workflow" src="http://fabian-kostadinov.github.io/public/img/2014-11-13-installation-of-jekyll-auth.png"><!-- 1280x720 -->
 

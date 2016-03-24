@@ -12,7 +12,7 @@ comments: true
 
 {% include _toc.html %}
 
-This is part of a series:
+This is part of my Evangelist series:
 
 {% include evangelist_links.html %}
 

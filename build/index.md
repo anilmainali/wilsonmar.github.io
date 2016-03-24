@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theming tutorial
+title: Website theming
 modified: 2016-03-19
 excerpt: "Tips and tricks on using the Jekyll / Liquid / Kramdown theming engine."
 image:
@@ -899,6 +899,8 @@ activates each page using it with the **search_omit: true** front matter.
 
 ## .gitignore
 
+This list of folders and files is about what processing occurs locally.
+
 {$ endhighlight text %}
 _site
 .sass-cache
@@ -910,6 +912,11 @@ node_modules
 _asset_bundler_cache
 .jekyll-metadata
 {$ endhighlight %}
+
+## Additional features
+
+[Make Jekyll multi-lingual](https://www.sylvaindurand.org/about/)
+
 
 ## Deploy to server
 
@@ -932,3 +939,5 @@ Shamime's photomap building</a>, I added a Photomap tab and folder on my site.
 http://loyc.net/2014/javascript-toc.html
 
 QUESTION: Spell checking in GitHub?
+
+## Footnotes
