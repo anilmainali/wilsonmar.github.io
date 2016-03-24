@@ -4,9 +4,9 @@ title: "Screen Capture and Image File Management on Mac OSX"
 excerpt: "Did I really see that?"
 tags: [apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic 45-1900x500.jpg
+  credit: 
+  creditlink: 
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
@@ -100,14 +100,4 @@ use the built-in Preview app, which also reads pdf files.
 	
 To crop images, add text, or create transparent backgrounds
 and save in another format,
-
-
-
-<a id="ComAppz"></a>
-
-## Communications Apps
-
-http://www.icq.com/en
-
-WebEx
 

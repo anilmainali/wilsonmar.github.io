@@ -14,6 +14,21 @@ comments: true
 
 {% include _toc.html %}
 
+
+
+<a id="ComAppz"></a>
+
+## Communications Apps
+
+* WebEx
+
+* http://www.icq.com/en
+
+* Skype
+
+
+
+
 <a id="chm_files"></a>
 
 ## .chm (compiled HTML) Reader for Mac OS X
