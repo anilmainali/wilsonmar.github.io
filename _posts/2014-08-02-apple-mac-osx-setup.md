@@ -30,7 +30,7 @@ comments: true
 </td><td align="right"> El Capitan (Gala)
 </td><td align="right"> July 2015
 </td><td align="right"> -
-</td><td align="right"> -
+</td><td align="right"> 2.7.10
 </td><td align="right"> -
 </td><td align="left"> -</td></tr>
 <tr valign="top"><td> OS X 10.10

@@ -5,6 +5,30 @@ images.txt
 
 Some 1900x500 pictures ready for use without cropping include:
 
+pic brown apple logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-1.jpg
+
+pic green apple starfield logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-2.png
+
+pic purple green apple logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-5.png
+
+pic gray apple logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-3.jpg
+
+pic blue apple flow logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/HD-apple-wallpaper-2.png
+
+pic brown wood apple logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/mac-wallpaper-apple.jpg
+
   feature: pic color calendar 1900x475.png
   credit: Life Journey Church
   creditlink: http://lifejourney.church/hot-topics/events-calendar/

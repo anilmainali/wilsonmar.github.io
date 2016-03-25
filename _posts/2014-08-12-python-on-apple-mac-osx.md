@@ -14,31 +14,35 @@ comments: true
 
 {% include _toc.html %}
 
+<a id="PackagInstallerz"></a>
+
+The hard-core approach is to download the <strong>pip-x.x.x.tar.gz</strong> (tarball) containing source
+(The version may be different when it comes time for you to do this.)
+
+*   [python.org/downloads/mac-osx/](https://www.python.org/downloads/mac-osx/)
+
+But there are more "civilized" approaches.
+
+## Python Package Installs
+
+There is a conflict of choice here:
+
+   * MiniCorda or Anacorda or easy_install
+
+   * pip
+
+<a id="corda"></a>
+
+Many prefer to install Python using Conda for better package and environment management. 
+Conda installs, runs, and updates packages and their dependencies. Its home page:
+
+*   [http://conda.pydata.org/docs/install/quick.html](http://conda.pydata.org/docs/install/quick.html)
+
+
 
 <a id="PIPz"></a>
 
 ## PIP (Python Installation Packager)
-
-Jesse Noller notes in
-<a target="_blank" href="http://jessenoller.com/blog/2009/03/16/so-you-want-to-use-python-on-the-mac">
-So you want to use python on the Mac</a>:
-Now, some people may recommend you install macports or fink: these are both "sorta" package managers for OS/X, and while I do have macports installed, I do not use it for Python work. 
-I prefer compilation and self management. 
-
-Most Python users use 
-<strong>easy_install</strong> (with setuptools) 
-to install packages from the web. 
-
-To be effective in the world, you're going to want to install both, and only fall back to easy_install if pip fails you.
-I prefer <a target="_blank" href="https://pypi.python.org/pypi/pip">
-pip</a>.
-Instead of downloading the <strong>pip-6.0.3.tar.gz</strong> (tarball) containing source.
-(The version may be different when it comes time for you to do this.)
-
-Use Homebrew to install pip (as <a target="_blank" href="http://penandpants.com/2012/02/24/install-python/">recommended by this site</a>:
-<tt><strong>
-sudo easy_install pip
-</strong></tt>
 
 As of Python 2.7.9 and Python 3.4.x, the python.org installers for OS X install pip as well.
 Activestate.com and download ActivePython. It's a simple install that gives you Python and pip. 
@@ -52,19 +56,46 @@ After install, the
 ActiveTcl User Guide</a> is popped up.
 
 
+Jesse Noller notes in
+<a target="_blank" href="http://jessenoller.com/blog/2009/03/16/so-you-want-to-use-python-on-the-mac">
+So you want to use python on the Mac</a>:
+Now, some people may recommend you install macports or fink: these are both "sorta" package managers for OS/X, and while I do have macports installed, I do not use it for Python work. 
+I prefer compilation and self management. 
+
+Otheres use 
+<strong>easy_install</strong> (with setuptools) 
+to install packages from the web. 
+
+<tt><strong>
+sudo easy_install pip
+</strong></tt>
+
+"To be effective in the world, you're going to want to install both, 
+and only fall back to easy_install if pip fails you.
+I prefer <a target="_blank" href="https://pypi.python.org/pypi/pip">
+pip</a>.
+
+Use Homebrew to install pip (as <a target="_blank" href="http://penandpants.com/2012/02/24/install-python/">recommended by this site</a>):
+
+<tt><strong>
+brew install pip
+</strong></tt>
+
 
 <a id="VirtualPyEnvz"></a>
 
 ## Virtual Python environments
 
+> In the world of Python, an **environment** is a folder (directory) containing everything that a 
+Python **project** (application) needs to run in an organised, isolated fashion. 
 
-In the world of Python, an environment is a folder (directory) containing everything that a Python project (application) needs in order to run in an organised, isolated fashion. When it is initiated, it automatically comes with its own Python interpreter - a copy of the one used to create it - alongside its very own pip.
+When it is initiated, it automatically comes with its own Python interpreter 
+- a copy of the one used to create it - alongside its very own pip.
 
 The ability to work with either version 3 or 2.7 on the same machine is needed
 because, <a target="_blank" href="http://www.macobserver.com/tmo/article/how-to-upgrade-your-mac-to-python-3"> as this MacWorld article</a>
 points out, Mac Mavericks and Yosemite are installed with Python 2.7,
 cannot run python3 scripts.
-
 
 You can work on a Python project which requires Django 1.3<br />
 while also maintaining a project which requires Django 1.0.
@@ -72,14 +103,17 @@ while also maintaining a project which requires Django 1.0.
 It's done by creating isolated Python environments using
 <a target="_blank" href="https://pypi.python.org/pypi/virtualenv">
 virtualenv</a> (Virtual python environment builder).
-<tt>
+
+<tt><strong>
 sudo pip install virtualenv
-</tt>
+</strong></tt>
 
 As the reponse requests, activate:
-<tt>
+
+<tt><strong>
 source /usr/local/opt/autoenv/activate.sh
-</tt>
+<strong></tt>
+
 This does not issue a response.
 
 

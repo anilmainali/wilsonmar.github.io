@@ -4,9 +4,9 @@ title: "Mac OSX Hardware"
 excerpt: "It's stylish because it's expensive"
 tags: [apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic gray apple logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-3.jpg
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
@@ -14,9 +14,9 @@ comments: true
 
 {% include _toc.html %}
 
-<a id="HardwareVersions"></a>
+<a id="Register"></a>
 
-## Hardware
+## Register it. Now.
 
 <a target="_blank" href="https://support.apple.com/en-us/HT204308">
 Find your serial number</a>
@@ -108,4 +108,12 @@ http://www.amazon.com/GRIFITI-Notebook-Silicone-Reposition-Travelling/dp/B00897D
 $9.99 GRIFITI Palm Pads</a>
 is removeable (rests on rather than glued on the keyboard), so
 it can be taken off before closing the cover.
+
+
+## Case
+
+Dropping a Macbook can crack the screen.
+
+But it adds to the weight.
+
 
