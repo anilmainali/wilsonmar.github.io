@@ -23,19 +23,24 @@ Before anything else, have Git running on your Mac so other packages can be load
 Create a global .gitignore file,
 as per https://help.github.com/articles/ignoring-files/
 and http://git-scm.com/docs/gitignore
+
 <pre>
 git config --global core.excludesfile ~/.gitignore_global
 </pre>
 
 To avoid having to input username and password every time you push:
 Do this one time:
+
 <pre>
 git config --global credential.helper osxkeychain
 </pre>
+
 When you again:
+
 <pre>
 git push origin master
 </pre>
+
 Click Always Allow.
 
 
@@ -50,19 +55,23 @@ https://help.github.com/articles/generating-ssh-keys/
 ### Compare Lines within Git
 
 Set colors in diff output globally across all projects:
+
 <pre>
 git config --global color.ui  auto
 </pre>	
 
 Get commit id's from a list of recent commits:
+
 <pre>
 git log
 </pre>
+
 For more lines, press Enter or down arrow until you reach (END).<br />
 To stop viewing the log, press q (for quit).
 
 
 For a difference between content associated with commit ids:
+
 <pre>
 git diff  id1   id2
 
@@ -90,6 +99,7 @@ Grep filters what is piped into it.
 
 <p class="Action">
 Install appium_console gem.
+
 <pre>
 gem uninstall -aIx appium_lib
 gem uninstall -aIx appium_console
@@ -100,6 +110,7 @@ gem install --no-rdoc --no-ri appium_console
 Install flaky gem.
 https://github.com/appium/flaky
 (posix-spawn)
+
 <pre>
 gem uninstall -aIx flaky
 gem install --no-rdoc --no-ri flaky
@@ -111,7 +122,6 @@ gem install --no-rdoc --no-ri flaky
 <a id="MavenSetupz"></a>
 
 ## Homebrew Maven Setup
-
 
 Before Mavericks, 
 <a target="_blank" href="http://maven.apache.org/">
@@ -272,86 +282,3 @@ However, launchd job will run when the computer wakes up if
 the computer is <strong>asleep</strong> when the job should have run
 (if the StartCalendarInterval key has been set).
 
-
-
-
-<a id="MySQLz"></a>
-
-## MySQL
-
-https://www.youtube.com/watch?v=DzX0jYC0t08
-MySQL
-
-http://dev.mysql.com/downloads/workbench/
-MySQL Workbench install on mac
-
-For the command line:
-<tt>sql5</tt>
-To exit:
-<tt>quit</tt>
-To login using the user name I created:
-<tt>sql5 -u mysqladmin -p</tt>
-Databases contain a collection of tables:
-<tt>show databases</tt>
-To create a database based on
-<a target="_blank" href="http://stackoverflow.com/questions/20958/list-of-standard-lengths-for-database-fields"> this discussion</a>:
-<pre>
-CREATE SCHEMA 'inmail';
-CREATE TABLE  'inmail','NEWMAIL' (
-'first_name' VARCHAR(48) NULL,
-'family_name' VARCHAR(96) NULL,
-'subscribe' VARCHAR(1) NULL,
-'emailaddr' VARCHAR(128) NULL,
-'password' VARCHAR(48) NULL,
-'emailsubject' VARCHAR(120) NULL,
-'loc' VARCHAR(48) NULL,
-'rating' INT NOT NULL,
-'pubthis' VARCHAR(1) NULL,
-'comments' VARCHAR(4046) NULL,
-'refererurl' VARCHAR(255) NULL,
-'user_agent' VARCHAR(45) NULL,
-'remote_addr' VARCHAR(48) NULL,
-'local_addr' VARCHAR(48) NULL,
-'city_addr' VARCHAR(96) NULL,
-'street_addr' VARCHAR(96) NULL,
-'phone_country' MEDIUMINT UNSIGNED NOT NULL,
-'phone_numberâ€™ MEDIUMINT UNSIGNED NOT NULL,
-'postal' MEDIUMINT UNSIGNED NOT NULL,
-'longitude' NUMERIC 9,6 NULL,
-'latitude' NUMERIC 8,6 NULL,
-'visitor_id' INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY);
-'savedatetime' TIMESTAMP,
-);
-// comment not a BLOB to reduce overhead
-// phone number is 10 digits in the US.
-// postal code 11
-// TIMESTAMP is 
-</pre>
-Create a database:
-<tt>USE mydb3</tt>
-Delete a database:
-<tt>drop mydb3</tt>
-
-
-
-
-<a id="Resourcez"></a>
-
-## Resources 
-
-
-Here are some websites about Mac OSX:
-
-http://www.tekrevue.com/os-x/
-
-<a target="_blank" href="http://www.souldevteam.net/blog/2013/10/06/os-x-mavericks-10-9-retail-vmware-image-release-notes-links/">
-Run OSX in VMware within Windows</a>
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!-- script src="js/jquery-1.10.2.min.js" -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</html>
