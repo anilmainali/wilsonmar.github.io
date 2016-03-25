@@ -18,6 +18,15 @@ comments: true
 
 A genre of programs called "static code scanners" read code to identify violations of rules.
 
+[This blog](http://www.yegor256.com/2014/04/27/typical-mistakes-in-java-code.html)
+identifies some Java naming standards considered "anti-patterns", such as 
+
+   * "no method names beginning with get"
+
+   * "no class names ending in -er".
+
+   * "method names shouldn't start with a verb"
+
 The list of such products include some which work on a wide range of programming languages:
 
    * SonarQube tracks summary statistics about scan results over time.
@@ -34,15 +43,6 @@ that stops a branch from being deployed if that branch doesn't meet all the rule
 
 This rather Draconian approach makes sense to some people because
 each piece of new code needs to work with existing code.
-
-[This blog](http://www.yegor256.com/2014/04/27/typical-mistakes-in-java-code.html)
-identifies some Java naming standards considered "anti-patterns", such as 
-
-   * "no method names beginning with get"
-
-   * "any name ending in -er".
-
-   * "method names shouldn't start with a verb"
 
 ## Where is the creativity?
 
@@ -81,7 +81,7 @@ are often not "production-worthy". Nevertheless, those examples are used out of 
 
 In order for the automatic scanner to be a patient tutor,
 it needs to explain how to do it correctly -- how to correct the errant code given --
-rather than simply dismissing it.
+rather than simply complaining and dismissing errant code.
 
 And that's where live human tutoring is helpful -- to provide the nurturing,
 the explanation of "why" in a way that the learner would best understand.
