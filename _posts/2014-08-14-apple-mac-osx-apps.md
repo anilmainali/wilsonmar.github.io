@@ -4,9 +4,9 @@ title: "Mac OSX Apps"
 excerpt: "Applications for a long, prosperous, happy life"
 tags: [apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic rainbow black apple logo 1900x500.jpg
+  credit: Wallpaperscraft
+  creditlink: https://wallpaperscraft.com/image/app_storm_apple_mac_rainbow_stripes_horizontal_8063_1920x1080.jpg
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
@@ -52,31 +52,6 @@ other such programs are even older.
 Chmox goes back to 2005.
 Archmox and Chamox go back to 2006.
 QuickCHM goes back to 2008.
-
-
-<a id="AppiumSetupz"></a>
-
-## Appium Mobile Test Rig Setup
-
-
-<p class="Action">
-Install appium_console gem.
-<pre>
-gem uninstall -aIx appium_lib
-gem uninstall -aIx appium_console
-gem install --no-rdoc --no-ri appium_console
-<pre>
-
-<p class="Action">
-Install flaky gem.
-https://github.com/appium/flaky
-(posix-spawn)
-<pre>
-gem uninstall -aIx flaky
-gem install --no-rdoc --no-ri flaky
-</pre>
-
-
 
 
 <a id="FTPz"></a>

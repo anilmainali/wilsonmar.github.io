@@ -4,9 +4,9 @@ title: "Mac OSX Homebrew"
 excerpt: "Packaged for easy digestion"
 tags: [homebrew, apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic brown homebrew logo 1900x500.jpg
+  credit: Kickstarter
+  creditlink: https://www.kickstarter.com/projects/homebrew/brew-test-bot
 comments: true
 ---
 <i>{{ page.excerpt }}</i>

@@ -5,29 +5,45 @@ images.txt
 
 Some 1900x500 pictures ready for use without cropping include:
 
-pic brown apple logo 1900x500.jpg
+  feature: pic brown java beans 1900x500.jpg
+  credit: Green Coffee Lover
+  creditlink: http://www.greencoffeelover.com/wp-content/uploads/2015/03/7.jpg
+
+  feature: pic brown wood apple logo 1900x500.jpg
   credit: Wonderful Engineering
   creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-1.jpg
 
-pic green apple starfield logo 1900x500.jpg
+  feature: pic brown wood apple logo 1900x500.jpg
+  credit: Wonderful Engineering
+  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/mac-wallpaper-apple.jpg
+
+  feature: pic green apple starfield logo 1900x500.jpg
   credit: Wonderful Engineering
   creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-2.png
 
-pic purple green apple logo 1900x500.jpg
+  feature: pic purple green apple logo 1900x500.jpg
   credit: Wonderful Engineering
   creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-5.png
 
-pic gray apple logo 1900x500.jpg
+  feature: pic gray apple logo 1900x500.jpg
   credit: Wonderful Engineering
   creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/apple-wallpaper-3.jpg
 
-pic blue apple flow logo 1900x500.jpg
+  feature: pic blue apple flow logo 1900x500.jpg
   credit: Wonderful Engineering
   creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/HD-apple-wallpaper-2.png
 
-pic brown wood apple logo 1900x500.jpg
-  credit: Wonderful Engineering
-  creditlink: http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/mac-wallpaper-apple.jpg
+  feature: pic brown homebrew logo 1900x500.jpg
+  credit: Kickstarter
+  creditlink: https://www.kickstarter.com/projects/homebrew/brew-test-bot
+
+  feature: pic rainbow black apple logo 1900x500.jpg
+  credit: Wallpaperscraft
+  creditlink: https://wallpaperscraft.com/image/app_storm_apple_mac_rainbow_stripes_horizontal_8063_1920x1080.jpg
+
+  feature: pic rainbow splash black apple logo 1900x500.jpg
+  credit: Brothersoft
+  creditlink: http://m.img.brothersoft.com/android/a0/a054685c75c309c2b6dfd3c96972dded_screeshots_3.jpeg
 
   feature: pic color calendar 1900x475.png
   credit: Life Journey Church
@@ -36,6 +52,15 @@ pic brown wood apple logo 1900x500.jpg
   feature: pic blue black stars spin 1900x500.jpg
   credit: Jeremy Thomas
   creditlink: https://www.flickr.com/photos/132218932@N03/page2
+
+  feature: pic white python logo 1900x500.png
+  credit: 
+  creditlink: http://lifejourney.church/hot-topics/events-calendar/
+
+
+  feature: fig orange mysql php 1900x500.jpg
+  credit: Kevin Yank
+  creditlink: http://www.databasejournal.com/features/mysql/article.php/1402281/Build-Your-Own-Database-Driven-Website-Using-PHP--MySQL-Pt-4.htm
 
   feature: pic blue planet curves 1900x500.jpg
   feature: pic gray pipeline w24-1900x500.jpg

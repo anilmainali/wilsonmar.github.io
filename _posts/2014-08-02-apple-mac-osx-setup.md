@@ -4,9 +4,9 @@ title: "Mac OSX Setup"
 excerpt: "How I setup my laptop"
 tags: [apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic brown wood apple logo 1900x500.jpg
+  credit: Green Coffee Lover
+  creditlink: http://www.greencoffeelover.com/wp-content/uploads/2015/03/7.jpg
 comments: true
 ---
 <i>{{ page.excerpt }}</i>

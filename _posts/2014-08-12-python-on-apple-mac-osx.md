@@ -4,9 +4,9 @@ title: "Python on Mac OSX"
 excerpt: "Get it here"
 tags: [python, apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic white python logo 1900x500.png
+  credit: 
+  creditlink: 
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
