@@ -80,7 +80,8 @@ npm install -g grunt grunt-cli
 cron in favor of launchd (a daemon running under the System context).
 Since it's a background process, it doesnâ€™t present any kind of user interface.
 
-If the system is turned off or asleep, <strong>cron</strong> jobs do not execute until the next designated time occurs.
+If the system is turned off or asleep, <strong>cron</strong> jobs 
+do not execute until the next designated time occurs.
 
 However, launchd job will run when the computer wakes up if 
 the computer is <strong>asleep</strong> when the job should have run
@@ -88,78 +89,14 @@ the computer is <strong>asleep</strong> when the job should have run
 
 
 
+<a id="VMware"></a>
 
-<a id="MySQLz"></a>
-
-## MySQL
-
-https://www.youtube.com/watch?v=DzX0jYC0t08
-MySQL
-
-http://dev.mysql.com/downloads/workbench/
-MySQL Workbench install on mac
-
-For the command line:
-<tt>sql5</tt>
-To exit:
-<tt>quit</tt>
-To login using the user name I created:
-<tt>sql5 -u mysqladmin -p</tt>
-Databases contain a collection of tables:
-<tt>show databases</tt>
-To create a database based on
-<a target="_blank" href="http://stackoverflow.com/questions/20958/list-of-standard-lengths-for-database-fields"> this discussion</a>:
-<pre>
-CREATE SCHEMA 'inmail';
-CREATE TABLE  'inmail','NEWMAIL' (
-'first_name' VARCHAR(48) NULL,
-'family_name' VARCHAR(96) NULL,
-'subscribe' VARCHAR(1) NULL,
-'emailaddr' VARCHAR(128) NULL,
-'password' VARCHAR(48) NULL,
-'emailsubject' VARCHAR(120) NULL,
-'loc' VARCHAR(48) NULL,
-'rating' INT NOT NULL,
-'pubthis' VARCHAR(1) NULL,
-'comments' VARCHAR(4046) NULL,
-'refererurl' VARCHAR(255) NULL,
-'user_agent' VARCHAR(45) NULL,
-'remote_addr' VARCHAR(48) NULL,
-'local_addr' VARCHAR(48) NULL,
-'city_addr' VARCHAR(96) NULL,
-'street_addr' VARCHAR(96) NULL,
-'phone_country' MEDIUMINT UNSIGNED NOT NULL,
-'phone_numberâ€™ MEDIUMINT UNSIGNED NOT NULL,
-'postal' MEDIUMINT UNSIGNED NOT NULL,
-'longitude' NUMERIC 9,6 NULL,
-'latitude' NUMERIC 8,6 NULL,
-'visitor_id' INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY);
-'savedatetime' TIMESTAMP,
-);
-// comment not a BLOB to reduce overhead
-// phone number is 10 digits in the US.
-// postal code 11
-// TIMESTAMP is 
-</pre>
-Create a database:
-<tt>USE mydb3</tt>
-Delete a database:
-<tt>drop mydb3</tt>
-
-
-
-
-<a id="Resourcez"></a>
-
-## Resources 
-
-
-Here are some websites about Mac OSX:
-
-http://www.tekrevue.com/os-x/
+## VMwere Fusion
 
 <a target="_blank" href="http://www.souldevteam.net/blog/2013/10/06/os-x-mavericks-10-9-retail-vmware-image-release-notes-links/">
 Run OSX in VMware within Windows</a>
+
+http://www.tekrevue.com/os-x/
 
 
 
