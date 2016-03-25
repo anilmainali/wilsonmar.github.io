@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scala"
+title: "Scala ecosystem"
 excerpt: "The language, not the opera house in Milan"
 tags: [scala, programming, test]
 image:
@@ -76,7 +76,7 @@ started as lectures at Twitter.
 Effective Scala lists "best practices" for Scala at Twitter. 
 Useful for understanding idioms in Twitter's code.
 
-Scala is also said to power The Guardian (UK), Wallmart, Sony, Huffington Post, etc. 
+Scala is also said to power The Guardian (UK), Walmart, Sony, Huffington Post, etc. 
 
 ![Prominant ompanies using Scala are listed on this Wikipedia page](https://en.wikipedia.org/wiki/Scala_%28programming_language%29#Companies)
 

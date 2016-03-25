@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby on Mac OSX"
+title: "Ruby with RVM on Mac OSX"
 excerpt: ""
 tags: [ruby, apple, mac, setup, programming]
 image:
@@ -15,34 +15,35 @@ comments: true
 {% include _toc.html %}
 
 
-<a id="Rubyz"></a>
-
-## Ruby
-
-
 The Ruby language compiler is included in Mac OSX.
-<p class="Action">
+
 To see the current version number:
+
 <pre><strong>
 ruby --version
 </strong></pre>
+
 The response for the Yosemite default:
+
 <tt>
 ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
 </tt>
 
 After updating (below) on April 19, 2015:
+
 <tt>
 ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 </tt>
 
-<p class="Action">
-Get the current gem version number:
+
+### Get the current gem version number:
+
 <pre><strong>
 gem --version
 </strong></pre>
 
 The response for the Yosemite default:
+
 <tt>
 2.0.14
 </tt>
@@ -51,12 +52,14 @@ After updating (below) on April 19, 2015:
 2.4.6
 </tt>
 
-<p class="Action">
-Update RubyGems and Bundler:
+### Update RubyGems and Bundler:
+
 <pre><strong>
 sudo gem update --system
 </strong></pre>
+
 The response:
+
 <pre>
 Password:
 Updating rubygems-update
@@ -90,12 +93,14 @@ RubyGems system software updated
 </pre>
 
 
-<p class="Action">
-Update Bundler:
+### Update Bundler:
+
 <pre><strong>
 sudo gem install --no-rdoc --no-ri bundler
 </strong></pre>
+
 The response:
+
 <pre>
 Fetching: bundler-1.9.4.gem (100%)
 Successfully installed bundler-1.9.4
@@ -103,12 +108,13 @@ Successfully installed bundler-1.9.4
 </pre>
 
 
-<p class="Action">
-Update gem:
+### Update gem:
 <pre><strong>
 sudo gem update
 </strong></pre>
+
 The response takes several minutes becuase it touches every gem:
+
 <pre>
 Updating installed gems
 Updating CFPropertyList
@@ -123,8 +129,7 @@ rdoc's executable "ri" conflicts with /usr/bin/ri
 </pre>
 
 
-<p class="Action">
-Cleanup gem:
+### Cleanup gem:
 
 <pre><strong>
 sudo gem cleanup
@@ -135,23 +140,26 @@ sudo gem cleanup
 
 ### Ruby Version Manager
 
-<p class="Action">
 To upgrade:
+
 <pre><strong>
 rvm get head
 </strong></pre>
+
 If the response is 
 <tt>
 -bash: rvm: command not found
 </tt>
 
-<p class="Action">
 Have the rvm shell configuration loaded:
+
 <pre><strong>
 source ~/.rvm/scripts/rvm
 type rvm | head -n 1
 </strong></pre>
+
 The response should be:
+
 <tt>
 rvm is a function
 </tt>
@@ -159,16 +167,13 @@ Try rvm get head again.
 
 
 
-<p class="Action">
-To upgrade:
+### To upgrade:
+
 <pre><strong>
 rvm autolibs homebrew
 rvm install ruby
 </strong></pre>
-The response:
-<tt>
 
-</tt>
 
 To install the latest stable release:
 
@@ -208,7 +213,6 @@ source ~/.profile
 </pre>
 
 
-<p class="Action">
 Some say at this point close the terminal and open again.
 
 

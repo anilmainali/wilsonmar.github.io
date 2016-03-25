@@ -114,6 +114,18 @@ Discussions about code can then transcend from whether someone is a good person 
    brew install maven
    ```
 
- 0. 
+0. Get Qulice
 
+   ```
+   git clone https://github.com/teamed/qulice.git
+   ```
 
+0. Navigate to it. We'll use the tool to check itself.
+
+   ```
+   git clone https://github.com/teamed/quiz.git
+   ```
+
+0. Add the plugin dependency in the project's pom.xml file.
+
+   Assuming you have java installed...
