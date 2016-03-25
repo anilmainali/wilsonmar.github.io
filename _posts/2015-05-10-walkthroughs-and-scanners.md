@@ -88,6 +88,11 @@ rather than simply complaining and dismissing errant code.
 And that's where live human tutoring is helpful -- to provide the nurturing,
 the explanation of "why" in a way that the learner would best understand.
 
+> MY PROPOSAL: A wiki with an entry that explains each rule, 
+with links to explanations of underlying knowledge.
+Such a public forum is where debates about the merits of each rule.
+
+> I think Where understanding abouds, acceptance will florish.
 
 ## Empathetic, specific, and kind feedback?
 
