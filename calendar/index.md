@@ -11,7 +11,7 @@ image:
 ---
 {% include _toc.html %}
 
-Pick an appointment time from my <a target="_blank" href="https://www.google.com/calendar/embed?src=wilsonmar%40gmail.com
+Pick a time from my <a target="_blank" href="https://www.google.com/calendar/embed?src=wilsonmar%40gmail.com
 "><strong>public Google calendar</strong><br />
 <img src="http://www.calenweb.com/png/en/2016/2016-yearly-calendar.png">
 </a><!-- http://www.calenweb.com/png/en/2016/2016-yearly-calendar.png -->
