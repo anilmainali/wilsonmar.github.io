@@ -43,6 +43,94 @@ put a left-slash in front of the dot, as in:
 1492\. That was the year
 {% endhighlight %}
 
+## Paragraphs
+
+One reason Markdown text is easier to write than HTML is
+there is no need for `<p>` to force a blank line. 
+
+Just a blank line will do.
+
+PROTIP: Avoid doing a mass change of `<p>` 
+
+Rembember to clean up ending  `</p>` tags. 
+
+## Unordered Lists
+
+CAUTION: Even though HTML can be written or pasted into markdown (.md) files,
+HTML must be more correct than HTML read by internet browsers.
+
+* There must be a blank line before `<ul>` or `<ol>`.
+
+* For every `<li>` there needs to be a `</li>` or the rendering goes wacky.
+
+* There must be a blank line after anchor tags `<a name=...` and a heading text line.
+
+PROTIP: Markdown recognizes different characters to parse into lists:
+
+\* Asterisk
+
+\+ plus sign
+
+\- minus sign
+
+render as:
+
+   * Asterisk
+
+   * plus sign
+
+   * minus sign
+
+
+## Special characters
+
+Markdown treats these characters as ordinary text if there is backslash escape character in front of them:
+
+* \\\   backslash itself
+* \\`   backtick
+* \\*   asterisk
+* \\_   underscore
+* \\{ \\}  curly braces
+* \\[ \\]  square brackets
+* \\( \\)  parentheses
+* \\#   hash mark
+* \\+   plus sign
+* \\-   minus sign (hyphen)
+* \\.   dot
+* \\!   exclamation mark
+
+PROTIP: If a URL contains attributes, **convert &amp; (ampersand)**
+
+Another aspect where it would be helpful to use tools is conversion of some special characters
+that Markdown converts into escape entities that begin with an **&amp;** (ampersand),
+
+* **&lt;** (less than) is turned into &amp;lt;
+
+* **&gt;** (greater than) is turned into &amp;gt; because that's used to signify block quotes in Markdown.
+
+* the ampersand itself turns to &amp;amp;, as in link URLs.
+
+## Headings
+
+Instead of the opening `<h2>` and such tags, replace with `##`
+(called <a target="_blank" href="http://www.aaronsw.com/2002/atx/">Atx-style</a> headers).
+
+Markdown recognizes up to 6 hash characters for 6 levels.
+
+The ending '##' character is optional. It can be any number of characters.
+## Tables
+
+Alternately, <a target="_blank" href="http://docutils.sourceforge.net/mirror/setext.html">Setext-style</a> 
+headers are specified (“underlined”) by a series of 
+equal signs (for first-level headers) and dashes (for second-level headers):
+
+<pre><code>
+First-level H1 headers
+=============
+
+Second-level H2 headers
+-------------
+</code></pre>
 ## Tables in HTML
 
 HTML tables renders well from within Markdown text document.
@@ -136,34 +224,6 @@ To specify starting the video at a specific time (1 minute 2 seconds), use a lin
 <a target="_blank" href="https://www.youtube.com/watch?v=Onv9nhPIBp0&t=1m2s">Link to YouTube</a>.
 {% endhighlight %}
 
-## Special characters
-
-PROTIP: If a URL contains attributes, **convert &amp; (ampersand)**
-
-Another aspect where it would be helpful to use tools is conversion of some special characters
-that Markdown converts into escape entities that begin with an **&amp;** (ampersand),
-
-   * **&lt;** (less than) is turned into &amp;lt;
-
-   * **&gt;** (greater than) is turned into &amp;gt; because that's used to signify block quotes in Markdown.
-
-   * the ampersand itself turns to &amp;amp;, as in link URLs.
-
-Markdown treats these characters as ordinary text if there is backslash escape character in front of them:
-
-* \\\   backslash itself
-* \\`   backtick
-* \\*   asterisk
-* \\_   underscore
-* \\{ \\}  curly braces
-* \\[ \\]  square brackets
-* \\( \\)  parentheses
-* \\#   hash mark
-* \\+   plus sign
-* \\-   minus sign (hyphen)
-* \\.   dot
-* \\!   exclamation mark
-
 ## Horizontal rule
 
 A line going across the page in HTML is:
@@ -213,54 +273,6 @@ Hello<br>there
 {% endhighlight %}
 
 
-## Paragraphs
-
-They say Markdown text is easier to write than HTML.
-
-   * No need for `<p>` to force a blank line. Just a blank line will do.
-
-    But avoid doing a mass change of `<p>` 
-
-## Unordered Lists
-
-CAUTION: Even though HTML can be written or pasted into markdown (.md) files,
-HTML must be more correct than HTML read by internet browsers.
-
-   * There must be a blank line before `<ul>` or `<ol>`.
-
-   * For every `<li>` there needs to be a `</li>` or the rendering goes wacky.
-
-   * There must be a blank line after anchor tags `<a name=...` and a heading text line.
-
-PROTIP: Markdown recognizes different characters to parse into lists:
-
-   * Asterisk
-
-   + plus sign
-
-   - minus sign
-
-## Headings
-
-Instead of the opening `<h2>` and such tags, replace with `##`
-(called <a target="_blank" href="http://www.aaronsw.com/2002/atx/">Atx-style</a> headers).
-
-Markdown recognizes up to 6 hash characters for 6 levels.
-
-The ending '##' character is optional. It can be any number of characters.
-## Tables
-
-Alternately, <a target="_blank" href="http://docutils.sourceforge.net/mirror/setext.html">Setext-style</a> 
-headers are specified (“underlined”) by a series of 
-equal signs (for first-level headers) and dashes (for second-level headers):
-
-<pre><code>
-First-level H1 headers
-=============
-
-Second-level H2 headers
--------------
-</code></pre>
 
 ## Liquid Markdown Syntax
 
