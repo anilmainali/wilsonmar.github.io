@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Commands and Statuses"
-excerpt: "Detail is good"
+excerpt: "There is method to the madness"
 modified:
 tags: []
 image:
