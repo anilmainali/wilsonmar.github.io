@@ -13,10 +13,6 @@ comments: true
 
 {% include _toc.html %}
 
-This is part of my Evangelist series:
-
-{% include evangelist_links.html %}
-
 ## The spreadsheet
 
 ![Click here to download spreadsheet: Dev_evangelism_budget_v02_wm_2016.03.22.xlsx]({{ site.url }}/assets/Dev_evangelism_budget_v02_wm_2016.03.22.xlsx)
@@ -73,3 +69,10 @@ come up to eat up time along the way.
 > It's better to under-commit and over-deliver than<br />over-commit and under-deliver.
 
 You can sort this spreadsheet by various columns.
+
+## There's more ...
+
+This is part of my Evangelist series:
+
+{% include evangelist_links.html %}
+

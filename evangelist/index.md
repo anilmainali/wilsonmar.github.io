@@ -11,7 +11,7 @@ image:
 
 {% include _toc.html %}
 
-Here are the specifics of concern to evangelists:
+Here are the specifics of concern to evangelists (links will appear when content becomes linked):
 
 {% include evangelist_links.html %}
 

@@ -4,7 +4,7 @@ title: "Museums Roadtrip USA"
 excerpt: "Visual art in every state and city"
 tags: [travel, roadtrip, museums, monuments, states]
 image:
-  feature: pic orange auto_start_1900x500.jpg
+  feature: pic road and clouds to mountains 1900x500.jpg
   credit:
   creditlink:
 comments: true
