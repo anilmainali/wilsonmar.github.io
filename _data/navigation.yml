@@ -3,10 +3,7 @@
 - title: Calendar
   url: /calendar/
 
-- title: Shop
-  url: /shop/
-
-- title: Posts
+- title: Archive
   url: /posts/
 
 - title: Evangelist
@@ -14,3 +11,6 @@
 
 - title: Builder
   url: /builder/
+
+- title: Shop
+  url: /shop/

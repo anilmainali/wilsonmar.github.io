@@ -28,7 +28,6 @@ Journies on land:
 
 ## Route on Google Maps
 
-Click:
 <a target="_blank" title="Route around the US on Google map" href="http://wilsonmar.github.io/US_Landmarks_Roadtrip_v01.html">
 <img src="/images/US_Landmarks_Roadtrip_v01_683x396.png"></a>
 {: .image-pull-right}
@@ -232,7 +231,6 @@ This is where America began.
 > <strong>Connecticut</strong>
 
 <ul>
-<li> Hartford: Wodsworth Museum</li>
 <li><a target="_blank" href="http://www.aldrichart.org/">Aldrich Museum of Contemporary Art</a>, Ridgefield</li>
 <li><a target="_blank" href="http://www.ucc.uconn.edu/~wwwwbma/">Benton Museum of Art at the University of Connecticut</a>, Storrs</li>
 <li><a target="_blank" href="http://www.brucemuseum.org/">Bruce Museum of Arts and Science</a>, Greenwich</li>
@@ -1330,19 +1328,21 @@ It favors valleys to minimize going over mountains:
 
 <a name="Route66"></a>
 
-## Route 66 West through the Southwest
+## Westward through the Southwest
 
+The route here is a variation of 
 <a target="_blank" href="https://en.wikipedia.org/wiki/U.S._Route_66#/media/File:Map_of_US_66.svg">
-Route 66</a>, was one of the original highways within the U.S. 
+Route 66</a>, one of the original highways within the U.S. 
 Thus its colloqual name the "Mother Road".
 
-<a target="_blank" href="http://advrider.com/index.php?threads/2-australians-doing-a-big-figure-8-around-the-usa.995259/">
-<img src="/images/map figure 8 around US.png"></a>
+<a target="_blank" href="http://www.onroadcar.com/route-66-road-trip/">
+<img src="/images/map beige route-66 600x200.jpg"></a>
 
 Route 66 begins in Chicago, goes to St. Louis, Missouri, then through smaller road-side towns
 on the way to Oklahoma City, Amarillo, and Flagstaff before ending on the Santa Monica pier in Los Angeles.
 
-But we take a long detour North.
+Since Illinos and Missouri are already in our <a href="#DownMississippi">Mississippi route</a>, 
+we begin from Oklahoma and take a long detour North to avoid too much desert along the way.
 
 <a name="OK"></a>
 
@@ -1469,7 +1469,7 @@ But we take a long detour North.
 <li><a target="_blank" href="http://www.denverartmuseum.org/">Denver Museum of Art</a></li>
 <li> Denver Museum of Natural History</li>
 <li><a target="_blank" href="http://www.kirklandmuseum.org/">Kirkland Museum</a>, Denver</li>
-<li><a target="_blank" href="http://www.museo.org/">Museo de las Am�ricas</a>, Denver</li>
+<li><a target="_blank" href="http://www.museo.org/">Museo de las Americas</a>, Denver</li>
 <li><a target="_blank" href="http://www.mcartdenver.org/">Museum of Contemporary Art/Denver</a></li>
 </ul>
 
@@ -1538,5 +1538,15 @@ But we take a long detour North.
 
 ## Footnote
 
-This is rather large list, intentionally to test how large a file the system can handle. 
+This is rather large list, intentionally to test how well the system can handle a large file. 
 
+This is an upgrade of my terrible <a target="_blank" href="http://wilsonmar.com/1usa.htm">
+Roadtrips to visit museums across the USA</a> from 2005.
+
+Additional stops:
+
+   * Presidential museums (birth places)
+   * Art galleries
+   * Architecture
+   * <a target="_blank" href="http://factorytoursusa.com/">Factory tours</a>
+   * Farms

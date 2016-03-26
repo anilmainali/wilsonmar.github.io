@@ -18,18 +18,13 @@ Clickable map:
     alt="AK" title="State" >
 {% endfor %}
 
-
-<iframe src="https://www.makeaclickablemap.com/map.php?dd079c4716f558afc7fca114027f699f7c2c005f" frameborder="0" scrolling="no" height="720" width="960"></iframe>
-
-TECHNNICAL NOTE: The above is within an iframe.
-
-This is an upgrade of my terrible <a target="_blank" href="http://wilsonmar.com/1usa.htm">
-Roadtrips to visit museums across the USA</a>
-
-But I was not able to get them working by doing an include:
+I was not able to get them working by doing an include:
 
 
    &#123;% include us_states_museums.html %}
+
+
+http://stackoverflow.com/questions/36192890/clickable-image-map-in-jekyll-site
 
 
 If you know me, I've got a bunch of complicated diagrams with lots of boxes and lines.
@@ -40,25 +35,8 @@ that reveal each box and line.
 That diagram on my website I would craft coordinates around each clickable area
 (image maps in HTML and now in CSS).
 
-Well, as of March 2016, GitHub hasn't gotten around to support click maps on graphics files.
-
-## SVG if you have it
-
-Scaled Vector Graphics stay sharp on all sizes.
-
-   * http://freehtml5maps.com
-   uses raphael javascript library to render the map in SVG or VML.
-
-   * http://codecanyon.net/item/interactive-usa-map-html5/4527698
-   asks $13 for its SVG scalable/responsive USA map.
-
-{% highlight html %}
-<svg version="1.1" id="Layer_1" xmlns="w3.org/2000/svg"; xmlns:xlink="w3.org/1999/xlink"; x="0px" y="0px" width="1343.791px" height="932.583px" viewBox="0 0 1343.791 932.583" enable-background="new 0 0 1343.791 932.583" xml:space="preserve"> <g id="Panama"> <path fill="#FDF9D1" stroke="#918E8F" d="..."/> </g> </svg> 
-{% endhighlight %}
-
-   * http://www.irunmywebsite.com/raphael/SVGTOHTML_LIVE.php
-
-   * http://code.google.com/p/svg2imap/
+Jekyll supports 
+<a target="_blank" href="https://jekyllrb.com/docs/collections/">collections</a>
 
 
 ## Making clickable maps
@@ -83,4 +61,27 @@ Blogs about this topic:
 ## Sites that have nice maps
 
 http://www.samhsa.gov/medication-assisted-treatment/physician-program-data/treatment-physician-locator?field_bup_physician_us_state_value=OR
+
+{% highlight html %}
+<iframe src="https://www.makeaclickablemap.com/map.php?dd079c4716f558afc7fca114027f699f7c2c005f" frameborder="0" scrolling="no" height="720" width="960"></iframe>
+{% endhighlight %}
+
+
+## SVG if you have it
+
+Scaled Vector Graphics stay sharp on all sizes.
+
+* http://freehtml5maps.com
+uses raphael javascript library to render the map in SVG or VML.
+
+* http://codecanyon.net/item/interactive-usa-map-html5/4527698
+asks $13 for its SVG scalable/responsive USA map.
+
+{% highlight html %}
+<svg version="1.1" id="Layer_1" xmlns="w3.org/2000/svg"; xmlns:xlink="w3.org/1999/xlink"; x="0px" y="0px" width="1343.791px" height="932.583px" viewBox="0 0 1343.791 932.583" enable-background="new 0 0 1343.791 932.583" xml:space="preserve"> <g id="Panama"> <path fill="#FDF9D1" stroke="#918E8F" d="..."/> </g> </svg> 
+{% endhighlight %}
+
+* http://www.irunmywebsite.com/raphael/SVGTOHTML_LIVE.php
+
+* http://code.google.com/p/svg2imap/
 
