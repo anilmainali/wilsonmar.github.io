@@ -11,7 +11,7 @@ image:
 
 {% include _toc.html %}
 
-Pages in this series:
+Here are the specifics of concern to evangelists:
 
 {% include evangelist_links.html %}
 
