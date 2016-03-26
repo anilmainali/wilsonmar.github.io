@@ -33,6 +33,9 @@ Journies on land:
 <a target="_blank" title="Route around the US on Google map" href="http://wilsonmar.github.io/US_Landmarks_Roadtrip_v01.html">
 <img alt="Google route map" width="683" height="396" src="/images/US_Landmarks_Roadtrip_v01_683x396.png"></a>
 
+The about route was optimized for least driving time using <a target="_blank" href="
+https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/optimal-road-trip/Computing%20the%20optimal%20road%20trip%20across%20the%20U.S..ipynb"> Machine Learning algorithms run in a Python Jupyter Notebook</a> as <a target="_blank" href="http://www.randalolson.com/2015/03/08/computing-the-optimal-road-trip-across-the-u-s/">described by Randal S. Olson</a>.
+
 <a name="US_states_map"></a>
 
 ## States of the Union
