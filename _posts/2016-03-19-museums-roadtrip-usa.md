@@ -80,6 +80,9 @@ Click states of the union below, major cities on the right.
 {% endfor %}
 </map>
 
+<a target="_blank" title="Route around the US on Google map" "href="http://wilsonmar.github.io/US_Landmarks_Roadtrip_v01.html">
+<img src="US_Landmarks_Roadtrip_v01_683x396.png"></a>
+
 <a name="DownWestCoast"></a>
 
 ## Down the United States West Coast

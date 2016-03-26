@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Website theming
+title: Builder projects
 modified: 2016-03-19
 excerpt: "Tips and tricks on using the Jekyll / Liquid / Kramdown theming engine."
 image:
@@ -12,17 +12,22 @@ comments: true
 
 {% include _toc.html %}
 
+Pages in this series:
+
+{% include builder_links.html %}
+
 ## Static is Cool Now
 
 This approach is more "technical" than a CMS (Content Management System) 
 such as WordPress built using forms presented to you.
 People who have commented on this include:
 
-* http://www.shamimeboodhoo.com/from-wordpress-to-jekyll-and-a-new-design/
+* <a target="_blank" href="http://www.shamimeboodhoo.com/from-wordpress-to-jekyll-and-a-new-design/">
+  shamimeboodhoo.com/from-wordpress-to-jekyll-and-a-new-design</a>
 
 Other sites using this approach:
 
-* http://myers.io/posts/
+* <a target="_blank" href="http://myers.io/posts/">myers.io/posts</a>
 
 
 ## Jekyll Themes
@@ -40,11 +45,12 @@ To see responsive websites, get to it quicker on your mobile smartphone QR code 
 
 Within the Jekyll repository on GitHub:
 
-   * https://github.com/jekyll/jekyll/wiki/Themes
+   * <a target="_blank" href="https://github.com/jekyll/jekyll/wiki/Themes">
+    github.com/jekyll/jekyll/wiki/Themes</a>
 
 Premium (paid) themes so you get updates and support, for less than $30.
 
-   * http://jekyllthemes.io
+   * <a target="_blank" href="http://jekyllthemes.io">jekyllthemes.io</a>
 
      This is an affiliate for other sites offering the same themes for less.
 
