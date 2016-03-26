@@ -1,23 +1,19 @@
 ---
 layout: post
 title: "Git and GitHub versus File Archival"
-excerpt: "Detail is good"
+excerpt: "She remembers everything you've ever sent"
 modified:
 tags: []
 image:
-   feature: pic black entering stadium 1900X500.jpg
-   credit: 
-   creditlink: 
+  feature: pic blue black stars spin 1900x500.jpg
+  credit: Jeremy Thomas
+  creditlink: https://www.flickr.com/photos/132218932@N03/page2
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
 <hr />
 
 {% include _toc.html %}
-
-The diagram below are animated in PowerPoint and go with a narrative to each step.
-I then created a screencast video of it.
-And a step-by-step hands-on tutorial to explain each step.
 
 ## Playlist
 
@@ -34,6 +30,10 @@ links to individual YouTube videos can become stale when newer versions are down
 This screencast introduces the basic vocabulary of terms while comparing the different ways we store and reference files obtained from the GitHub cloud service. Let’s look at this one step at a time.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Onv9nhPIBp0" frameborder="0" allowfullscreen> </iframe>
+
+The diagram above is animated in PowerPoint and go with a narrative to each step.
+I then created a screencast video of it.
+And a step-by-step hands-on tutorial to explain each step.
 
 ## Narration
 
