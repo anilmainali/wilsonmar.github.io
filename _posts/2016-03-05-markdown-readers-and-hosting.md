@@ -91,12 +91,3 @@ Another popular approach to generate HTML is to use Jekyll plus other Ruby gems 
 
 Included with 3rd-party hosting may be a CDN (Content Delivery Network) such as what Amazon, Google, and others provide to scatter files all over the world for faster access.
 
-
-## Git Workflow
-
-
-
-## Git Commands
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aQru5c6GwFs" frameborder="0" allowfullscreen></iframe>
-
