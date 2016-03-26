@@ -54,8 +54,7 @@ Premium (paid) themes so you get updates and support, for less than $30.
 
      This is an affiliate for other sites offering the same themes for less.
 
-   * http://jekyllthemes.org
-
+   * <a target="_blank" href="http://jekyllthemes.org">jekyllthemes.org</a>
 
 ### Themes from Michael Rose
 
