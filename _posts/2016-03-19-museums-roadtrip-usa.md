@@ -26,6 +26,9 @@ Journies on land:
    * <a href="#NorthernMiddelAmerica">Northern Middle America</a>
    * <a href="#Southwestward"> Westward through the Southwest</a>
 
+By "museums" I include here <strong>gift shops</strong> at grand natural sights and historic landmark hotels along the way ;)
+
+
 <a name="Google_route_map"></a>
 
 ## Route on Google Maps
@@ -97,8 +100,6 @@ Major cities are listed in the index on the right.
 <area shape="poly" coords="146,71,144,103,96,99,102,63,148,69,146,71,146,71" title="Wyoming" href="#WY" alt="WY = Wyoming">
 {% endfor %}
 </map>
-
-By "museums" I include here <strong>gift shops</strong> at grand natural sights and historic landmark hotels along the way ;)
 
 <a name="DownEastCoast"></a>
 
