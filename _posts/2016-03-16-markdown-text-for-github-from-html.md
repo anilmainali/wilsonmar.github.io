@@ -80,11 +80,11 @@ which renders as:
 
 To see your markdown turn into HTML, use this online tool: 
 
-   * [Dingus](http://daringfireball.net/projects/markdown/dingus)
+   * <a target="_blank" href="http://daringfireball.net/projects/markdown/dingus">Dingus</a>
 
 The easiest way to convert HTML to Markdown text is to use Aaron Swartz’s 
 
-   * [html2text.py Python script or on-line](http://www.aaronsw.com/2002/html2text/).
+   * <a target="_blank" href="http://www.aaronsw.com/2002/html2text/">html2text.py Python script or on-line</a>
    But it has not been updated since 2011.
 
 > My experience is that we'll need to pretty much go through each line 
@@ -92,7 +92,7 @@ to make it look good in Markdown text.
 
 ## Links
 
-PROTIP: Keep using HTML to link to external sites and images.
+PROTIP: Keep coding HTML to link to external sites and images.
 
 Example of HTML:
 
@@ -105,6 +105,12 @@ Markdown reverses the order of text and links.
 
 {% highlight html %}
  [mysite](http://wilsonmar.github.io/)
+{% endhighlight %}
+
+The same goest for the alternate "automatic" format Markdown offers to link: 
+
+{% highlight html %}
+<http://wilsonmar.github.io>
 {% endhighlight %}
 
 > I'm reluctant to put external links in Markdown because
@@ -142,6 +148,21 @@ that Markdown converts into escape entities that begin with an **&amp;** (ampers
    * **&gt;** (greater than) is turned into &amp;gt; because that's used to signify block quotes in Markdown.
 
    * the ampersand itself turns to &amp;amp;, as in link URLs.
+
+Markdown treats these characters as ordinary text if there is backslash escape character in front of them:
+
+* \\\   backslash itself
+* \\`   backtick
+* \\*   asterisk
+* \\_   underscore
+* \\{ \\}  curly braces
+* \\[ \\]  square brackets
+* \\( \\)  parentheses
+* \\#   hash mark
+* \\+   plus sign
+* \\-   minus sign (hyphen)
+* \\.   dot
+* \\!   exclamation mark
 
 ## Horizontal rule
 
@@ -222,14 +243,14 @@ PROTIP: Markdown recognizes different characters to parse into lists:
 ## Headings
 
 Instead of the opening `<h2>` and such tags, replace with `##`
-(called [Atx-style](http://www.aaronsw.com/2002/atx/) headers).
+(called <a target="_blank" href="http://www.aaronsw.com/2002/atx/">Atx-style</a> headers).
 
 Markdown recognizes up to 6 hash characters for 6 levels.
 
 The ending '##' character is optional. It can be any number of characters.
 ## Tables
 
-Alternately, [Setext-style](http://docutils.sourceforge.net/mirror/setext.html) 
+Alternately, <a target="_blank" href="http://docutils.sourceforge.net/mirror/setext.html">Setext-style</a> 
 headers are specified (“underlined”) by a series of 
 equal signs (for first-level headers) and dashes (for second-level headers):
 
@@ -259,9 +280,11 @@ This coding would process html as such:
 
 This incorporates the thorough detail about markdown coding at:
 
-* [daringfireball.net](http://daringfireball.net/projects/markdown/)
+* <a target="_blank" href="http://daringfireball.net/projects/markdown/">daringfireball.net</a>                                                                       
 
 
-A discussion list about markdown:
+A discussion forum about markdown is at:
 
-* https://pairlist6.pair.net/mailman/listinfo/markdown-discuss
+* <a target="_blank" href="https://pairlist6.pair.net/mailman/listinfo/markdown-discuss/">
+   pairlist6.pair.net/mailman/listinfo/markdown-discuss</a>
+
