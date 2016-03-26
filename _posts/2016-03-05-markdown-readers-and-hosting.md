@@ -1,31 +1,19 @@
 ---
 layout: post
-title: "Git and GitHub Overview"
-excerpt: "There is method to this madness."
+title: "Markdown readers and hosting"
+excerpt: "Take the easy way or the flexible way"
 modified:
 tags: []
 image:
-   feature: pic black entering stadium 1900X500.jpg
-   credit: 
-   creditlink: 
+  feature: pic rainbow splash black apple logo 1900x500.jpg
+  credit: Brothersoft
+  creditlink: http://m.img.brothersoft.com/android/a0/a054685c75c309c2b6dfd3c96972dded_screeshots_3.jpeg
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
 <hr />
 
 {% include _toc.html %}
-
-I was confused.
-
-There are so many parameters to so many Git commands.
-
-So for the last year, I've scoured the interet to view every blog, video, and book about the subject.
-
-I figured that if I was so confused, others are as well.
-
-Below are the notes and drawings from me trying to make sense of it all.
-
-I've worked hard to come up with a logical sequence to speed your learning.
 
 The diagrams below are animated in PowerPoint and go with a narrative to each step.
 I then created a screencast video of it.
@@ -40,14 +28,11 @@ A playlist link lists the latest versions because individual videos can be added
 
 Direct links to individual YouTube videos can become stale when newer versions are downloaded.
 
-## Files
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Onv9nhPIBp0" frameborder="0" allowfullscreen></iframe>
-
-
-## Documentation
+## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ub2DFbn16zg" frameborder="0" allowfullscreen></iframe>
+
+## Narration
 
 ### Markdown editors
 The HTML displayed on browsers is generated from markdown text that's easier to write than HTML tags. 

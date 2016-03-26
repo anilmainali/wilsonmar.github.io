@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mac OSX Utilitiess"
+title: "Git clients on Mac OSX"
 excerpt: "The Swiss Army Knife from Steve Jobs"
 tags: [apple, mac, utilities]
 image:

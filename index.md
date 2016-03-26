@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A example by Wilson Mar."
+excerpt: "A site constructed by Wilson Mar using Jekyll."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: sunrise-1900x500.png
