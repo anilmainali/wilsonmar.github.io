@@ -24,17 +24,18 @@ Journies on land:
 
    * <a href="#WestwardVermont"> Westward from Vermont to Kentucky</a>
    * <a href="#NorthernMiddelAmerica">Northern Middle America</a>
-   * <a href="#Route66"> Route 66 West through the Southwest</a>
+   * <a href="#Southwestward"> Westward through the Southwest</a>
+
+<a name="Google_route_map"></a>
 
 ## Route on Google Maps
 
 <a target="_blank" title="Route around the US on Google map" href="http://wilsonmar.github.io/US_Landmarks_Roadtrip_v01.html">
-<img src="/images/US_Landmarks_Roadtrip_v01_683x396.png"></a>
-{: .image-pull-right}
+<img alt="Google route map" width="683" height="396" src="/images/US_Landmarks_Roadtrip_v01_683x396.png"></a>
 
 <a name="US_states_map"></a>
 
-## Map - States of the Union
+## States of the Union
 
 Major cities are listed in the index on the right.
 
@@ -1326,7 +1327,7 @@ It favors valleys to minimize going over mountains:
 
 <hr />
 
-<a name="Route66"></a>
+<a name="Southwestward"></a>
 
 ## Westward through the Southwest
 
