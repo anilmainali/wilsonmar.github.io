@@ -45,6 +45,8 @@ Instructions here describe how to provide Windows with images for the different 
 0. PROTIP: Rename image file names with a "windows-" prefix so they appear together,
 and enable you to remember what they're for.
 
+0. Move the files in your <strong>/images</strong> folder.
+
 0. Edit the downloaded <strong>browserconfig.xml</strong> file to rename its image file name references
 before copying it to the root of your site.
 
@@ -63,12 +65,14 @@ before copying it to the root of your site.
    {% highlight html %}
 <meta name="application-name" content="Wilson Mar"/>
 <meta name="msapplication-TileColor" content="#000000"/>
-<meta name="msapplication-square70x70logo" content="windows-tile-tiny.png"/>
-<meta name="msapplication-square150x150logo" content="windows-tile-square.png"/>
-<meta name="msapplication-wide310x150logo" content="windows-tile-wide.png"/>
-<meta name="msapplication-square310x310logo" content="windows-tile-large.png"/>
+<meta name="msapplication-square70x70logo" content="/images/windows-tile-tiny.png"/>
+<meta name="msapplication-square150x150logo" content="/images/windows-tile-square.png"/>
+<meta name="msapplication-wide310x150logo" content="/images/windows-tile-wide.png"/>
+<meta name="msapplication-square310x310logo" content="/images/windows-tile-large.png"/>
 <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=5; cycle=1"/>
    {% endhighlight %}
+
+0. Go try pinning your site on a Windows 10 machine.
 
 
 ## Social media coloring
