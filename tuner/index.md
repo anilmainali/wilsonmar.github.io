@@ -23,29 +23,40 @@ which cause bottlenecks.
 <img alt="agile mvp" src="https://cloud.githubusercontent.com/assets/300046/12909852/f64315f0-ceb9-11e5-8540-0c0046047881.jpg">
 
 
-0. <strong>Create production-like environments temporarily for testing.</strong>
+## 1\. Create production-like environments temporarily for testing.
 
    This means server creation scripts that automatically bring up servers in a cloud
    quickly in a repeatable way.
 
-0. <strong>Measure production instances.</strong>
+   The difference between production and test should be just a few configuration settings.
+
+## 2\. Measure all environments.
 
    Install log management and metrics on servers, networks, load balancers, etc.
 
-   Do the same in test environments.
+   Do the same in test environments to make sure automatic triggers work.
 
-0. <strong>Measure enviornment variability.</strong>
+## 3\. Measure enviornment variability.
 
-   Are there spikes when the server is only serving landing pages?
+   Are there spikes when the server is serving only landing pages?
 
-   How can you tell what are the causes of spikes?
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/6VmAX3DM78s" frameborder="0" allowfullscreen> </iframe>
 
-0. <strong>Impose an artificial load to test limits.</strong>
+   How can you tell when spikes and other anomalies occurred?
+
+   How can you tell what are the **causes** of anomalies?
+
+   How can you **predict** when anomalies will occur if you don't have history to analyze?
+
+## 4\. Impose an artificial load to test limits.
 
    This identifies hidden issues throughout the system stack and human processes.
 
-0. <strong>Do experiments to find the optimal.</strong>
+   This begins with micro-benchmarks during development.
+
+
+## 5\. Do experiments to find the optimal.
 
    This identifies the least-cost solutions (effort, time, and equipment).
 
-That's how I justify what I'm paid.
+   That's how I justify what I'm paid.
