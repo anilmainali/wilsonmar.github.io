@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Windows Tile pictures and feed"
-excerpt: "So you can see your picture on Windows"
+excerpt: "So your picture can be on everyone's desktop all the time"
 tags: [windows, mac, setup, testing]
 image:
-  feature: pic rainbow black apple logo 1900x500.jpg
-  credit: Wallpaperscraft
-  creditlink: https://wallpaperscraft.com/image/app_storm_apple_mac_rainbow_stripes_horizontal_8063_1920x1080.jpg
+  feature: pic green grass windows 1900x475.png
+  credit: Microsoft
+  creditlink: http://dri1.img.digitalrivercontent.net/Storefront/Site/msusa/images/promo/Windows/en-US-Windows-Mod-A-Familiar-Better-desktop.jpg
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
