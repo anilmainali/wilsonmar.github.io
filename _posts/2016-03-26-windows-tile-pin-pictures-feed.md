@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows Tile pictures and feed"
+title: "Windows Tile Pin Picture to Website Feed"
 excerpt: "So your picture can be on everyone's desktop all the time"
 tags: [windows, mac, setup, testing]
 image:
@@ -14,7 +14,10 @@ comments: true
 
 {% include _toc.html %}
 
-Windows 8 & 10 users can pin a website to their home screen.
+## Pin your website
+
+Windows 8 & 10 users can pin a website URL to their home screen
+such that when the tile is clicked, the site's XML feed is shown (formatted). 
 
 Instructions here describe how to provide Windows with images for the different size tiles Windows uses.
 
