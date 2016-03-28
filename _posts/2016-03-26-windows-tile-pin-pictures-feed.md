@@ -28,7 +28,7 @@ Instructions here describe how to provide Windows with images for the different 
 
 0. Specify a title for your site.
 
-0. Specify a color.
+0. Specify a color. The default is black (000000), but select white (FFFFFF) if your picture has a dark background.
 
 0. Upload an image which the Microsoft site formats into different sizes within a zip file.
 
@@ -46,7 +46,7 @@ Instructions here describe how to provide Windows with images for the different 
    <a target="_blank" href="http://wilsonmar.github.io/feed.xml">
    http://wilsonmar.github.io/feed.xml</a>
 
-   (The XML is not that human-readable)
+   (The XML is not that human-readable, but the lastest post is listed first.)
 
 0. Download the zip file package
 
@@ -82,7 +82,21 @@ before copying it to the root of your site.
 <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://wilsonmar.github.io/feed.xml&amp;id=5; cycle=1"/>
    {% endhighlight %}
 
-0. Go try pinning your site on a Windows 10 machine.
+## Pin the site as Live Tile
+
+0. In the Omni-search bar type in the URL. For this site: wilsonmar.github.io
+
+   http:// is not needed.
+
+0. Click the three dots at the upper-right corner to open the menu.
+
+0. Select <strong>Pin to Start</strong>.
+
+0. Click the Windows button for the Start screen.
+
+0. Right-click on your website's picture to <strong>Resize</strong>.
+
+0. Select Large (or another size).
 
 
 ## Social media coloring
