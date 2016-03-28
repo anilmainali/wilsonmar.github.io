@@ -14,9 +14,8 @@
   <p>{{ author.bio }}</p>
   {% if author.email %}<a href="mailto:{{ author.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>{% endif %}
 
-
-  <a href="https://www.google.com/calendar/embed?src=wilsonmar%40gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-calendar"></i> Calendar</a>
-
+  <!-- Added by WM 2016-03-28 -->
+  {% if author.email %}<a href="https://www.google.com/calendar/embed?src={{ author.email | replace: "@", "%40" }}" class="author-social" target="_blank"><i class="fa fa-fw fa-calendar"></i> Calendar</a>{% endif %}
 
   {% if author.twitter %}<a href="http://twitter.com/{{ author.twitter }}" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>{% endif %}
   {% if author.facebook %}<a href="http://facebook.com/{{ author.facebook }}" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>{% endif %}

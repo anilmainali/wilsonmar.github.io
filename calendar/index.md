@@ -2,35 +2,65 @@
 layout: page
 title: Please send me an appointment
 tags: [calendar, contact, Jekyll]
-modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
-  feature: pic blue white curved calendar 1900x500.png
+  feature: scr white blue google calendar wilsonmar 1900x500.jpg
   credit:
   creditlink:
 ---
 {% include _toc.html %}
 
 Pick a time from my <a target="_blank" href="https://www.google.com/calendar/embed?src=wilsonmar%40gmail.com
-"><strong>public Google calendar</strong><br />
-<img src="http://www.calenweb.com/png/en/2016/2016-yearly-calendar.png">
-</a><!-- http://www.calenweb.com/png/en/2016/2016-yearly-calendar.png -->
+"><strong>public Google calendar</strong>:
+
+NOTE: I usually am up by 4 am Pacific Time (5 am Mountain, 6 am Central, 7 am Eastern).
+
+0. The yellow column is today. Scroll to see the red line which marks the current time.
+
+0. Be aware of the time zone at the lower left corner of the screen.
+
+0. Click on the <u><strong>This Week</strong></u> blue link at the upper right corner.
+
+0. Switch back and forward between your own calendar and this one to identify a mutually open time.
+
+NOTE: In this calendar I keep only the times I cannot move.
+I have a separate calendar I use to plan my day.
+
 
 ## Coming Up
 
 On May 1, I'll be in Orlando, Florida for 
-<a target="_blank" href="https://stareast.techwell.com/">
-StarEast</a>. It's one of a <a target="_blank" href="https://www.techwell.com/software-conferences/star-software-testing-conferences">
+<strong><a target="_blank" href="https://stareast.techwell.com/">
+StarEast</a></strong>. It's one of a <a target="_blank" href="https://www.techwell.com/software-conferences/star-software-testing-conferences">
 series</a>
 
 Come attend my classes:
 
-<a target="_blank" href="https://stareast.techwell.com/program/preconference-training/mastering-hp-loadrunner-performance-testing-stareast-2016">
-Git and GitHub half-day Tuesday May 3</a>.
+* <strong><a target="_blank" href="https://stareast.techwell.com/program/preconference-training/mastering-hp-loadrunner-performance-testing-stareast-2016">
+Performance Testing 2-days Sunday & Monday</a></strong>.
+
+* <strong><a target="_blank" href="https://stareast.techwell.com/program/preconference-training/mastering-hp-loadrunner-performance-testing-stareast-2016">Git and GitHub half-day Tuesday May 3</a></strong>.
 You'll leave with a new free blog website!
 
-<a target="_blank" href="https://stareast.techwell.com/program/preconference-training/mastering-hp-loadrunner-performance-testing-stareast-2016">
-Performance Testing 2-days Sunday & Monday</a>.
+* A one-hour introduction to Git and GitHub terms and workflows on Wednesday afternoon.
+
+
+## Update Jekyll Theme with Calendar
+The author pane at the left of this theme was updated to add Calendar under the email link.
+
+0. First, I searched for the Calendar icon in FontAwesome (it's "fa-calendar").
+
+0. Next, had to encode "@" to "%40" in the URL.
+
+0. Finally, this was pasted into the <strong>_author-bio.html</strong> file within the <strong>_includes</strong> folder:
+
+   <pre><code>
+   &#123;% if author.email %}<a href="https://www.google.com/calendar/embed?src=<br>
+      &#123;&#123; author.email | replace: "@", "%40" }}"<br>
+      class="author-social" target="_blank"><br>
+      &LT;i class="fa fa-fw fa-calendar">&LT;/i> Calendar</a><br>
+   &#123;% endif %}
+   </code></pre>
 
 
 ## Load .ics files into Google Calendar
@@ -71,6 +101,9 @@ If you use Google Calendar, import the .ics file:
 0. Click the browser's back button (or press Alt+left arrow) to return to the calendar.
 
 0. Switch to the Finder or File Explorer and <strong>delete the .ics file</strong> (Move to Trash on Macs).
+
+NOTE: This is a modification of https://support.google.com/calendar/answer/37118?hl=en.
+
 
 
 ## Twitter

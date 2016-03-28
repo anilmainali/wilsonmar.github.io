@@ -3,6 +3,10 @@ images.txt
   credit:
   creditlink:
 
+<img src="http://www.calenweb.com/png/en/2016/2016-yearly-calendar.png">
+</a><!-- http://www.calenweb.com/png/en/2016/2016-yearly-calendar.png -->
+
+
 Some 1900x500 pictures ready for use without cropping include:
 
   feature: pic Audi-8-18022013060236-2-1900x500.jpg
