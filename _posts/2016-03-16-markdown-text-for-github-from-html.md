@@ -20,6 +20,8 @@ I wrote this because I haven't seen an approach like this described.
 
 I'm having to convert hundreds of pages I've written in HTML since the 90's.
 
+> Let me help you with this personally.
+
 ## Orderd lists
 
 My favorite feature of Markdown is it **automatically numbers ordered lists**!
@@ -34,13 +36,26 @@ So you can begin all items of unordered lists with a 0.
 
 The coding above Markdown renders correctly as 1,2,3.
 
-PROTIP: Begin the first item of an ordered list with 1, just in case. 
+Begin the first item of an ordered list with 1, just in case. 
+
+## Indention
+In order for numbering to continue, all lines must be indented.
+
+Heading lines can be indented.
+
+Use 3 spaces in front of 3 backticks.
+
+4 or more backticks is a signal to highlight the sentence in a box, not to indepnt.
+
+Also, Liquid markdown does not recognize indention.
+
+PROTIP: A workaround if you are not able to get automatic numbering: code the numbering yourself.
 
 To make Markdown interpret a paragraph starting with a number as a list,
 put a left-slash in front of the dot, as in:
 
 {% highlight html %}
-1492\. That was the year
+1492\. That was the year.
 {% endhighlight %}
 
 ## Paragraphs
@@ -288,7 +303,7 @@ This coding would process html as such:
 &#123;% endhighlight %}
 </code></pre>
 
-## Footnote
+## Footnotes
 
 This incorporates the thorough detail about markdown coding at:
 
@@ -299,4 +314,5 @@ A discussion forum about markdown is at:
 
 * <a target="_blank" href="https://pairlist6.pair.net/mailman/listinfo/markdown-discuss/">
    pairlist6.pair.net/mailman/listinfo/markdown-discuss</a>
+
 

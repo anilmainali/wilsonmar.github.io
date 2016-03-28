@@ -136,3 +136,7 @@ Discussions about code can then transcend from whether someone is a good person 
 0. Add the plugin dependency in the project's pom.xml file.
 
    Assuming you have java installed...
+
+## Footnotes
+
+https://www.owasp.org/index.php/Static_Code_Analysis

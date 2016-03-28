@@ -26,11 +26,13 @@ Instructions here describe how to provide Windows with images for the different 
 
 0. Go to <a target="_blank" href="http://www.buildmypinnedsite.com/en">http://www.buildmypinnedsite.com/en</a>
 
+<img align="right" width="227" height="437" src="/images/scr windows tile pin 454x874.jpg">
+
 0. Specify a title for your site.
 
 0. Specify a color. The default is black (000000), but select white (FFFFFF) if your picture has a dark background.
 
-0. Upload an image which the Microsoft site formats into different sizes within a zip file.
+0. Upload an image.
 
 0. Crop the images online.
 
@@ -48,7 +50,7 @@ Instructions here describe how to provide Windows with images for the different 
 
    (The XML is not that human-readable, but the lastest post is listed first.)
 
-0. Download the zip file package
+0. Download the zip file package which contains png files.
 
 0. View each file to make sure they look OK.
 
