@@ -33,6 +33,46 @@ You'll leave with a new free blog website!
 Performance Testing 2-days Sunday & Monday</a>.
 
 
+## Load .ics files into Google Calendar
+If you clicked on a "Add to your calendar" link and ended up receiving an .ics file in your Downloads folder, here's what to do.
+
+If you have Outlook, just click on the file.
+
+If you use Google Calendar, import the .ics file:
+
+0. If a ZIP file, unzip it and import each .ics file individually.
+
+0. Open <a target="_blank" href="https://calendar.google.com/">Google Calendar</a>.
+
+   Note: You can only import from a computer, not a phone or tablet.
+
+0. Click click the Settings gear button at the top right.
+
+0. Select Settings.
+
+0. Click to open the blue <u>Calendars</u> tab.
+
+0. Scroll down to click the blue <u>Import calendars</u> tab.
+
+0. Click <strong>Choose File</strong> to open a dialog.
+
+0. Select the Downloads folder.
+
+0. Sort by the Date Modified if you don't see the .ics file.
+
+0. Click to select the .ics file, then Open.
+
+0. Choose which calendar to add the imported events to. By default, events will be imported into your primary calendar.
+
+0. Click Import.
+
+0. Click Close the dialog.
+
+0. Click the browser's back button (or press Alt+left arrow) to return to the calendar.
+
+0. Switch to the Finder or File Explorer and <strong>delete the .ics file</strong> (Move to Trash on Macs).
+
+
 ## Twitter
 
 <a class="twitter-timeline"  href="https://twitter.com/wilsonmar" data-widget-id="711272963031470080">Tweets by @wilsonmar</a>

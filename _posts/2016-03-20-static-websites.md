@@ -52,6 +52,12 @@ Surveys are:
 
 * <a target="_blank" href="http://myers.io/posts/">myers.io/posts</a>
 
+## There is a downside
+Some feel git is a hassle to use.
+
+Some prefer the WSIWYG editors like Microsoft Word
+over text editors and writing markdown code.
+
 ## Footnotes
 People who have commented on this include:
 

@@ -15,7 +15,7 @@ Here are the specifics of concern to evangelists (links will appear when content
 
 {% include evangelist_links.html %}
 
-The list above is an extension of the vocabulary defined in the Pragmatic Marketing approach. 
+The list above is partly an extension of the vocabulary defined in the Pragmatic Marketing approach. 
 
 ### What do technical evangelists do?
 
