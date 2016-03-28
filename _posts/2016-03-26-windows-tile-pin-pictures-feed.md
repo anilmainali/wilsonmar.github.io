@@ -34,6 +34,13 @@ Instructions here describe how to provide Windows with images for the different 
 
 0. Crop the images online.
 
+   | Crop size | Image size | Name   |
+   | --------- | ---------- | ------ |
+   | 128 x 128 | 128 x 128  | tiny   |
+   | 270 x 270 | 198 x 198  | square |
+   | 270 x 558 | 248 x 120  | wide   |
+   | 558 x 558 | 248 x 248  | large  |
+
 0. In "Add Notifications", specify the RSS feed URL. The RSS feed for this site is:
 
    <a target="_blank" href="http://wilsonmar.github.io/feed.xml">
