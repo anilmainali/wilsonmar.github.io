@@ -14,13 +14,13 @@ comments: true
 
 {% include _toc.html %}
 
-Journies on water as she flows:
+Journeys on water as she flows:
 
    * <a href="#DownEastCoast"> Down the Atlantic Eastern Seaboard</a>
    * <a href="#DownMississippi"> Down the Mississippi River</a> (on a riverboat)
    * <a href="#DownWestCoast"> Down the Pacific West Coast</a>
 
-Journies on land:
+Journeys on land:
 
    * <a href="#WestwardVermont"> Westward from Vermont to Kentucky</a>
    * <a href="#NorthernMiddleAmerica">Westward through Northern Middle America</a>
@@ -54,7 +54,7 @@ Major cities are listed in the index on the right.
 <area shape="poly" coords="250,153,242,179,220,177,218,171,216,145,252,143,250,155,250,153" title="Arkansas" href="#AR" alt="AR = Arkansas">
 <area shape="poly" coords="10,79,38,81,30,109,62,151,56,173,40,169,20,145,4,101,10,75,26,79,10,79,10,79" title="California" href="#CA" alt="CA = California">
 <area shape="poly" coords="108,103,158,107,154,141,104,137,110,101,128,103,108,103" title="Colorado" href="#CO" alt="CO = Colorado">
-<area shape="poly" coords="374,107,405,105,405,123,372,125,374,107" title="Conneticut" href="#CT" alt="CT = Conneticut">
+<area shape="poly" coords="374,107,405,105,405,123,372,125,374,107" title="Connecticut" href="#CT" alt="CT = Connecticut">
 <area shape="poly" coords="370,143,402,145,405,157,362,157,370,143" title="Delaware" href="#DE" alt="DE = Delaware">
 <area shape="poly" coords="275,193,325,187,327,197,341,219,341,233,335,237,317,215,315,205,307,195,293,203,275,193" title="Florida" href="#FL" alt="FL = Florida">
 <area shape="poly" coords="297,153,283,155,297,191,321,189,321,169,297,153" title="Georgia" href="#GA" alt="GA = Georgia">
@@ -75,7 +75,7 @@ Major cities are listed in the index on the right.
 <area shape="poly" coords="206,113,234,111,256,139,248,147,214,145,208,111,206,113" title="Missouri" href="#MO" alt="MT = Missouri">
 <area shape="poly" coords="78,23,148,31,146,67,84,63,78,35,80,19,78,23" title="Montana" href="#MT" alt="MT = Montana">
 <area shape="poly" coords="146,85,148,103,158,105,164,109,206,109,198,85,144,87,146,85" title="Nebraska" href="#NB" alt="NB = Nebraska">
-<area shape="poly" coords="40,83,76,87,64,151,32,109,40,83,40,83" title="Neveda" href="#NV" alt="NV = Neveda">
+<area shape="poly" coords="40,83,76,87,64,151,32,109,40,83,40,83" title="Nevada" href="#NV" alt="NV = Nevada">
 <area shape="poly" coords="298,11,330,9,330,25,298,25,298,11" title="New Hampshire" href="#NH" alt="NH = New Hampshire">
 <area shape="poly" coords="372,127,404,125,405,141,368,139,376,125,372,127" title="New Jersey" href="#NJ" alt="NJ = New Jersey">
 <area shape="poly" coords="106,137,100,191,122,187,148,187,150,139,106,137,106,137" title="New Mexico" href="#NM" alt="NM = New Mexico">
@@ -1173,7 +1173,7 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 
 ## Westward through Northern Middle America
 
-The route here through the Northern United States is a variation of two famous trails:
+The route here through the Northern United States is a variation of two famous historical trails:
 
 <a name="LewisAndClark"></a>
 
@@ -1181,7 +1181,7 @@ The route here through the Northern United States is a variation of two famous t
 
 The <a target="_blank" href="http://lewisandclark.org/wiki/index.php?title=Main_Page">Lewis and Clark Trail</a>
 today is a set of hiking trails that commemorates the Lewis and Clark Expedition of 1804 to 1806.
-The 8,000 total miles the "Corps of Discovery" took to the Pacific,
+The "Corps of Discovery" took a 8,000 miles trip to the Pacific,
 then return with maps and scientific specimens for President Thomas Jefferson:
 
 <a target="_blank" href="http://lewisandclarktrail.com/">
@@ -1529,7 +1529,7 @@ we begin from Oklahoma and take a long detour North to avoid too much desert alo
 
 <a name="NV"></a>
 
-> <strong> Neveda </strong>
+> <strong> Nevada </strong>
 
 <ul>
 <li><a target="_blank" href="http://www.guggenheimlasvegas.org/">Guggenheim Hermitage Museum</a>, Las Vegas</li>

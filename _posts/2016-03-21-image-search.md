@@ -21,10 +21,14 @@ I've wasted a lot of time trolling through them.
 
 * [http://fabian-kostadinov.github.io](http://fabian-kostadinov.github.io)
 
+* http://www.bloggs74.com/free-stuff/10-best-websites-from-where-you-can-get-hd-wallpapers-for-your-desktop/
+list sites that provide <strong>desktop</strong> wallpapers,
+which I can crop down.
+
 Most of these sites have banner ads that entice you to paid image sites.
 
 My strategy is to start with free sites.
-And when I get gisgusted with how crappy they are, 
+And when I get disgusted with how crappy they are,
 at a certain point, realize my time is worth more,
 and get satisfaction at paid sites.
 
@@ -55,7 +59,7 @@ Here are some tips:
 
    Once you've exhausted those:
 
-* Filter your search term by adding a word with a dash in front, 
+* Filter your search term by adding a word with a dash in front,
    such as "-1900x500" if that's what you DON'T want anymore.
 
 * Add **-icon** to filter out the type of image.
@@ -108,14 +112,14 @@ If you don't see **Save Image as...**,
 
 /static/v1.5.0/core/img/header/doubleclick-search.jpg
 
-   Begin with just the host name in the URL on the browser. 
+   Begin with just the host name in the URL on the browser.
 
    Clear out characters after the last slash.
 
 * The size of images is important. A 512x512 image
 
 SVG images cannot be saved that way.
-Yet they are the preferred type of image file because they scale well, 
+Yet they are the preferred type of image file because they scale well,
 meaning they look crisp at different sizes.
 
 
@@ -137,5 +141,4 @@ In the file
 
 I personally have a website called assets that I use to save my images.
 
-   I tag each image so I can find them later.
-
+I tag each image so I can find them later.
