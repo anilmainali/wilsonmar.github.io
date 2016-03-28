@@ -23,7 +23,7 @@ Journies on water as she flows:
 Journies on land:
 
    * <a href="#WestwardVermont"> Westward from Vermont to Kentucky</a>
-   * <a href="#NorthernMiddelAmerica">Northern Middle America</a>
+   * <a href="#NorthernMiddleAmerica">Westward through Northern Middle America</a>
    * <a href="#Southwestward"> Westward through the Southwest</a>
 
 By "museums" I include here <strong>gift shops</strong> at grand natural sights and historic landmark hotels along the way ;)
@@ -1158,7 +1158,7 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 
 > <strong> Hawaii </strong>
 
-   Just so we include all the states: 
+   Just so we include all the states:
 
 <ul>
 <li><a target="_blank" href="http://www.tcmhi.org/">Contemporary Museum</a>, Honolulu</li>
@@ -1169,22 +1169,23 @@ Jundt Art Center and Museum at Gonzaga University</a></li>
 
 <hr />
 
-<a name="NorthernMiddelAmerica"></a>
+<a name="NorthernMiddleAmerica"></a>
 
-## Northern Middle America
+## Westward through Northern Middle America
 
-The route here through the Northern United States is a variation of two famous trails: 
+The route here through the Northern United States is a variation of two famous trails:
 
 <a name="LewisAndClark"></a>
 
 ### Lewis and Clark Trail Westward
 
 The <a target="_blank" href="http://lewisandclark.org/wiki/index.php?title=Main_Page">Lewis and Clark Trail</a>
-today is a set of hiking trails that commemorates the Lewis and Clark Expedition of 1804 to 1806,
-not the  8,000 total miles that the "Corps of Discovery" took to map a path to the Pacific
-and return with scientific specimens for President Thomas Jefferson.
+today is a set of hiking trails that commemorates the Lewis and Clark Expedition of 1804 to 1806.
+The 8,000 total miles the "Corps of Discovery" took to the Pacific,
+then return with maps and scientific specimens for President Thomas Jefferson:
 
-   <img src="/images/map Lewis_and_Clark_National_Historic_Trail_2015.png">
+<a target="_blank" href="http://lewisandclarktrail.com/">
+<img alt="Lewis and Clark Discovery Trail" width="568" height="249" src="https://cloud.githubusercontent.com/assets/300046/14081970/a9188ca6-f4ca-11e5-9c83-aebeb0aff6f6.jpg"></a>
 
 
 <a name="OregonTrail"></a>
@@ -1192,16 +1193,17 @@ and return with scientific specimens for President Thomas Jefferson.
 ### Oregon Trail to the Pacific
 
 The <a target="_blank" href="https://en.wikipedia.org/wiki/Oregon_Trail#/media/File:Wpdms_nasa_topo_oregon_trail.jpg">
-Oregon Trail</a> goes from St. Louis and Independence, Missouri through Kansas and Nebraska to Fort Laramie, Wyoming. It then goes through Boise, Idaho to Portland, Oregon.
-
-<a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/1/19/Oregontrail_1907.jpg">
-<img src="/images/map Oregontrail_1907.jpg"></a>
-
-The Oregon Trail was established during the 1830s by mountain men in their fur trade.
-It favors valleys to minimize going over mountains:
+Oregon Trail</a>
+was established during the 1830s by mountain men in their fur trade, before motorized transportation. It favors valleys to minimize going over mountains:
 
 <a target="_blank" href="https://en.wikipedia.org/wiki/Oregon_Trail">
-<img src="/images/map Wpdms_nasa_topo_oregon_trail.jpg"></a>
+<img alt="Oregon Trail Topo map NASA" width="500" height="310" src="https://cloud.githubusercontent.com/assets/300046/14081576/a8c6f05a-f4c8-11e5-92d6-61cbf9b8ce0e.jpg"></a>
+
+
+The trail goes from St. Louis and Independence, Missouri through Kansas and Nebraska to Fort Laramie, Wyoming. It then goes through Boise, Idaho to Portland, Oregon. The map of it in 1907:
+
+<a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/1/19/Oregontrail_1907.jpg">
+<img alt="Oregon Trail 1907" width="1595" height="561" src="https://cloud.githubusercontent.com/assets/300046/14081352/93a3a5fc-f4c7-11e5-8b37-e37be9d713a0.jpg"></a>
 
 
 <a name="KS"></a>
@@ -1335,18 +1337,18 @@ It favors valleys to minimize going over mountains:
 
 ## Westward through the Southwest
 
-The route here is a variation of 
+The route here is a variation of
 <a target="_blank" href="https://en.wikipedia.org/wiki/U.S._Route_66#/media/File:Map_of_US_66.svg">
-Route 66</a>, one of the original highways within the U.S. 
+Route 66</a>, one of the original highways within the U.S.
 Thus its colloqual name the "Mother Road".
 
 <a target="_blank" href="http://www.onroadcar.com/route-66-road-trip/">
-<img src="/images/map beige route-66 600x200.jpg"></a>
+<img alt="!map beige route-66 600x200.jpg" width="600" height="200" src="https://cloud.githubusercontent.com/assets/300046/14080916/1a0a42ca-f4c5-11e5-8230-cb0b95dde974.jpg"></a>
 
 Route 66 begins in Chicago, goes to St. Louis, Missouri, then through smaller road-side towns
 on the way to Oklahoma City, Amarillo, and Flagstaff before ending on the Santa Monica pier in Los Angeles.
 
-Since Illinos and Missouri are already in our <a href="#DownMississippi">Mississippi route</a>, 
+Since Illinos and Missouri are already in our <a href="#DownMississippi">Mississippi route</a>,
 we begin from Oklahoma and take a long detour North to avoid too much desert along the way.
 
 <a name="OK"></a>
@@ -1543,7 +1545,7 @@ we begin from Oklahoma and take a long detour North to avoid too much desert alo
 
 ## Footnote
 
-This is rather large list, intentionally to test how well the system can handle a large file. 
+This is rather large list, intentionally to test how well the system can handle a large file.
 
 This is an upgrade of my terrible <a target="_blank" href="http://wilsonmar.com/1usa.htm">
 Roadtrips to visit museums across the USA</a> from 2005.

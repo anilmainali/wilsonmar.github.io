@@ -5,6 +5,15 @@ images.txt
 
 Some 1900x500 pictures ready for use without cropping include:
 
+  feature: pic Audi-8-18022013060236-2-1900x500.jpg
+  credit: citycarcare.co.uk
+  creditlink: http://www.citycarcare.co.uk/wp-content/uploads/2015/11/Audi-8-18022013060236-2-1900x500.jpg
+
+  feature: pic orange wm_mcnaughton_sunset_runner_1900x500.jpg
+  credit: William McNaughton
+  creditlink: http://www.greencoffeelover.com/wp-content/uploads/2015/03/7.jpg
+
+
   feature: pic brown java beans 1900x500.jpg
   credit: Green Coffee Lover
   creditlink: http://www.greencoffeelover.com/wp-content/uploads/2015/03/7.jpg

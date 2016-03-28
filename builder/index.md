@@ -1,25 +1,26 @@
 ---
 layout: page
-title: Builder projects
+title: What I build
 modified: 2016-03-19
 excerpt: "Tips and tricks on using the Jekyll / Liquid / Kramdown theming engine."
 image:
-  feature: pic Audi-8-18022013060236-2-1900x500.jpg
-  credit: citycarcare.co.uk
-  creditlink: http://www.citycarcare.co.uk/wp-content/uploads/2015/11/Audi-8-18022013060236-2-1900x500.jpg
+  feature: pic 3screen_sizes 1900x500.jpg
+  credit:
+  creditlink:
 comments: true
 ---
 
 {% include _toc.html %}
 
-Pages in this series:
-
 {% include builder_links.html %}
 
-## Static is Cool Now
+> Let me help you with these. Call me!
 
-This approach is more "technical" than a CMS (Content Management System) 
-such as WordPress built using forms presented to you.
+
+## Static is Cool Now
+Building a static site is now more "cool" than using a database with CMS (Content Management System)
+such as WordPress is built using forms presented to you.
+
 People who have commented on this include:
 
 * <a target="_blank" href="http://www.shamimeboodhoo.com/from-wordpress-to-jekyll-and-a-new-design/">
@@ -29,6 +30,19 @@ Other sites using this approach:
 
 * <a target="_blank" href="http://myers.io/posts/">myers.io/posts</a>
 
+A list of all static website tools:
+
+* <a target="_blank" href="http://www.staticgen.com/">staticgen.com</a>
+presents its list in a gallery.
+
+* <a target="_blank" href="https://staticsitegenerators.net/">staticsitegenerators.net</a>
+presents its exhaustive list.
+
+* <a target="_blank" href="https://staticapps.org/">staticapps.org</a>
+
+## Tutorials
+
+http://jekyll.tips/jekyll-casts/
 
 ## Jekyll Themes
 
@@ -39,16 +53,17 @@ Same with Jekyll.
 The structure of posts makes it easy to move it to any number of other Jekyll themes
 with only a few edits.
 
-
 ### Jekyll Theme shops
 To see responsive websites, get to it quicker on your mobile smartphone QR code is provided for you.
+
+* <a target="_blank" href="http://jekyll.tips/templates/">jekyll.tips/templates</a>
 
 Within the Jekyll repository on GitHub:
 
    * <a target="_blank" href="https://github.com/jekyll/jekyll/wiki/Themes">
     github.com/jekyll/jekyll/wiki/Themes</a>
 
-Premium (paid) themes so you get updates and support, for less than $30.
+   Premium (paid) themes so you get updates and support, for less than $30.
 
    * <a target="_blank" href="http://jekyllthemes.io">jekyllthemes.io</a>
 
@@ -58,14 +73,14 @@ Premium (paid) themes so you get updates and support, for less than $30.
 
 ### Themes from Michael Rose
 
-Content on this website was created by editing markdown text (index.md files) 
-stored on GitHub.com. 
+Content on this website was created by editing markdown text (index.md files)
+stored on GitHub.com.
 The HTML sent to your browser for display is generated from markdown using
 Ruby running [Jekyll](http://jekyllrb.com/) 3.0 rendering modifications of the
 <a target="_blank" href="https://github.com/mmistakes/minimal-mistakes/">
 minimal-mistakes theme from GitHub</a> by Michael Rose.
 
-Michael also created the 
+Michael also created the
 <a target="_blank" href="https://github.com/mmistakes/skinny-bones-jekyll">
 skinny-bones-jekyll theme demo</a> forkable
 <a target="_blank" href="https://mmistakes.github.io/skinny-bones-jekyll/">
@@ -108,7 +123,7 @@ https://mademistakes.com/articles/using-jekyll-2016/
 
 
 ## Installation and Generation
-Michael Rose presents a concise description of 
+Michael Rose presents a concise description of
 <a target="_blank" href="https://mmistakes.github.io/minimal-mistakes/theme-setup/">
 how to install the minimal-mistakes theme</a>.
 
@@ -136,8 +151,8 @@ NOTE: File names beginning with a dot are hidden.
 
 ## Serve Jekyll landing page
 
-Theme programming goes to work generating HTML files in folder **_site** 
-when this command is issued when the present working directory is the 
+Theme programming goes to work generating HTML files in folder **_site**
+when this command is issued when the present working directory is the
 site's folder:
 
 <a name="invoke-server"></a>
@@ -159,7 +174,7 @@ excerpt: "By Wilson Mar"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
 feature: sunrise-1900x500.png
-   credit: 
+   credit:
    creditlink:
 ---
 {% endhighlight %}
@@ -173,7 +188,7 @@ The theme's programming put the value from tags: key in the HTML presented to us
 <meta name="keywords" content="Jekyll, theme, responsive, blog, template">
 {% endhighlight %}
 
-TODO: Substitute the image file name in the **feature:** variable 
+TODO: Substitute the image file name in the **feature:** variable
 with an alternative file you placed in the **images** folder.
 
 
@@ -183,7 +198,7 @@ presents at the upper left corner.
 
 ## Tabs, folders, and index.md files (for SEO)
 
-"About" and other **tabs** displayed constantly at the top of the page 
+"About" and other **tabs** displayed constantly at the top of the page
 are clickable. The pages they link to are specified in
 the **navigation.yml** file within the **_data** folder:
 
@@ -233,13 +248,13 @@ The text is added to page titles that appear in browser tabs through this HTML:
 
 The **posts** tab link to files within the **_posts** folder.
 In the case of the sample file named "2011-03-10-sample-post.md",
-Jekyll programming parses the "sample-post" out of the file name and uses that 
-as if it's named "sample-post.html". 
+Jekyll programming parses the "sample-post" out of the file name and uses that
+as if it's named "sample-post.html".
 
 
-### Metadata within .md files 
+### Metadata within .md files
 
-At the top of each markdown file, between a set of 3 dashes, 
+At the top of each markdown file, between a set of 3 dashes,
 are key-value pairs providing metadata about the page, such as this example
 from the **index.md** file within folder **about**:
 
@@ -304,7 +319,7 @@ https://docs.shopify.com/themes/liquid/basics#If_.2F_Else_.2F_Unless
 
 ### Link icon YAML
 
-In the list of posts, post titles with a link icon get that way because in its YAML is a line 
+In the list of posts, post titles with a link icon get that way because in its YAML is a line
 link post line such as this:
 
 {% highlight text %}
@@ -344,7 +359,7 @@ gems:
 
 PROTIP: Changes in the _config.yml file are applied only when the Jekyll service is recycled.
 At the command terminal window where Jekyll was launched,
-press control+C, then invoke the 
+press control+C, then invoke the
 <a href="#invoke-server">command to start the server again</a>.
 
 Another theme (Poole Hyde) adds:
@@ -430,8 +445,8 @@ https://publishers.disqus.com/engage?utm_source=Home-Nav
 
 0. Click Next and answer the demographic questions (how many visits, etc.).
 
-0. You don't need to 
-   select installation for Universal code and copy 
+0. You don't need to
+   select installation for Universal code and copy
    paste JavaScript because the theme has already done that in
    file **_disqus_comments.html** within folder **_includes**.
 
@@ -467,7 +482,7 @@ author: billy_rick
 "billy_rick" is a key to more information in the **authors.yml** file within the **_data** folder:
 
 {% highlight text %}
-billy_rick: 
+billy_rick:
   twitter: @billyrick
 {% endhighlight %}
 
@@ -485,14 +500,14 @@ If you'd like more links, add them in folder **_includes** file **_author-bio.ht
 
 ### Social sharing
 
-On the bottom of every page of the minimal-mistakes theme are large buttons for sharing 
+On the bottom of every page of the minimal-mistakes theme are large buttons for sharing
 tweets, Facebook, and Google.
 
 
 Unlike links on the left pane of every page,
 clicking on these links pops up a new browser window.
 
-You can change that pre-populated text (the URL) by changing the 
+You can change that pre-populated text (the URL) by changing the
 **_social-share.html** file withing folder **_includes**.
 The default pulls in the value of variables:
 
@@ -646,12 +661,12 @@ Commit to git at every verified set.
 A leading *>* marks a line as a blockquote:
 
 {% highlight html %}
-> Lorem ipsum 
+> Lorem ipsum
 {% endhighlight %}
 
 renders as:
 
-> Lorem ipsum 
+> Lorem ipsum
 
 ### Footnotes
 A paragraph ending with the &Vcirc; "circumflex" character (upper case of the number 6 key)
@@ -692,7 +707,7 @@ If you are viewing this on a desktop, mouse-over each button to see the color ch
 To change the colors, edit in folder **_sass** file **variables.scss**.
 
 ### Paragraph Indents
-By default, the theme assumes formatting is for books by removing extra lines and adds indents to 
+By default, the theme assumes formatting is for books by removing extra lines and adds indents to
 second and subsequent paragraphs. Well, we're in the internet age where long paragraphs are the exception.
 
 To disable the indents and add spacing between paragraphs,
@@ -787,7 +802,7 @@ Just as with GFM, regular HTML is recognized and processed as such.
 
 
 ### Custom Includes
-Jekyll can process several special tags beyond what GFM can do. 
+Jekyll can process several special tags beyond what GFM can do.
 An entire HTML file can be inserted:
 
 <pre><code>
@@ -892,9 +907,9 @@ Ideally, I would put a vertical ad under the table of contents.
 
 ## Site Search
 
-A Node.js library to add search functionality to any Jekyll blog 
+A Node.js library to add search functionality to any Jekyll blog
 <a target="_blank" href="http://christian.fei.ninja/Simple-Jekyll-Search/">Demo here</a>
-is available 
+is available
 from <a target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">
 this repo</a>.
 
@@ -927,7 +942,7 @@ _asset_bundler_cache
 
    * http://help.github.com/articles/using-jekyll-with-pages/
 
-   * http://goo.gl/hE3Zj2 to 
+   * http://goo.gl/hE3Zj2 to
    http://nicolasgallager.com/simple-git-deployment-strategy-for-static sites/
 
    * jekyllrb.com/docs/deployment-methods/

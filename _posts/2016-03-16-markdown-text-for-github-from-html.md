@@ -20,13 +20,13 @@ I wrote this because I haven't seen an approach like this described.
 
 I'm having to convert hundreds of pages I've written in HTML since the 90's.
 
-> Let me help you with this personally.
+> Let me help you with this. Call me!
 
-## Orderd lists
+## Ordered lists
 
-My favorite feature of Markdown is it **automatically numbers ordered lists**!
+My favorite feature of Markdown is it **automatically ordered numbers in lists**!
 
-So you can begin all items of unordered lists with a 0. 
+We can begin all items of unordered lists with a 0.
 
 {% highlight html %}
 1. First item.
@@ -36,7 +36,6 @@ So you can begin all items of unordered lists with a 0.
 
 The coding above Markdown renders correctly as 1,2,3.
 
-Begin the first item of an ordered list with 1, just in case. 
 
 ## Indention
 In order for numbering to continue, all lines must be indented.
@@ -45,7 +44,7 @@ Heading lines can be indented.
 
 Use 3 spaces in front of 3 backticks.
 
-4 or more backticks is a signal to highlight the sentence in a box, not to indepnt.
+4 or more back-ticks is a signal to highlight the sentence in a box, not to indent.
 
 Also, Liquid markdown does not recognize indention.
 
@@ -58,16 +57,56 @@ put a left-slash in front of the dot, as in:
 1492\. That was the year.
 {% endhighlight %}
 
+## Line breaks
+
+Both styles of line break tags result in a new line (without a blank line in between):
+
+the XHTML style:
+
+{% highlight html %}
+Hello<br />there
+{% endhighlight %}
+
+or HTML-style tags:
+
+{% highlight html %}
+Hello<br>there
+{% endhighlight %}
+
+
 ## Paragraphs
 
 One reason Markdown text is easier to write than HTML is
-there is no need for `<p>` to force a blank line. 
+there is no need for `<p>` to force a blank line.
 
 Just a blank line will do.
 
-PROTIP: Avoid doing a mass change of `<p>` 
+One can do a mass change of `<p>` in a text editor.
 
-Rembember to clean up ending  `</p>` tags. 
+Remember to clean up ending  `</p>` tags.
+
+## Bulk change HTML to Markdown programs
+
+You can specify a URL to a HTML file:
+
+   * <a target="_blank" href="http://www.aaronsw.com/2002/html2text/">http://www.aaronsw.com/2002/html2text</a>
+
+It returns a page of Markdown text you can copy and paste to a Markdown file.
+
+The author of that site provides his Python program at:
+
+   * <a target="_blank" href="https://github.com/aaronsw/html2text">
+   https://github.com/aaronsw/html2text</a>
+
+Download and run the program using this syntax
+(assuming Pythong is installed):
+
+   ```
+   chmod a+x html2text.py ; ./html2text.py erlang.html
+   ```
+
+PROTIP: Automatic approaches today are usually too automatic, converting what is better left in HTML.
+
 
 ## Unordered Lists
 
@@ -135,8 +174,8 @@ Markdown recognizes up to 6 hash characters for 6 levels.
 The ending '##' character is optional. It can be any number of characters.
 ## Tables
 
-Alternately, <a target="_blank" href="http://docutils.sourceforge.net/mirror/setext.html">Setext-style</a> 
-headers are specified (“underlined”) by a series of 
+Alternately, <a target="_blank" href="http://docutils.sourceforge.net/mirror/setext.html">Setext-style</a>
+headers are specified (“underlined”) by a series of
 equal signs (for first-level headers) and dashes (for second-level headers):
 
 <pre><code>
@@ -181,16 +220,16 @@ which renders as:
 
 ## Tools?
 
-To see your markdown turn into HTML, use this online tool: 
+To see your markdown turn into HTML, use this online tool:
 
    * <a target="_blank" href="http://daringfireball.net/projects/markdown/dingus">Dingus</a>
 
-The easiest way to convert HTML to Markdown text is to use Aaron Swartz’s 
+The easiest way to convert HTML to Markdown text is to use Aaron Swartz’s
 
    * <a target="_blank" href="http://www.aaronsw.com/2002/html2text/">html2text.py Python script or on-line</a>
    But it has not been updated since 2011.
 
-> My experience is that we'll need to pretty much go through each line 
+> My experience is that we'll need to pretty much go through each line
 to make it look good in Markdown text.
 
 ## Links
@@ -204,13 +243,13 @@ Example of HTML:
 {% endhighlight %}
 
 > The biggest hassle with converting to Markdown text from HTML coding is that
-Markdown reverses the order of text and links. 
+Markdown reverses the order of text and links.
 
 {% highlight html %}
  [mysite](http://wilsonmar.github.io/)
 {% endhighlight %}
 
-The same goest for the alternate "automatic" format Markdown offers to link: 
+The same goest for the alternate "automatic" format Markdown offers to link:
 
 {% highlight html %}
 <http://wilsonmar.github.io>
@@ -272,30 +311,14 @@ claims to incorporate the capabilities of other parsers:
    * <a target="_blank" href="http://dafoster.net/projects/rdiscount/">Rdiscount</a>
 
 
-## Line breaks
-
-Both styles of line break tags result in a new line (without a blank line in between): 
-the XHTML style:
-
-{% highlight html %}
-Hello<br />there
-{% endhighlight %}
-
-or HTML-style tags:
-
-{% highlight html %}
-Hello<br>there
-{% endhighlight %}
-
-
-
 ## Liquid Markdown Syntax
 
-Additionally, Markdown in  GitHub recognizes Liquid syntax as defined in:
+Markdown text in GitHub recognizes Liquid syntax as defined in:
 
    * [https://docs.shopify.com/themes/liquid/basics](https://docs.shopify.com/themes/liquid/basics)
 
-This coding would process html as such:
+This coding would process html as such between a set of
+Liquid &#123;% tag markers:
 
 <pre><code>
 &#123;% highlight html %}
@@ -303,16 +326,31 @@ This coding would process html as such:
 &#123;% endhighlight %}
 </code></pre>
 
+Liquid <strong>output</strong> markup can also be specified between two curly braces,
+such as:
+
+<pre><code>
+&#123;% highlight html %}
+{{ page.heading | upcase | truncate: 8 }}
+</code></pre>
+
+The page.heading refers to the heading variable specified in the front matter at the top of the file.
+
+In fact, Liquid is a rather (simple yet complete) <strong>programming language</strong> on its own right, with if/then/else,
+for loops, etc.
+
+The home page for Liquid template language (written in Ruby):
+
+* <a target="_blank" href="http://shopify.github.io/liquid/">
+shopify.github.io/liquid/</a>
+
 ## Footnotes
 
 This incorporates the thorough detail about markdown coding at:
 
 * <a target="_blank" href="http://daringfireball.net/projects/markdown/">daringfireball.net</a>                                                                       
 
-
 A discussion forum about markdown is at:
 
 * <a target="_blank" href="https://pairlist6.pair.net/mailman/listinfo/markdown-discuss/">
    pairlist6.pair.net/mailman/listinfo/markdown-discuss</a>
-
-

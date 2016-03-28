@@ -17,9 +17,9 @@ comments: true
 ## Pin your website
 
 Windows 8 & 10 users can pin a website URL to their home screen
-such that when the tile is clicked, the site's XML feed is shown (formatted). 
+such that when the tile is clicked, the site's XML feed is shown (formatted).
 
-Instructions here describe how to provide Windows with images for the different size tiles Windows uses.
+Instructions here describe how to provide Windows tiles with images for the different size tiles Windows uses.
 
 0. See some examples of sites pinned on Windows 8 & 10 at
 <a target="_blank" href="http://pinnedsitedemo.cloudapp.net/testdrive/index.aspx">http://pinnedsitedemo.cloudapp.net/testdrive/index.aspx</a>.
@@ -103,7 +103,7 @@ before copying it to the root of your site.
 
 ## Social media coloring
 
-There's also: 
+There's also:
 
 {% highlight html %}
 <meta name="msapplication-TileColor" content="#000000"/>
@@ -114,3 +114,10 @@ There's also:
 More about setup Live Tile Notifications:
 
 https://msdn.microsoft.com/library/bg183312%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396
+
+See the session <a target="_blank" href="https://channel9.msdn.com/Events/Build/2016/B803">
+What’s New for Tiles and Toast Notifications</a>
+at Build 2016 on April 1, 2016 by Lei Xu, who also did
+spoke at Build 2015 session
+<a target="_blank" href="https://channel9.msdn.com/Events/Build/2015/2-762">
+Tiles, Notifications, and Action Center</a>.
