@@ -53,13 +53,19 @@ Surveys are:
 * <a target="_blank" href="http://myers.io/posts/">myers.io/posts</a>
 
 ## There is a downside
-Some feel git is a hassle to use.
 
-Some prefer the WSIWYG editors like Microsoft Word
+0. Some feel git is a hassle to use.
+
+0. Some prefer the WSIWYG editors like Microsoft Word
 over text editors and writing markdown code.
-However, <a target="_blank" href="https://cloudcannon.com/"> CloudCannon.com</a> 
-enables users to create a Jekyll site that presents
-Visual Editor forms for editing text in context of background graphics.
+
+   However, <a target="_blank" href="https://cloudcannon.com/"> CloudCannon.com</a> 
+   enables users to create a Jekyll site that presents
+   Visual Editor forms for editing text in context of background graphics.
+
+0. Since Jekyll and other static platforms are newer than WordPress, Drupal, etc.
+   there are not as much of a diversity in themes and plug-ins available.
+
 
 ## Footnotes
 People who have commented on this include:
