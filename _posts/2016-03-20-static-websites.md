@@ -57,6 +57,9 @@ Some feel git is a hassle to use.
 
 Some prefer the WSIWYG editors like Microsoft Word
 over text editors and writing markdown code.
+However, <a target="_blank" href="https://cloudcannon.com/"> CloudCannon.com</a> 
+enables users to create a Jekyll site that presents
+Visual Editor forms for editing text in context of background graphics.
 
 ## Footnotes
 People who have commented on this include:

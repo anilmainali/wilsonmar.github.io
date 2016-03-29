@@ -48,9 +48,9 @@ You'll leave with a new free blog website!
 ## Update Jekyll Theme with Calendar
 The author pane at the left of this theme was updated to add Calendar under the email link.
 
-0. First, I searched for the Calendar icon in FontAwesome (it's "fa-calendar").
+0. First, I searched for the Calendar icon in FontAwesome (it's "fa-calendar" at http://fontawesome.io/icon/calendar/).
 
-0. Next, had to encode "@" to "%40" in the URL.
+0. Next, had to encode "@" to "%40" in the URL, based on http://shopify.github.io/liquid/filters/replace/.
 
 0. Finally, this was pasted into the <strong>_author-bio.html</strong> file within the <strong>_includes</strong> folder:
 
