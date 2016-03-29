@@ -4,7 +4,7 @@ title: Social media for evangelism
 excerpt: "Tell them good"
 tags: [social media, evangelism, jekyll]
 image:
-  feature: pic silver robot white skin handshake 2789x1044.jpg
+  feature: pic silver robot white skin handshake 1900x500.jpg
   credit: 
   creditlink: 
 comments: true
@@ -35,6 +35,10 @@ It's not enough just to have an account with some words and pictures.
 ## Engagement
 
 Measurement of engagement looks at how many took some action after reading an item.
+
+It is rare to get more than 5% on messages delivered.
+
+Most tweets are never read by anyone.
 
 
 ## Best times to tweet
