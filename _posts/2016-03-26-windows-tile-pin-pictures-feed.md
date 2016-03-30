@@ -14,9 +14,10 @@ comments: true
 
 {% include _toc.html %}
 
+
 ## Pin your website
 
-Windows 8 & 10 users can pin a website URL to their home screen
+Windows 10 users can pin a website URL as a Favorite on their home screen
 such that when the tile is clicked, the site's XML feed is shown (formatted).
 
 Instructions here describe how to provide Windows tiles with images for the different size tiles Windows uses.
@@ -121,3 +122,13 @@ at Build 2016 on April 1, 2016 by Lei Xu, who also did
 spoke at Build 2015 session
 <a target="_blank" href="https://channel9.msdn.com/Events/Build/2015/2-762">
 Tiles, Notifications, and Action Center</a>.
+
+## Make Windows More Touch Friendly (Tablet Mode)
+If you're one of the few who want to bring back the Windows 8 UI onto Windows 10:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oEkIbUWzkLU" frameborder="0" allowfullscreen></iframe>
+
+1. Right-click on the Desktop to select Personalize.
+0. Click on Start on the left Personalization menu.
+0. Turn on "Use Start full screen"
+0. Click on Start button on your keyboard.

@@ -5,9 +5,9 @@ excerpt: "Just apply. They can always just ignore you."
 modified:
 tags: []
 image:
-  feature: pic rainbow splash black apple logo 1900x500.jpg
-  credit: Brothersoft
-  creditlink: http://m.img.brothersoft.com/android/a0/a054685c75c309c2b6dfd3c96972dded_screeshots_3.jpeg
+  feature: pic black white must be willing to relocate to sf 1900x500.jpg
+  credit: 
+  creditlink: 
 comments: true
 company: XYZ
 database: MongoDB

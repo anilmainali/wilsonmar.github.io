@@ -12,10 +12,13 @@
 
   <h3 itemprop="name">{{ author.name }}</h3>
   <p>{{ author.bio }}</p>
-  {% if author.email %}<a href="mailto:{{ author.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>{% endif %}
 
-  <!-- Added by WM 2016-03-28 -->
+  <!-- Changed by WM 2016-03-29 -->
+  {% if author.email %}<a href="mailto:{{ author.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Gmail</a>{% endif %}
   {% if author.email %}<a href="https://www.google.com/calendar/embed?src={{ author.email | replace: "@", "%40" }}" class="author-social" target="_blank"><i class="fa fa-fw fa-calendar"></i> Calendar</a>{% endif %}
+  {% if author.skype %}<a href="skype:{{ author.skype " }}?call" }}" class="author-social" target="_blank"><i class="fa fa-fw fa-skype"></i> Skype call</a>{% endif %}
+  {% if author.email %}<a href="#" class="author-social" target="_blank"><i class="fa fa-fw fa-phone"></i> 310.320-7878</a>{% endif %}
+<p></p>
 
   {% if author.twitter %}<a href="http://twitter.com/{{ author.twitter }}" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>{% endif %}
   {% if author.facebook %}<a href="http://facebook.com/{{ author.facebook }}" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>{% endif %}
