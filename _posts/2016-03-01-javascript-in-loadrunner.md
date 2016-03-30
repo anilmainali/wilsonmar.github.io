@@ -3,6 +3,7 @@ layout: post
 title: "JavaScript in LoadRunner"
 excerpt: "Sample code and tutorial here"
 tags: [JavaScript, Load Testing, LoadRunner]
+author: anil_mainali
 comments: true
 image:
   feature: pic brown running horses 1900x500.jpg
