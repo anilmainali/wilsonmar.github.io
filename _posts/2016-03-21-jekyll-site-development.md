@@ -137,6 +137,9 @@ To see the site the way GitHub would generate it
 
     bundle exec jekyll serve --safe
 
+    BTW, the precise version of plug-ins used by GitHub on-line is listed
+    <a target="_blank" href="https://pages.github.com/versions/">here</a>.
+
 PROTIP: Leave this terminal instance running and open another Terminal
 instance to work on the content of the site.
 

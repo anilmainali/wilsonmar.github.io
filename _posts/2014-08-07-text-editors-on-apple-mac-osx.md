@@ -14,6 +14,24 @@ comments: true
 
 {% include _toc.html %}
 
+There is not shortage to the number of programs available to edit code.
+
+Free:
+
+   * Atom from GitHub (free)
+   * Microsoft Code (free)
+
+Licensed:
+
+   * <a href="#SublimeTextz">Sublime Text</a> : $89 nagware
+   * Notepad++ (on Windows)
+
+IDEs:
+
+   * IntelliJ from JetBrains
+   * Visual Studio from Microsoft
+
+
 <a id="SublimeTextz"></a>
 
 ## Sublime Text Text Editor 

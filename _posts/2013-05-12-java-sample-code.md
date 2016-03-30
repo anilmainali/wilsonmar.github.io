@@ -56,11 +56,14 @@ We begin with a manual process, which we then automate.
    * <a target="_blank" href="http://openjdk.java.net/">Open JDK from http://openjdk.java.net/install/</a>
    (on the Mac, https://wiki.openjdk.java.net/display/MacOSXPort/Main)
 
-   * Utility class libraries (from 3rd parties) which custom Java program code specify for import
 
    * Utility processsors such as Static Code Analysis.
 
+> The primary objective of this tutorial is to get those learning Java to make use of
+static code scanners.
+
 ## Clone GitHub
+
 4\. Use Git to clone to your local laptop the repository containing sample programs:
 
    * <a target="_blank" href="http://github.com/wilsonmar/java-sample-code/">http://github.com/wilsonmar/java-sample-code.git</a>
@@ -68,6 +71,28 @@ We begin with a manual process, which we then automate.
    by https://acm.cs.uic.edu/ (University of Illinois at Chicago)
 
    * https://www.reddit.com/r/programmingbydoing/ from Graham "holyteach" Mitchell are assignments (challenges) but no answers.
+
+> We would like example code scanned by static code analyzers so they're good examples of coding technique.
+
+5\. Clone or download utility class libraries (from 3rd parties) which custom Java program code specify for import
+
+Google Guava 
+is an open source, Java based library developed by Google (and not those outside) 
+It's supposed to facilitate best coding practices and helps reduce coding errors.
+
+   * https://github.com/google/guava
+   * https://en.wikipedia.org/wiki/Google_Guava
+   * http://www.tutorialspoint.com/guava/
+
+   It provides utility methods for functional programming,
+   collections, caching, primitives support, concurrency, 
+   common annotations, string processing, I/O, and validations.
+
+Log4J
+
+   * Log4J
+
+> We would like code in libraries scanned by static code analyzers so they form a good basis for coding.
 
 ## Compile OK?
 

@@ -344,6 +344,21 @@ The home page for Liquid template language (written in Ruby):
 * <a target="_blank" href="http://shopify.github.io/liquid/">
 shopify.github.io/liquid/</a>
 
+## JavaScript
+
+What if we pasted JavaScript (wrapped between `<script>` tags) in Markdown?
+
+<script>
+var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[1].firstName + " " + obj.employees[1].lastName;
+</script>
+
 ## Footnotes
 
 This incorporates the thorough detail about markdown coding at:
