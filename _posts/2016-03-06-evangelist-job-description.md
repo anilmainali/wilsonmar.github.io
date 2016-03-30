@@ -128,23 +128,28 @@ You get bonus points if:
 at a high-growth company in a rapidly emerging open source infrastructure category.
 
 * In five years, the chance to say you “got in early” into one of the pioneers!
+* Equity
 
-* Competitive salary, health benefits, equity, and matching 401(K) plans. 
+* Matching 401(K) plans  
 (We pay for parking tickets in San Francisco’s Mission District, too.)
 
+* 100% employer paid premiums for medical, dental, life insurance, disability
+* Commuter benefits for public transit and bicycle commuters
+
+* Free lunches, dinners, and fully stocked snacks & beverages
 * Wellness initiatives (incentive programs, fitness classes)
-
-* Catered meals, endless snacks and drinks
-
 * Free gym membership with shuttle service, onsite cardio gym, company organized and sponsored sports and leagues.
 
+* Lounge areas with ping pong, foosball, pinball, and arcade games
 * Monthly happy hours
+* Company ski trips, boat parties, BBQs, happy hours, game nights ... just to name a few!
+* Volunteer opportunities and extra PTO for community work.
+
+* Flexible vacation - take time off when you need it
 
 * Casual dress code
 
 * Employee development opportunities 
-
-* Volunteer opportunities and extra PTO for community work.
 
 ## Summary
 
