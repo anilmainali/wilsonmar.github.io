@@ -130,22 +130,21 @@ at a high-growth company in a rapidly emerging open source infrastructure catego
 * In five years, the chance to say you “got in early” into one of the pioneers!
 * Equity
 
-* Matching 401(K) plans  
-(We pay for parking tickets in San Francisco’s Mission District, too.)
-
+* Matching 401(K) plans 
 * 100% employer paid premiums for medical, dental, life insurance, disability
-* Commuter benefits for public transit and bicycle commuters
+* Flexible vacation - take time off when you need it
 
 * Free lunches, dinners, and fully stocked snacks & beverages
+* Commuter benefits for public transit and bicycle commuters
+* Shower facilities in the building
 * Wellness initiatives (incentive programs, fitness classes)
 * Free gym membership with shuttle service, onsite cardio gym, company organized and sponsored sports and leagues.
+* Free parking (We pay for parking tickets in San Francisco’s Mission District, too.)
 
 * Lounge areas with ping pong, foosball, pinball, and arcade games
 * Monthly happy hours
 * Company ski trips, boat parties, BBQs, happy hours, game nights ... just to name a few!
 * Volunteer opportunities and extra PTO for community work.
-
-* Flexible vacation - take time off when you need it
 
 * Casual dress code
 
@@ -159,3 +158,10 @@ BS in STEM degree, developer experience, ability to code demos, excellent writte
 ## Footnote
 
 This page was created as an example using page-specific Liquid variables in Jekyll Markdown front-matter.
+
+## More on Evanglism
+
+This post is one of a (planned) series:
+
+{% include evangelist_links.html %}
+

@@ -15,13 +15,18 @@ comments: true
 {% include _toc.html %}
 
 ## What I can do
-Let me describe how you can do it too:
+Some writing samples:
 
-* [Build load-balanced servers in AWS EC2](build-load-balanced-servers-in-AWS-EC2)
+* <a target="_blank" href="https://medium.com/@Montana/my-backpack-was-stolen-what-i-ve-learned-from-it-eafa9145cb36#.bzgd35dbi">
+   My backpack was stolen. What I've learned from it</a>
+
+For technical subjects, let me describe how you can do it too:
+
+* [Data visualization using Tableau](/data-visualization-using-tableau)
+
+* [Build load-balanced servers in AWS EC2](/build-load-balanced-servers-in-AWS-EC2)
 
 * Create hybrid apps in SAP HANA using jQuery and Cordova libraries
-
-* Create apps and reports in Salesforce
 
 * Create apps and reports in Salesforce
 

@@ -59,7 +59,10 @@
 
 <!-- Citrix Concierge screen share -->
 <script src="https://websdk.live.gotoassist.com/concierge.min.js"></script>
+
+{% if author.citrix %}
 <script>
-    concierge.setApplicationKey("MTYzMDs3NDc=-ak2yo1dniypx1ree0398hj3d61raszy7bg5xce1137dfjcqnl0mfp52ygs1fwnom");
-    concierge.addDefaultButton("Chat (Citrix)");
+    concierge.setApplicationKey("{{ author.citrix }}");
+    concierge.addDefaultButton("Chat (Citrix)"); 
 </script>
+{% endif %}
