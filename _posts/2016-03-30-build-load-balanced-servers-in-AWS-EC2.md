@@ -389,7 +389,7 @@ Amazon charges by the hour, even if the server was used only a few minutes.
 The cooldown period to remove servers is 5 minutes 
 (x60 = 300 seconds).
 
-### Create Auto-Scaling Config
+### Auto-Scaling Config
 
 Auto scaling launches specific AMI instances.
 
@@ -484,7 +484,7 @@ as-put-notification-configuration <lab-as-group>
 --notification-types autoscaling:EC2_INSTANCE_LAUNCH, autoscaling:EC2_INSTANCE_TERMINATE
 {% endhighlight %}
 
-### Create Auto Scaling Policies
+### Auto Scaling Policies
 
 {% highlight html %}
 as-put-scaling-policy lab-scale-up-policy 
@@ -531,4 +531,5 @@ or something more elaborate.
 (50%) for one consecutive period.
 0. CLick + AutoScaling Action.
 
-
+PROTIP: A full set of triggers need to include all the components,
+which include memory, disk space, file handles, available ports, etc.
