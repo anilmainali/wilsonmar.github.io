@@ -14,8 +14,6 @@ comments: true
 
 {% include _toc.html %}
 
-
-
 <a id="ComAppz"></a>
 
 ## Communications Apps
@@ -84,7 +82,15 @@ Cicso's webex web page</a> lists two programs:
 
 <ul>
 <li> For .ARF files, webexnbrplayer_intel.dmg invokes as Network Reocrind Player.pkg.
-- the Network Player does not allow downloaded files to be saved.
-<li> For .WRF files, webexplayer_intel.dmg invokes as WebEx Player.pkg.
+- the Network Player does not allow downloaded files to be saved.</li>
+
+<li> For .WRF files, webexplayer_intel.dmg invokes as WebEx Player.pkg.</li>
 </ul>
 
+
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

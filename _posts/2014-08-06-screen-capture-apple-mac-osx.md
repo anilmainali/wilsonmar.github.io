@@ -101,3 +101,9 @@ use the built-in Preview app, which also reads pdf files.
 To crop images, add text, or create transparent backgrounds
 and save in another format,
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

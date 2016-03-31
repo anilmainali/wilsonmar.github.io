@@ -239,3 +239,9 @@ cd maven
 mkdir repo
 </strong></pre>
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

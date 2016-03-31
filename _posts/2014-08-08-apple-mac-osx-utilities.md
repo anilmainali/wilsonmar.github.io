@@ -89,20 +89,8 @@ the computer is <strong>asleep</strong> when the job should have run
 
 
 
-<a id="VMware"></a>
+## More on OSX
 
-## VMwere Fusion
+This is one of a series on Mac OSX:
 
-<a target="_blank" href="http://www.souldevteam.net/blog/2013/10/06/os-x-mavericks-10-9-retail-vmware-image-release-notes-links/">
-Run OSX in VMware within Windows</a>
-
-http://www.tekrevue.com/os-x/
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!-- script src="js/jquery-1.10.2.min.js" -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</html>
+{% include mac_links.html %}

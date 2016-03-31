@@ -844,6 +844,7 @@ a particular program to execute.
 A big reason to use a command-line terminal is to set environment variables.
 
 To see what is already defined:
+
 <tt><strong>export</strong></tt>
 
 http://stackoverflow.com/questions/135688/setting-environment-variables-in-os-x
@@ -852,25 +853,24 @@ This applies to all users.
 
 
 To see what was already defined:
+
 <tt><strong>echo $PATH</strong></tt>
 
 $PATH must be upper case.
 
 The response I'm getting is:
+
 <tt>
 /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 </tt>
-
-
-
 
 
 <a id="RootSudoz"></a>
 
 ## Root user for sudo commands
 
-
 The root user has the ability to relocate or remove required system files and to introduce new files in locations that are protected from other users.
+
 Any user with an administrator account can become the root user or reset the root password.
 A root user has the ability to access other users' files.
 
@@ -883,62 +883,71 @@ once enabled, if forgetten, you'll have to
 reboot from the installer drive</a> (a hassle).
 
 It is safer and easier to use the sudo command to gain temporary root access to the system.
-<br />
+
 DOTHIS: 
 In a Terminal window invoke:
+
 <tt>sudo -s</tt>
 After I type in my password, the response for me is the version of bash:
+
 <tt>bash-3.2# </tt>
+
 to demote out of root:
+
 <tt>exit</tt>
 
 DO THIS:
 The folders that bash looks into are:
+
 <tt>/bin/echo $PATH</tt>
+
 On a fresh Yosemite, its:
+
 <tt>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</tt>
+
 Each additional app adds to the front of the list:
+
 <tt>
 /Library/Frameworks/Python.framework/Versions/3.4/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 </tt>
+
 Separating the folders between colon separator:
 
 <ul>
-<li>/Library/Frameworks/Python.framework/Versions/3.4/bin
-<li>/opt/local/bin
-<li>/opt/local/sbin
-<li>/Applications/MAMP/bin/php5/bin
-<li>/Applications/MAMP/Library/bin
-<li>/Applications/Adobe AIR SDK/bin
+<li>/Library/Frameworks/Python.framework/Versions/3.4/bin</li>
+<li>/opt/local/bin</li>
+<li>/opt/local/sbin</li>
+<li>/Applications/MAMP/bin/php5/bin</li>
+<li>/Applications/MAMP/Library/bin</li>
+<li>/Applications/Adobe AIR SDK/bin</li>
 
-<li>/usr/local/bin
-<li>/usr/bin
-<li>/bin
-<li>/usr/sbin
-<li>/sbin
+<li>/usr/local/bin</li>
+<li>/usr/bin</li>
+<li>/bin</li>
+<li>/usr/sbin</li>
+<li>/sbin</li>
 </ul>
 
 New folders are added to the front of the PATH using a command such as:
+
 <tt>
 export PATH=&LT;new folders>:$PATH
 </tt>
+
 Depending on how you're setup, file ~/.profile or ~/.bash_profile or ~/.bash_login 
 contains the path echo'd.
 
 Or your PATH may be set in /etc/profile for all users
 
 Clear the terminal history:
+
 <strong>clear</strong>
-
-
-
 
 
 
 <a id="Spotlightz"></a>
 
 ## Spotlight on Network Utility to List Ports
-
 
 Apple's <strong>Spotlight</strong> is like Window's Search omni-box.
 Press <strong>Command+Spacebar</strong>. 
@@ -956,8 +965,6 @@ Enter the IP (such as 127.0.0.1), localhost, or domain name
 you wish to scan for open ports.
 
 Choose <strong>scan</strong> to see what ports the server responds to.
-
-
 
 
 <a id="Browserz"></a>
@@ -1000,12 +1007,14 @@ URL=</tt>
 
 ### Mount .dmg files using hdiutil tool
 
-
 .dmg (Disk Image) files can be mounted from the command line:
+
 <tt><strong>
 hdiutil attach /path/to/diskimage.dmg
 </strong></tt>
+
 The response is like:
+
 <pre>
 /dev/disk1 Apple_partition_scheme
 /dev/disk1s1 Apple_partition_map
@@ -1013,11 +1022,13 @@ The response is like:
 </pre>
 
 Note the disk from the message above to unmount (detatch):
+
 <tt><strong>
 hdiutil detach /dev/disk1s2
 </strong></tt>
 
 The same utility can mount .iso images:
+
 <tt><strong>
 hdiutil mount sample.iso
 </strong></tt>
@@ -1033,23 +1044,29 @@ hdiutil mount sample.iso
 Different commands</a> are needed for different versions of OS.
 <strong>OSX 10.10</strong> added requirement for sudo when using the 
 built-in discoveryutil:
-<br /><tt>sudo discoveryutil udnsflushcaches</tt>
+
+<tt>sudo discoveryutil udnsflushcaches</tt>
 
 <strong>OSX 10.9</strong>
-<br /><tt>dscacheutil -flushcache;<br />
+
+<tt>dscacheutil -flushcache;<br />
 sudo killall -HUP mDNSResponder</tt>
 
 <strong>OSX 10.7  to 10.8</strong>
-<br /><tt>sudo killall -HUP mDNSResponder</tt>
+
+<tt>sudo killall -HUP mDNSResponder</tt>
 
 <strong>OSX 10.5 to 10.6</strong>
-<br /><tt>sudo dscacheutil -flushcache</tt>
+
+<tt>sudo dscacheutil -flushcache</tt>
 
 <strong>Windows</strong> by contrast:
-<br /><tt>ipconfig /flushdns</tt>
+
+<tt>ipconfig /flushdns</tt>
 
 <strong>Linux (depending on the flavor running)</strong>
-<br /><tt>/etc/init.d/named restart<br />
+
+<tt>/etc/init.d/named restart<br />
 /etc/init.d/nscd restart</tt>
 
 
@@ -1060,15 +1077,15 @@ sudo killall -HUP mDNSResponder</tt>
 ## Hard Drives on Mac
 
 DOTHIS: Open a Terminal window to invoke:
-<br /><tt>diskutil list</tt>
-<br />
+
+<tt>diskutil list</tt>
+
 This lists <strong>physical and virtual disks</strong>. 
 
 &quot;0:&quot; and other such numbers are <strong>partitions</strong>.
-<br />
 
+DOTHIS: In a Terminal window invoke:
 
-DOTHIS: In a Terminal window invoke:<br />
 <tt>diskutil info /dev/disk0</tt>
 
 The "Device / Media Name" is the partition label from the disk's partition map 
@@ -1082,20 +1099,21 @@ and does not reference them at the CLI or GUI level).
 
 AOTW, Apple sells SD drives up to 750.4 GB.
 
-
 Notice that <strong>disk1</strong> is a <strong>Logical Volume on disk0s2</strong>
 with a GUID referencing disk0.
-<br />
-DOTHIS: In a Terminal window invoke:<br />
+
+DOTHIS: In a Terminal window invoke:
+
 <tt>diskutil info /dev/disk0s2</tt>
 
 <strong>disk0s1</strong>: "EFI system partition"
-<br />
+
 contains extended firmware for your drive.
 
 
 
-DOTHIS: In a Terminal window invoke:<br />
+DOTHIS: In a Terminal window invoke:
+
 <tt>diskutil info /dev/disk0s1</tt>
 
 <strong>disk0s1</strong>: "EFI system partition"
@@ -1103,12 +1121,13 @@ DOTHIS: In a Terminal window invoke:<br />
 contains extended firmware for your drive.
 
 
-
 <strong>disk0s2</strong>: "Customer" to diskutil
 is where your files are stored.
 
 DOTHIS: In a Terminal window invoke:<br />
+
 <tt>diskutil info /dev/disk1</tt>
+
 appears on the Desktop as &quot;Macintosh HD&quot; system partition, 
 which can be changed by pressing Return key after clicking on it.
 
@@ -1121,39 +1140,50 @@ If you add your own custom partition to the mix you will find that Apple's tools
 
 DOTHIS: Plug in a <strong>Time Machine</strong> drive. 
 In a Terminal window invoke:
-<br /><tt>diskutil info /dev/disk2</tt>
-<br />
+
+<tt>diskutil info /dev/disk2</tt>
+
 In the list it would have 3 partitions:
+
 0: Apple_partition_scheme<br />
-1: Windows_FAT_32<br />
+
+1: Windows_FAT_32
+
 2: Apple_HFS
 
 
 
 DOTHIS: Plug in a <strong>SD card</strong>. 
 In a Terminal window invoke:
-<br /><tt>diskutil list</tt>
-<br />
+
+<tt>diskutil list</tt>
+
 In the list it would have 2 partitions:
-0: FDISK_partition_scheme<br />
+
+0: FDISK_partition_scheme
+
 1: Windows_NTFS
 
 In a Terminal window invoke:
-<br /><tt>diskutil info /dev/disk3</tt>
 
+<tt>diskutil info /dev/disk3</tt>
 
 
 DOTHIS: 
 Plug in an <strong>external drive</strong>. 
 In a Terminal window invoke:
-<br /><tt>diskutil list</tt>
-<br />
+
+<tt>diskutil list</tt>
+
 In the list it would have 2 partitions:
-0: FDisk_partition_scheme<br />
+
+0: FDisk_partition_scheme
+
 1: Windows_NTFS Seagate Backup Plus ...
-<br />
+
 DOTHIS: 
-In a Terminal window invoke:<br />
+In a Terminal window invoke:
+
 <tt>diskutil info /dev/disk5</tt>
 <br />
 &quot;Seagate BUP Slim SL Media&quot;
@@ -1176,14 +1206,17 @@ fstab -- static information about filesystems.
 DOTHIS: 
 To show partition tables for a particular disk:
 In a Terminal window invoke:
-<br /><tt>sudo get show /dev/disk0</tt>
-<br />
+
+<tt>sudo get show /dev/disk0</tt>
+
 Eject the disk from the Finder (or use the unmount terminal command if you'd like). If you don't do this, you may get a Resource busy error message during the following step.
 
 CAUTION:
 Change the partition label as desired:
-<br /><tt>sudo gpt label -i 2 -l "My New Partition Label" /dev/rdisk0</tt>
-<br />(replace disk0 with the relevant disk number
+
+<tt>sudo gpt label -i 2 -l "My New Partition Label" /dev/rdisk0</tt>
+
+(replace disk0 with the relevant disk number
 and replace 2 with the index number.
 
 
@@ -1221,23 +1254,30 @@ which holds the wordpress folder expanded from download.
 
 
 <a id="Curlz"></a>
+
 IPv6 compatibility with Curl command line apps
 </h2>
 
 The curl command enables websites to be invoked from a command line.
 Example:
+
 <tt>
 curl http://localhost:3000
 </tt>
+
 When invoked on Mac OS 10.10 (Yosemite), you need to add a parameter
 to make the request using IPv4:
+
 <tt>
 curl http://localhost:3000 <strong>--ipv4</strong>
 </tt>
+
 Otherwise, you will see an error message such as:
+
 <tt>
 curl: (7) Failed to connect to localhost port 3000: Connection refused
 </tt>
+
 even if the URL loads fine in a browser.
 
 This occurs because curl, being under Yosemite, uses IPv6 by default but
@@ -1247,6 +1287,7 @@ See if you see IP v6 entries in your hosts file (::1 localhost, fe80::1%lo0 loca
 If they are there it is likely that curl is making requests using IP v6. 
 
 You can make your LoopBack app use IPv6 by specifying an IPv6 address as shown below:
+
 <pre>
 app.start = function() {
 // start the web server
@@ -1259,3 +1300,9 @@ console.log('Web server listening at: %s', app.get('url'));
 
 
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

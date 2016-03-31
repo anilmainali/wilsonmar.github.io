@@ -190,3 +190,9 @@ oracle64-1.7.0.65<br />
 </tt>
 
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

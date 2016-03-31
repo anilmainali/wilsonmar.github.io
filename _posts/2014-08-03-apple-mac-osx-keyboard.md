@@ -545,3 +545,9 @@ Save is command + S.<br />
 Save As is shift + command + S.	
 
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

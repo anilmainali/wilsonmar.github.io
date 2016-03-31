@@ -194,3 +194,9 @@ from http://us.php.net/get/php-5.5.14.tar.gz/from/a/mirror
 using these instructions:
 http://michaelgracie.com/2011/07/21/plugging-mcrypt-into-php-on-mac-os-x-lion-10-7/
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

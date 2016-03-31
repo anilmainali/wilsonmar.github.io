@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Node on Mac OSX "
+title: "Node.js on Mac OSX "
 excerpt: "JavaScript to the rescue"
 tags: [node, javascript, apple, mac, setup]
 image:
-  feature: pic black macbook 1900x500.jpg
-  credit: hdwallpapers.in
-  creditlink: http://www.hdwallpapers.in/macbook_pro-wallpapers.html
+  feature: pic orange wm_mcnaughton_sunset_runner_1900x500.jpg
+  credit: William McNaughton
+  creditlink: 
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
@@ -157,18 +157,8 @@ qualls.james@gmail.com
 ## Resources 
 
 
-Here are some websites about Mac OSX:
+## More on OSX
 
-http://www.tekrevue.com/os-x/
+This is one of a series on Mac OSX:
 
-<a target="_blank" href="http://www.souldevteam.net/blog/2013/10/06/os-x-mavericks-10-9-retail-vmware-image-release-notes-links/">
-Run OSX in VMware within Windows</a>
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!-- script src="js/jquery-1.10.2.min.js" -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</html>
+{% include mac_links.html %}

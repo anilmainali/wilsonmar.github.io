@@ -117,3 +117,9 @@ Dropping a Macbook can crack the screen.
 But it adds to the weight.
 
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

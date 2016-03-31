@@ -479,3 +479,9 @@ Using the symbol ~ as a shorthand for /Users/&LT;your acct name>, then we can wr
 </pre>
 
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

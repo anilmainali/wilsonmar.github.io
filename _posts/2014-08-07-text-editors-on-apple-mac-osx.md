@@ -158,3 +158,9 @@ is
 
 Grep filters what is piped into it.
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}

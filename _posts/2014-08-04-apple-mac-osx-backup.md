@@ -101,14 +101,14 @@ So it can be read but not updated by a Mac because it's formatted in NTFS.
 It needs to be formatted with the Mac OS Extended filesystem. 
 
 <ol>
-<li> In Applications > Utilities, launch <strong>Disk Utility</strong>.
-<li> Locate the drive name from the left hand side of Disk Utility and click on it.
-<li> Click on the <strong>Erase</strong> tab across the top.
-<li> Next to <strong>Format:</strong> click the contextual menu 
-<li> Select <strong>Mac OS Extended (Journaled)</strong>
-<li> Format to Mac Filesystem 
-<li> Name the drive if you want, the name can be changed at any point
-<li> Click the <strong>Erase</strong> button and confirm again on the next pop-up window.
+<li> In Applications > Utilities, launch <strong>Disk Utility</strong>.</li>
+<li> Locate the drive name from the left hand side of Disk Utility and click on it.</li>
+<li> Click on the <strong>Erase</strong> tab across the top.</li>
+<li> Next to <strong>Format:</strong> click the contextual menu </li>
+<li> Select <strong>Mac OS Extended (Journaled)</strong></li>
+<li> Format to Mac Filesystem </li>
+<li> Name the drive if you want, the name can be changed at any point</li>
+<li> Click the <strong>Erase</strong> button and confirm again on the next pop-up window.</li>
 </ol>
 
 Make the USB drive a boot-up drive.
@@ -156,3 +156,9 @@ or similar program is installed on the PC.)
 
 There is no formatting after Erase.
 
+
+## More on OSX
+
+This is one of a series on Mac OSX:
+
+{% include mac_links.html %}
