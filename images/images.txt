@@ -9,7 +9,7 @@ images.txt
 
 Some 1900x500 pictures ready for use without cropping include:
 
-  feature: pic Audi-8-18022013060236-2-1900x500.jpg
+  feature: pic blue boxes in racks 1900x500.jpg
   credit: citycarcare.co.uk
   creditlink: http://www.citycarcare.co.uk/wp-content/uploads/2015/11/Audi-8-18022013060236-2-1900x500.jpg
 

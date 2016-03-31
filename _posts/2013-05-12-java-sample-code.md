@@ -4,7 +4,7 @@ title: "Java Sample Code"
 excerpt: "Write once. Test everywhere."
 tags: [java, programming, sample, gist]
 image:
-  feature: pic brown blowholes sunset 1900x500.jpg
+  feature: pic brown java beans 1900x500.jpg
   credit: 
   creditlink: 
 comments: true
