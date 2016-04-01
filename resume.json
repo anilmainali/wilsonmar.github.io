@@ -1,0 +1,146 @@
+{
+  "basics": {
+    "name": "Wilson Mar",
+    "label": "",
+    "picture": "http://merc.tv/img/wilson/200x200.jpg",
+    "email": "wilsonmar@gmail.com",
+    "phone": "(310) 320-7878",
+    "website": "http://wilsonmar.github.io",
+    "summary": "Wilson is like Master Chief in Halo. He lives on the bleeding edge of tech to help others on the front lines. A one-man army with many skills.",
+    "location": {
+      "address": "Telecommute",
+      "postalCode": "MT 59041",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "Wilderness"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "wilsonmar",
+        "url": "https://twitter.com/wilsonmar"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "wilsonmar",
+        "url": "https://linkedin.com/in/wilsonmar"
+      },
+      {
+        "network": "YouTube",
+        "username": "wilsonmar",
+        "url": "https://goo.gl/UJOR02"
+      },
+      {
+        "network": "Pinterest",
+        "username": "wilsonmar4",
+        "url": "https://www.pinterest.com/wilsonmar4/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "JetBloom",
+      "position": "Developer Evangelist",
+      "website": "http://github.com/wilsonmar",
+      "startDate": "2014-08-01",
+      "endDate": "2016-04-01",
+      "summary": "Developer and Instructor",
+      "highlights": [
+        "Created hands-on courses on Windows, Mac, Git/GitHub, SAP, Tableau, ElasticSearch, Scala, Java, Maven, LoadRunner, JMeter, Salesforce, and others.",
+        "Designed and implemented Jekyll website with modifications in Liquid, Markdown, JavaScript, HTML, and CSS.",
+        "Invited DevOps presenter at StarEast, StarWest, and other conferences."
+      ]
+    },
+    {
+      "company": "Hewlett-Packard",
+      "position": "Developer Evangelist",
+      "website": "",
+      "startDate": "2003-01-15",
+      "endDate": "2014-07-14",
+      "summary": "Master-level Architect",
+      "highlights": [
+        "Created hands-on examples of mobile development optimization and network virtualization.",
+        "Designed and produced videos for initial launch of cloud capabilities.",
+        "Advised web designers on SEO and revamp of product website to accept credit cards.",
+        "Initiated meetups and technical deep-dives at conferences.",
+        "Developed questions and answers for product certification exams."
+      ]
+    },
+    {
+      "company": "MBO Partners",
+      "position": "Performance Architect",
+      "website": "",
+      "startDate": "2007-01-01",
+      "endDate": "2010-08-31",
+      "summary": "Consultant",
+      "highlights": [
+        "Reduced response time 80% on SAP Mobile by implementing innovative performance techniques.",
+        "At Northrop, Dell, FedEx, and Erie Insurance: measured profiled coding which prevented achievement of capacity targets.",
+        "At McKesson, designed processes which halved deployment time and doubled ETL speed."
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "Pepperdine University",
+      "area": "Computer Education",
+      "studyType": "Masters"
+    },
+    {
+      "institution": "Loyola Marymount",
+      "area": "Economics and Computer Science",
+      "studyType": "Bsc"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Pragmatic Marketing Certification",
+      "date": "2014-11-01",
+      "awarder": "PragmaticMarketing.com",
+      "summary": ""
+    }
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "Jekyll",
+        "Javascript Tuning",
+        "Google Analytics",
+        "Jenkins",
+        "Optimization workflow"
+      ]
+    },
+    {
+      "name": "Performance Engineering",
+      "level": "Master",
+      "keywords": [
+        "AWS EC2",
+        "LoadRunner",
+        "JMeter",
+        "Configuration Tuning",
+        "Java Profiling"      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Writing, Travel, Photography, Video",
+      "keywords": [
+        "Seen all 50 states, Canadian provinces; Japan, Hong Kong, Australia, New Zealand, Sweden, France, Italy, Germany, Switzerland, UK, Israel"
+      ]
+    }
+  ],
+  "references": [
+  ]
+}

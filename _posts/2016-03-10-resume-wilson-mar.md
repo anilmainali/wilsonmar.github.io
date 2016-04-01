@@ -18,12 +18,19 @@ comments: true
 
 * Worked or traveled to all 50 states, major Canadian provinces, Japan, Hong Kong, Australia, New Zealand, Sweden, France, Italy, Germany, Switzerland, UK, Israel
 
-* Developer Evangelist, HP Software
-
-* Performance Engineer, SAP, McKesson, Intralinks, and several other organizations
-
-* Write/Blogger, <a target="_blank" href="http://wilsonmar.github.io/">
+* Writer/Blogger, <a target="_blank" href="http://wilsonmar.github.io/">
    wilsonmar.github.io</a>, <a target="_blank" href="http://wilsonmar.com/"> wilsonmar.com</a> since 1995
+
+Developer Evangelist, HP Software
+
+   * Created hands-on course on mobile development optimization and network virtualization.
+
+   * Designed and produced videos for initial launch of cloud capabilities.
+
+   * Initiated meetups and technical deep-dives at conferences.
+
+Performance Engineer at SAP, McKesson, Intralinks, and other organizations
+
 
 ## What I can do
 Some writing samples:
@@ -44,16 +51,31 @@ For technical subjects, let me describe how you can do it too:
 
 ## Training
 
-* Masters in computers and education
-* Bsc in Economics and computers
+* MSc in computers and education
+* Bsc in Economics and Computer Science
 
 * Certified in Pragmatic Marketing
+
+* Certified in Microsoft Project by Microsoft
+* Certified PMP (Project Management Professional)
 
 * Certified Quality Engineer (heavy statistics)
 * Certified Software Quality Engineer
 * Certified Quality Manager
 
-* Certified in Microsoft Project
-* Certified PMP (Project Management Professional)
-
 * Many courses on Lynda.com, Pluralsight, Udemy, Coursera, etc.
+
+## Different formats
+
+* Word
+
+* PDF
+
+* <a target="_blank" href="http://registry.jsonresume.org/wilsonmar
+">HTML</a>
+
+## Generation
+
+Generated using <a target="_blank" href="https://github.com/jsonresume/resume-cli">jsonresume.org</a> with the 
+<a target="_blank" href="http://themes.jsonresume.org/theme/modern">modern theme</a>.
+
