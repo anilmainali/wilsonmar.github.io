@@ -93,76 +93,6 @@ http://en.wikipedia.org/wiki/OS_X#Versions</a>
 Yosemite 10.10.1 update</a>
 
 
-<a id="1Password"></a>
-
-## Password Protection
-
-
-I used to say that the first thing you do on a new Mac is 
-<a href="#Backupz">backup</a>.
-
-Now I say the first thing is to install a password manager.
-They help you create strong passwords (after it finds old weak passwords)
-then automatically log you into websites and fill out forms.
-
-First of all, 1Password has the audacity to charge more than anyone else.
-Actually that's a plus for me.
-
-There is LassPass, which offers 2-factor authentication while 1Password doesn't.
-Others include Password Safe, SafeInCloud, etc.
-
-They both install an alternate browser on mobile devices.
-Them both lacking support for Windows Phone is one example of apps missing on that platform.
-
-If you forget your master password, you'll need to redo everything if you use LastPass.
-And it has no option to keep my passwords out of public clouds.
-
-1Password allows me to keep the password vault local by syncing via wi-fi.
-
-YOUTUBE: 
-<a target="_blank" href="https://www.youtube.com/watch?v=8HSxWUqwpzU">
-1Password Tutorial</a> by David A. Cox of 
-<a target="_blank" href="http://www.PCClasses.com/">
-PCClasses.com</a> explains it all
-
-<a target="_blank" href="https://itunes.apple.com/us/app/1password-password-manager/id443987910">
-Install on Mac 1Password</a> and pay $49.99 for integration with iCloud.
-It's one of a very few 5 star rated apps (LastPass has 4 stars).
-Considering how nasty people can be on the internet, that's a real accomplishment.
-
-When opened, install the 
-<a target="_blank" href="https://agilebits.com/onepassword/extensions">
-Safari Extension</a>.
-
-On the Mac, .agilekeychain or .opvault files.
-
-The Android version rates at 4.5 and costs $9.99 each.
-Well worth it.
-
-
-
-<a id="AntiVirusz"></a>
-
-## Anti-Virus
-
-
-http://www.thesafemac.com/mmg-defense/
-is proprably the most important page to read ... and heed.
-
-
-
-<a id="TeamViewer"></a>
-
-## Control Each Other's TeamViewer:
-
-
-https://www.teamviewer.com/en/download/mac.aspx
-enables you to control the mouse and keyboard
-on others' machine.
-
-Skype only lets you view others' screens.
-
-
 
 <a id="Configz"></a>
 
@@ -191,7 +121,6 @@ Test Page</a> reports the screen and resolution along with browser version.</li>
 
 ## Microphone
 
-
 To disable the internal microphone, there is no icon.
 So reduce the input volume to 0:
 <ol type="1">
@@ -218,61 +147,75 @@ this method should work.
 
 
 Until Apple realizes how annoying it is to have that start-up sound on a Mac, 
-create in the /Library/Scripts folder shell scripts containing osacript (Applescript) commands
+create in the /Library/Scripts folder shell scripts containing 
+osacript (<a target="_blank" href="http://en.wikipedia.org/wiki/AppleScript">Applescript</a>a>) commands
 to mute sound automatically before reboot, and un-mute after reboot.
-See http://en.wikipedia.org/wiki/AppleScript
 
-Open a terminal and type in nano. Press Enter.
+0. Open a terminal and type in nano. Press Enter.
 
-Type this in the nano editor that pops up this shell script (starting with the she-bang #! characters):
+   Type this in the nano editor that pops up this shell script (starting with the she-bang #! characters):
 
-</p><pre>
-#!/bin/bash
-osascript -e 'set volume with output muted'
-</pre>
-Press Ctrl+O, then when it asks you for the filename type in 
-<tt>
-~/Documents/mute.sh
-</tt>
-Hit Enter to save the file. This puts the mute script in your Documents folder (don't worry, we're going to move it later).
+   <pre>
+   #!/bin/bash
+   osascript -e 'set volume with output muted'
+   </pre>
 
-Create the unmute.sh script:
-<pre>
-#!/bin/bash
-osascript -e 'set volume without output muted'
-</pre>
-(In older versions the unmute script instead has 
-<tt>set volume with output unmuted</tt>.
+0. Press Ctrl+O, then when it asks you for the filename type in 
 
-Press Ctrl+X, press Y to agree, then type in 
-~/Documents/unmute.sh for the file name. 
+   <tt>
+   ~/Documents/mute.sh
+   </tt>
 
-Hit Return to save the new file, and nano should quit.
+0. Hit Enter to save the file. This puts the mute script in your Documents folder (don't worry, we're going to move it later).
 
-To make the scripts executable,
-run the following commands in the Terminal, hitting Enter after each one
-</p><pre>
-sudo chmod u+x ~/Documents/mute.sh
-sudo chmod u+x ~/Documents/unmute.sh
-sudo mv ~/Documents/mute.sh /Library/Scripts/
-sudo mv ~/Documents/unmute.sh /Library/Scripts/
-</pre>
+0. Create the unmute.sh script:
 
-Set the scripts to run automatically:
-</p><pre>
-sudo defaults write com.apple.loginwindow LogoutHook /Library/Scripts/mute.sh
-sudo defaults write com.apple.loginwindow LoginHook /Library/Scripts/unmute.sh
-</pre>
-Close the Terminal, save data in all other apps, and reboot your machine.
+   <pre>
+   #!/bin/bash
+   osascript -e 'set volume without output muted'
+   </pre>
 
-To undo the above actions, set defaults in a Terminal window:
-</p><pre>
-sudo defaults delete com.apple.loginwindow LogoutHook
-sudo defaults delete com.apple.loginwindow LoginHook
-</pre>
-For more about these Applescript commands and hooks, see
-https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html
+   (In older versions the unmute script instead has 
 
+   <tt>set volume with output unmuted</tt>.
+
+0. Press Ctrl+X, press Y to agree, then type in 
+
+   <tt><strong>
+   ~/Documents/unmute.sh for the file name. 
+   </strong></tt>
+
+0. Hit Return to save the new file, and nano should quit.
+
+0. To make the scripts executable,
+   run the following commands in the Terminal, hitting Enter after each one
+
+   <pre>
+   sudo chmod u+x ~/Documents/mute.sh
+   sudo chmod u+x ~/Documents/unmute.sh
+   sudo mv ~/Documents/mute.sh /Library/Scripts/
+   sudo mv ~/Documents/unmute.sh /Library/Scripts/
+   </pre>
+
+0. Set the scripts to run automatically:
+
+   <pre>
+   sudo defaults write com.apple.loginwindow LogoutHook /Library/Scripts/mute.sh
+   sudo defaults write com.apple.loginwindow LoginHook /Library/Scripts/unmute.sh
+   </pre>
+
+0. Close the Terminal, save data in all other apps, and reboot your machine.
+
+0. To undo the above actions, set defaults in a Terminal window:
+
+   <pre>
+   sudo defaults delete com.apple.loginwindow LogoutHook
+   sudo defaults delete com.apple.loginwindow LoginHook
+   </pre>
+
+For more about Applescript commands and hooks, see
+<a target="_blank" href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html">
+this</a>.
 
 
 
@@ -282,15 +225,20 @@ https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/App
 
 Get to the Desktop by spreading thumb and 4 fingers on the touchpad.
 
-Choose a different picture from Preferences | desktops/screensaver | select your desktop (highlight) | press Command and C at he same time. BTW, notice where your picture/photo folders.
+Choose a different picture from Preferences 
+> desktops/screensaver 
+> select your desktop (highlight) 
+> press Command and C at he same time. BTW, notice where your picture/photo folders.
 
 Want to add the Windows 10 wallpaper to your desktop?
 
-Get to folder where system wallpapers are held from the Finder | Go | Go to Folder |
-/Library/Desktop Pictures.
+   Get to folder where system wallpapers are held from the 
+   Finder > Go |> Go to Folder >  /Library/Desktop Pictures.
 
 Sort by File Size. 
-Some wallpaper images that come with OS X are of 5120x2880 resolution!
+
+Some wallpaper images that come with OS X are of Retina resolution: 
+<strong>5120x2880</strong>.
 
 
 
@@ -342,112 +290,6 @@ I disabled each by selecting the dash (last choice)
 because they show up when I don't want them.
 
 
-
-<a id="InstallOptions"></a>
-
-## Options for Installing Addtitional Software Apps/Programs
-
-There are several ways to get software on a Mac,
-listed in order of preference:
-
-<ol type="1">
-<li><a href="#AppleStore">Install apps from the Apple Store</a>. 
-This is the safest and simplest way. </li>
-
-<li> Execute <a href="#Bower">Bower</a> from a 
-<a href="#Terminalz">Terminal</a>.
-</li>
-
-<li> Download and run a pkg or dmg file </li>
-</ol>
-
-A particular program may provide several options.
-
-
-
-<a id="AppleStore"></a>
-
-### Install Apps from the Apple Store
-
-
-The most popular apps from the Apple Store:
-
-<ul>
-<li><a href="#MSOffice">Microsoft Office</a>
-is supposed to read and write
-Word, PowerPoint, Excel files created on PCs.
-But since Office 2011 for Mac is a version behind Office 2013 for PC, styles in docx files get
-scrambled in Mac.
-Hopefully this will be fixed by Office 2016 for Mac.</li>
-
-<li> Camtasia records videos of screens and provides an editor.</li>
-
-</ul>
-
-
-<a id="FileTransferz"></a>
-
-### Side-Load .pkg and .dmg installers
-
-
-Open-source developers provide their software for download
-in files ending in .pkg or .dmg.
-
-.pkg (package installers) are like a zip file
-and like using the Setup.exe files on Windows.
-It can include <strong>scripts</strong> that provide installation logic such as 
-show licence agreement; get installation destination; define which bits to install; etc.
-
-It can overwrite existing files if it is scripted to do so within the PKG. Apple Remote Desktop can be used to push the PKG. ARD advantages.
-It can contain a signature.
-See http://en.wikipedia.org/wiki/Installer_%28Mac_OS_X%29
-
-.pkg files are creating using Composer and managed using Casper Admin.
-Popular .pkg installers include:
-
-<ul>
-<li> https://preyproject.com/download for Prey software that helps you track down your
-stolen laptop by taking a picture of the thief, sends out a GPS location,
-and deletes files.</li>
-</ul>
-
-
-<a name="DMGInstallers"></a>
-
-### DMG installers
-
-.dmg (a disk image file like ISO) can use block mode for fast copying. 
-It can install to all user profiles and, utilizing Pre and Post Flight through Composer.
-It can be made to overwrite files, especially in /Users folder, using FEU (Fill Existing Users) FFUT.
-It can can contain an index which provides self-healing and uninstall.
-
-See http://en.wikipedia.org/wiki/.dmg
-Popular .dmg installers include WebEx:
-
-<ol type="1">
-<li> Open a browser to <a target="_blank" href="https://welcome.webex.com/client/wbxclient/mac/intel/webexnbrplayer_intel.dmg">
-WebExPlayer</a> which downloads file
-<strong>webexnbrplayer_intel.dmg</strong> to the Downloads folder.</li>
-<li> Open the Downloads folder: Right-click on the arrow next to the download file 
-at the bottom of the browser.</li>
-<li> Double-click on the .dmg file. A pop-up dialog containing a .pkg file appears.</li>
-<li> Double-click on the .pkg file for the Install Network Recording Player dialog.</li>
-<li> Click Continue.</li>
-<li> Click Install.</li>
-<li> Type your password and click "Install Software".</li>
-<li> Click "Close".</li>
-<li> Verify the program: Pinch 3 finders on the pad, and press W for the WebEx Player.</li>
-<li> In Finder Downloads folder, control-click on the .dmg installer file and select Move to Trash.</li>
-<li> Press command+Tab to the Network Recording Player.dmg and click the red dot at the upper left corner to close it.</li>
-<li> On the Desktop, drag the Network Recording Player to Applications folder.</li>
-</ol>
-
-<li> https://iperf.fr/ iPerf network (<a target="_blank" href="http://www.techrepublic.com/blog/data-center/handy-iperf-commands-for-quick-network-testing">info</a>)
-</li>
-
-Personally, I like PKGs, primarily for the scripting capabilities.
-For example,
-http://uTorrent.com is a small program for downloading files.
 
 
 

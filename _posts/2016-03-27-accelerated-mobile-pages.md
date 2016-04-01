@@ -372,10 +372,10 @@ Ad Platforms integrated into AMP
 AMP gets some of its speed from caching images and video. It needs special tags with both a height and width specified. Examples:
 
 
-    <pre><code>
-    <amp-img media="(min-width: 650px)" width="600" height="300" 
-    layout="responsive" src="/assets/images/your_picture.jpg"></amp-img>
-    </code></pre>
+   <pre><code>
+   &LT;amp-img media="(min-width: 650px)" width="600" height="300" 
+   layout="responsive" src="/assets/images/your_picture.jpg"></amp-img>
+   </code></pre>
 
 (Replace src contents with your own)
 
