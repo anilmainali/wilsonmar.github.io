@@ -23,21 +23,80 @@ this one is #2 behind Log4J.
 Although nearly 9,000 have starred it at time of writing,
 only around 1,000 are watching it.
 
-Here are my notes as I learn how to use the library.
+## Why This Page
 
-Not just to have it on my resume, but because I think that's what it takes to be a good and fast Java programmer today.
+The contribution of this particular page here is to present features of the library in the <strong>sequence</strong>
+to learn programming Java like the geniuses at Google.
 
-## What It Is
+It's kinda like diving into the "deep end" of Java so we can learn to swim with Olympic swimmers.
+
+Others have tried, which is why https://en.wikipedia.org/wiki/Google_Guava says developers of the library don't
+encourage outside contributions.
+
+I'm not doing this to have it on my resume, 
+but because I think this library is what it takes to be a good and fast Java programmer today.
+
+Might as well learn to do it right the first time than to pick up bad habits.
+
+And I'd like to see how the library holds up to static code quality scanners (such as Qulice) and
+profilers (such as JProfiler)
+
+## Get It on Your Laptop
+
+On a Mac, create a group folder (google), then
+
+   git clone https://github.com/google/guava
+
+0. Process its Maven pom.xml file:
+
+   mvn initialize
+
+   mvn validate
+
+## Diving In
 
 <a target="_blank" href="https://github.com/google/guava/wiki">
    https://github.com/google/guava/wiki</a>
    is the starting point for the various components.
 
+Learn this as if an "immersive" experience like moving to Mexico to learn Spanish.
+
+Or learning to cook in a 5-star restaurant.
+Well, this is like the names of knives.
+
+"Making Java Bearable with Guava 2015 Edition by Daniel Hinojosa of DZone" (March 11, 2015):
+
+   <amp-youtube data-videoid="MFEJll-wU7Q" layout="responsive" width="480" height="270"></amp-youtube>
+
+   * <a target="_blank" href="http://github.com/dHinojosa/usingguava">http://github.com/dHinojosa/usingguava</a>
+
+In this "Overview of Guava: Google Core Libraries for Java" (from 2012):
+
+   <amp-youtube data-videoid="0L1UU8mRfxk" layout="responsive" width="480" height="270"></amp-youtube>
+
+   [33:35] "the three mathematical properties that every comparator must have:
+   reflexive, transitive, and anti-symetric. But I forgot what anti-symetric means".
+
+   * ComparatorChain is more future-proof (if sort changes)
+
+   * [35:20] Hash maps: HashCode
+   * [41:30] BloomFilter provides common false positive values to avoid expensive queries
+
+"Four reasons to use Guava" by Paul Gestwiki:
+
+   <amp-youtube data-videoid="r8seIn7NZQw" layout="responsive" width="480" height="270"></amp-youtube>
+
+"Google Guava" by Mite Mitreski:
+
+   <amp-youtube data-videoid="96R9I1i0AM4" layout="responsive" width="480" height="270"></amp-youtube>
+
+Eric Weiki:
+
+   <amp-youtube data-videoid="4ynVrMtg1TE" layout="responsive" width="480" height="270"></amp-youtube>
+
+
 <a target="_blank" href="http://stackoverflow.com/questions/3759440/the-guava-library-for-java-what-are-its-most-useful-and-or-hidden-features?rq=1">
 its-most-useful-and-or-hidden-features</a>
-
-According to https://en.wikipedia.org/wiki/Google_Guava
-the library consists of:
 
 1. basic utilities to reduce menial labors to implement common methods and behaviors, 
 such as generics (introduced in JDK 1.5) extended with
@@ -48,40 +107,45 @@ multisets, multimaps, bimaps, and immutable collections
 3. other utilities which provide convenient and productive features such as 
 functional programming, caching, range objects, and hashing
 
-In other words, you're diving into the "deep end" of Java that real pros use.
 
-Let's learn to swim, then.
+## Series
+From LevelUp Lunch:
 
-## Introductions
+1. Filtering Collections:
 
-An Overview of Guava: Google Core Libraries for Java:
+   <amp-youtube data-videoid="sAoDG22uzGA" layout="responsive" width="480" height="270"></amp-youtube>
 
-   <amp-youtube data-videoid="MFEJll-wU7Q" 
-   layout="responsive" width="480" height="270">
-   </amp-youtube>
+2. Transforming objects:
 
-## Get It on Your Laptop
+   <amp-youtube data-videoid="nAcs321_hAk" layout="responsive" width="480" height="270"></amp-youtube>
 
-On a Mac, create a group folder (google), then
+### Stopwatch
 
-   git clone https://github.com/google/guava
+### Preconditions
 
-0. Maven
+### Caching
 
-   mvn initialize
+## Docs
 
+New release every 3 months, with breaking changes.
+@Beta included in each release.
 
+Announced on
+
+   * <a target="_blank" href="https://plus.google.com/+googleguava">
+   +GoogleGuava</a>
+
+   * <a target="_blank" href="http://groups.google.com/group/guava-announce">
+   groups.google.com/group/guava-announce</a>
+
+Specific releases:
+
+   * http://google.github.io/guava/releases/19.0/api/docs/
 
 ## Discussion
 
-* <a target="_blank" href="http://groups.google.com/group/guava-announce">
-   groups.google.com/group/guava-announce</a>
-
 * <a target="_blank" href="https://groups.google.com/forum/#!forum/guava-discuss">
    groups.google.com/forum/#!forum/guava-discuss</a>
-
-* <a target="_blank" href="https://plus.google.com/+googleguava">
-   +GoogleGuava</a>
 
 * <a target="_blank" href="http://stackoverflow.com/questions/ask?tags=java+guava">
    Stackoverflow search of java+guava</a>
