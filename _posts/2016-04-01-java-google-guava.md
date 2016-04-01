@@ -64,31 +64,42 @@ Learn this as if an "immersive" experience like moving to Mexico to learn Spanis
 Or learning to cook in a 5-star restaurant.
 Well, this is like the names of knives.
 
-"Making Java Bearable with Guava 2015 Edition by Daniel Hinojosa of DZone" (March 11, 2015):
-
-   <amp-youtube data-videoid="MFEJll-wU7Q" layout="responsive" width="480" height="270"></amp-youtube>
-
-   * <a target="_blank" href="http://github.com/dHinojosa/usingguava">http://github.com/dHinojosa/usingguava</a>
-
-In this "Overview of Guava: Google Core Libraries for Java" (from 2012):
+"Making Java Bearable with Guava 2015 Edition by Daniel Hinojosa of DZone" (March 11, 2015 at DevNexus):
 
    <amp-youtube data-videoid="0L1UU8mRfxk" layout="responsive" width="480" height="270"></amp-youtube>
 
-   [33:35] "the three mathematical properties that every comparator must have:
+   * <a target="_blank" href="http://github.com/dHinojosa/usingguava">http://github.com/dHinojosa/usingguava</a>
+
+   * [10:19] Even though I use Scala now, I still use Multimap.
+   * [13:30] Multiset (Bag)
+   * [17:46] Immutability vs modifiability 
+   * [21:02] Problem with Map only allows 5 items (no tuples in Java) 
+
+&nbsp;
+
+In this "Overview of Guava: Google Core Libraries for Java" (from 2012):
+
+   <amp-youtube data-videoid="MFEJll-wU7Q" layout="responsive" width="480" height="270"></amp-youtube>
+
+   * [33:35] "the three mathematical properties that every comparator must have:
    reflexive, transitive, and anti-symetric. But I forgot what anti-symetric means".
-
    * ComparatorChain is more future-proof (if sort changes)
-
    * [35:20] Hash maps: HashCode
    * [41:30] BloomFilter provides common false positive values to avoid expensive queries
+
+&nbsp;
 
 "Four reasons to use Guava" by Paul Gestwiki:
 
    <amp-youtube data-videoid="r8seIn7NZQw" layout="responsive" width="480" height="270"></amp-youtube>
 
+&nbsp;
+
 "Google Guava" by Mite Mitreski:
 
    <amp-youtube data-videoid="96R9I1i0AM4" layout="responsive" width="480" height="270"></amp-youtube>
+
+&nbsp;
 
 Eric Weiki:
 
