@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Data visualization using Tableau"
-excerpt: "It's so simple, a Data Scientist can do it."
+excerpt: "It's so simple, a Data Scientist can do this."
 tags: [apple, mac, setup]
 image:
-  feature: pic 45-1900x500.jpg
-  credit: 
-  creditlink: 
+  feature: fig rainbow sector raise fall timeline 1350X500.jpg
+  credit: Wall Street Journal
+  creditlink: http://graphics.wsj.com/job-market-tracker/
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
@@ -27,13 +27,14 @@ In the biz it's called a visual Data Analytics platform.
 
 ## Alternatives to Advanced Data Analytics
 
-Tableau's promo video at http://www.tableau.com/products#video says:
+Tableau's <a target="_blank" href="http://www.tableau.com/products#video">promo video</a> says:
 
 * [0:30] "People build dashboards and applications like these, drag and drop, at up to 10 times the speed of a traditional business intellegence system".
  
 By "traditional" it means:
 
- * Microsoft Power BI, Power Pivot, and Power View in Excel 2013, see http://www.jenunderwood.com/2014/01/02/understanding-the-differences-microsoft-power-bi-and-tableau/ and http://www.jenunderwood.com/blog.htm#BetterTogether
+ * Microsoft Power BI, Power Pivot, and Power View in Excel 2013, see <a target="_blank" href="http://www.jenunderwood.com/2014/01/02/understanding-the-differences-microsoft-power-bi-and-tableau/">
+ Difference between Microsoft BI and Tableau</a> and <a target="_blank" href="http://www.jenunderwood.com/blog.htm#BetterTogether">Better Together</a>.
 
  * IBM Cognos Insight,
  * MicroStrategy Visual Insight,
@@ -87,7 +88,7 @@ a time lapse video</a> of <a target="_blank" href="
 https://public.tableau.com/s/profile/jeffs8297#!/vizhome/RoslinginTableau/RoslingGapminder">
 his viz</a> showing a trail of dots which grow in size and get darker over time (as the legend notes):
 
-<img width="795" alt="tableau time lapse gapminder" src="https://cloud.githubusercontent.com/assets/300046/12170866/a288bce6-b4f9-11e5-892b-d69d8cc35010.png">
+<img width="599" height="379" alt="tableau time lapse gapminder" src="https://cloud.githubusercontent.com/assets/300046/12170866/a288bce6-b4f9-11e5-892b-d69d8cc35010.png"><!-- 1590x1006 -->
 
 Here, different colors represent different countries, with the United States in red. Most other countries saw a decrease in fertility rate over time while life expectantcy increased.
 

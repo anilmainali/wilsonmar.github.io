@@ -39,8 +39,10 @@ which cause bottlenecks.
 ## 3\. Measure enviornment variability.
 
    Are there spikes when the server is serving only landing pages?
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/6VmAX3DM78s" frameborder="0" allowfullscreen> </iframe>
+   
+   <amp-youtube data-videoid="6VmAX3DM78s" 
+   layout="responsive" width="480" height="270">
+   </amp-youtube>
 
    How can you tell when spikes and other anomalies occurred?
 

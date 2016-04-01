@@ -533,3 +533,22 @@ or something more elaborate.
 
 PROTIP: A full set of triggers need to include all the components,
 which include memory, disk space, file handles, available ports, etc.
+
+<a name="CloudFront"></a>
+
+## CloudFront
+
+CloudFront is Amazon's CDN (Content Delivery Network)
+where files in S3 (Simple Storage Service) 
+are spread around the world.
+
+Compared with Akamai, CloudFront has no minimum usage costs.
+
+CloudFront is among green icons for
+Management Tools in the Services gallery.
+
+CloudFront has one Resource Type: Distribution.
+
+
+
+
