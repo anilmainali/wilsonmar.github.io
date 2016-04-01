@@ -130,6 +130,62 @@ From LevelUp Lunch:
 
    <amp-youtube data-videoid="nAcs321_hAk" layout="responsive" width="480" height="270"></amp-youtube>
 
+## Packages Tested
+
+Guava is a good example of a professional approach to testing.
+
+| Package     | testlib<br>src | testlib<br>test | tests<br>benchmark | tests<br>test | src |
+| :-------    |  :----------   |:--------------- | :----------------- | :-----------  | :-- |
+| annotations | - | - | - | - | X |
+| base        | - | - | X | X | X |
+| cache       | - | - | X | X | X |
+| collect     | X | X | X | X | X |
+| escape      | X | - | - | X | X |
+| eventbus    | - | - | X | X | X |
+| graph       | X | - | X | X | X |
+| hash        | - | - | X | X | X |
+| html        | - | - | - | X | X |
+| io          | - | - | X | X | X |
+| math        | - | - | X | X | X |
+| net         | - | - | - | X | X |
+| primitives  | - | - | X | X | X |
+| reflect     | - | - | - | X | X |
+| testing     | X | X | - | - | - |
+| util        | X | X | X | X | X |
+| xml         | - | - | - | X | X |
+
+Columns in the table above are relate to this structure of folders in the library:
+
+* guava
+   * src/com/google/common
+   * src/com/google/thirdparty
+* guava-testlib 
+   * src/com/google/common
+      * collect
+      * escape
+      * graph
+      * testing
+      * util
+   * test/com/google/common
+      * collect
+      * testing
+      * util
+* guava-tests
+   * benchmark/com/google/common
+   * test/com/google/common 
+
+
+## Assertions
+
+Code in the test package use the assertEquals() function such as this:
+
+<pre>
+public class HtmlEscapersTest extends TestCase {
+
+  public void testHtmlEscaper() throws Exception {
+    assertEquals("xxx", htmlEscaper().escape("xxx"));
+</pre>
+
 ### Stopwatch
 
 ### Preconditions
