@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java Sample Code"
+title: "Java DevOps Workflow"
 excerpt: "Write once. Test everywhere."
 tags: [java, programming, sample, gist]
 image:
@@ -14,17 +14,9 @@ comments: true
 
 {% include _toc.html %}
 
-Even experienced programmers of Enterprise Java programs sometimes run the simplest of Java code
-in order to verify the enviornment and various libraries,
-such as after a new version in one of them.
-
-If "known-good" code don't work,
-then the issue is NOT the <strong>custom application code</strong> which the programmer has control.
-By process of elimination, the problem lies in the setup items above.
-
 This page takes you step-by-step to establish an envrionment to create your own "known good" rig.
 
-We begin with a manual process, which we then automate.
+We begin with a manual walkthrough, which we then automate.
 
 > How about I do this for you? Call me!
 
@@ -74,9 +66,17 @@ static code scanners.
 
 > We would like example code scanned by static code analyzers so they're good examples of coding technique.
 
+Even experienced programmers of Enterprise Java programs sometimes run the simplest of Java code
+in order to verify the enviornment and various libraries,
+such as after a new version in one of them.
+
+If "known-good" code don't work,
+then the issue is NOT the <strong>custom application code</strong> which the programmer has control.
+By process of elimination, the problem lies in the setup items above.
+
 5\. Clone or download utility class libraries (from 3rd parties) which custom Java program code specify for import
 
-Google Guava 
+<strong>Google Guava</strong>
 is an open source, Java based library developed by Google (and not those outside) 
 It's supposed to facilitate best coding practices and helps reduce coding errors.
 
@@ -84,11 +84,18 @@ It's supposed to facilitate best coding practices and helps reduce coding errors
    * https://en.wikipedia.org/wiki/Google_Guava
    * http://www.tutorialspoint.com/guava/
 
-   It provides utility methods for functional programming,
-   collections, caching, primitives support, concurrency, 
-   common annotations, string processing, I/O, and validations.
+   It provides utility methods that makes use of functional programming for:
 
-Log4J
+   * string processing
+   * primitives support
+   * I/O
+   * validations
+   * collections
+   * caching
+   * concurrency
+   * common annotations
+
+<strong>Log4J</strong>
 
    * Log4J
 
