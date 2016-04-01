@@ -21,31 +21,30 @@ comments: true
 ## Grep Utilities
 
 My version of the Grep utility that filters what is piped into it:
+
 <tt><strong>grep --version</strong></tt>
+
 is
-<tt>grep (BSD grep) 2.5.1-FreeBSD</tt>
 
-Grep filters what is piped into it.
+   <tt>grep (BSD grep) 2.5.1-FreeBSD</tt>
 
+Grep filters what is piped into it:
 
-
-<a id="AppiumSetupz"></a>
-
-## Appium Mobile Test Rig Setup
+   <tt>grep "my string of text" -R</tt>
 
 
-<p class="Action">
-Install appium_console gem.
+## Install appium_console gem
+
 <pre>
 gem uninstall -aIx appium_lib
 gem uninstall -aIx appium_console
 gem install --no-rdoc --no-ri appium_console
-<pre>
+</pre>
 
-<p class="Action">
 Install flaky gem.
 https://github.com/appium/flaky
 (posix-spawn)
+
 <pre>
 gem uninstall -aIx flaky
 gem install --no-rdoc --no-ri flaky
@@ -57,14 +56,14 @@ gem install --no-rdoc --no-ri flaky
 
 ## Grunt Setup
 
-<ul><p class="Action">
 What the grunt version installed?
+
 <pre><strong>
 grunt --version
 </strong></pre>
 
-<p class="Action">
 Install grunt:
+
 <pre><strong>
 npm install -g grunt grunt-cli
 </strong></pre>
@@ -75,10 +74,9 @@ npm install -g grunt grunt-cli
 
 ## Cron Launchd Background Jobs
 
-<ul><p class="Action">
-<a target="_blank" href="https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html">this</a> mentions that Apple has deprecated
+<a target="_blank" href="https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html">This</a> mentions that Apple has deprecated
 cron in favor of launchd (a daemon running under the System context).
-Since it's a background process, it doesnâ€™t present any kind of user interface.
+Since it's a background process, it doesn't present a user interface.
 
 If the system is turned off or asleep, <strong>cron</strong> jobs 
 do not execute until the next designated time occurs.

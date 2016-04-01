@@ -23,10 +23,10 @@ What's new here is the sequence and hands-on approach of how information is intr
 (This one page will be separated into separate ones)
 
 ## History
-* 2003 <a href="#Odersky">Martin Odersky</a>'s group releases Version 1.0 of Scala after a year of work. 
-* 2011 TypeSafe formed to provide commercial support for a <a href="#WhatIsReactive">Reactive</a> Platform.
-* 2014 version 2.10.4
 * 2016 Feb 22 Typesafe changes name to ![Lightbend](http://www.lightbend.com/)
+* 2014 version 2.10.4
+* 2011 TypeSafe formed to provide commercial support for a <a href="#WhatIsReactive">Reactive</a> Platform.
+* 2003 <a href="#Odersky">Martin Odersky</a>'s group releases Version 1.0 of Scala after a year of work. 
 
 ![Features of each version are detailed on the Wikipedia page](https://en.wikipedia.org/wiki/Scala_%28programming_language%29#Versions)
 
@@ -52,7 +52,7 @@ and reflect the blog article by @jboner named
 dated September 16, 2014.
 
 Tweets about this topic are at 
-(<a target="_blank" href="http://twitter.com/reactivemanifesto">@reactivemanifesto</a>.
+<a target="_blank" href="https://twitter.com/search?q=reactivemanifesto">@reactivemanifesto</a>.
 
 Curiously, the Manifesto doesn't mention HOW
 it achieves all that wonderfullness.
@@ -61,7 +61,7 @@ It doesn't ever mention the word "Scala" at all.
 
 <a name="WhyScala"></a>
 
-## Why Scala
+## What Is Scala?
 
 The name Scala is a portmanteau of "scalable" and "language".
 
@@ -78,44 +78,42 @@ Useful for understanding idioms in Twitter's code.
 
 Scala is also said to power The Guardian (UK), Walmart, Sony, Huffington Post, etc. 
 
-![Prominant ompanies using Scala are listed on this Wikipedia page](https://en.wikipedia.org/wiki/Scala_%28programming_language%29#Companies)
+[Prominant companies using Scala are listed on this Wikipedia page](https://en.wikipedia.org/wiki/Scala_%28programming_language%29#Companies)
 
 Agencies/consultants working with Scala:
 
-* https://softwaremill.com
+* [softwaremill.com](https://softwaremill.com)
 
-The description of the Scala language is presented during hands-on activities below.
-
-NOTE: Concise and expressive coding mean less liability and more legibility.
+Basics of the Scala language is presented during hands-on activities to set it up on your machine, below.
 
 
 ## Installation
 
-0. PROTIP: On a Mac, use Homebrew instead of downloading from http://scala-lang.org/download (as many tutorials suggest).
+PROTIP: On a Mac, use Homebrew instead of downloading from http://scala-lang.org/download (as many tutorials suggest).
 
-```
-brew install scala --with-docs
-```
+   ```
+   brew install scala --with-docs
+   ```
 
-installation to:
+   installation to:
 
-```
-/usr/local/Cellar/scala/...
-```
+   ```
+   /usr/local/Cellar/scala/...
+   ```
 
-Alternately, on Ubunto:
+   Alternately, on Ubunto:
 
-```
-sudo apt-get install scala
-```
+   ```
+   sudo apt-get install scala
+   ```
 
 0. Verify the version:
 
-```
-scala -version
-```
+   ```
+   scala -version
+   ```
 
-The response (assuming an installer from March 10, 2016):
+   The response (assuming an installer from March 10, 2016):
 
    ```
    Scala code runner version 2.11.8 -- Copyright 2002-2016, LAMP/EPFL
@@ -184,11 +182,11 @@ On a Mac, press control + L. On Windows press Ctrl + L.
    :q
    ```
 
-Alternately, press control+C on a Mac to exit the process running Scala.
+   Alternately, press control+C on a Mac to exit the process running Scala.
 
 0. PROTIP: Navigate to the folder you want before entering scala REPL.
 
-## Print command
+## Print Line function
 
 0. Enter the scala REPL again at the command line.
 
@@ -198,13 +196,13 @@ Alternately, press control+C on a Mac to exit the process running Scala.
    println("Hello, World!");
    ```
 
-NOTE: Semicolons ("ugly cockroaches") are used only with multiple verbs on same line.
-Here's an example of how Scala has more <strong>syntactic flexibility</strong> than Java coding.
+   NOTE: Semicolons ("ugly cockroaches") are used only with multiple verbs on same line.
+   Here's an example of how Scala has more <strong>syntactic flexibility</strong> than Java coding.
 
-NOTE: Everything returns something (all Scala code is "expression based").
+   NOTE: Everything returns something (all Scala code is "expression based").
 
-More about Scala coding is at
-<a href="scala-coding.md">scala-coding.md</a>.
+   More about Scala coding is at
+   <a href="scala-coding.md">scala-coding.md</a>.
 
 0. Exit REPL again.
 
@@ -231,7 +229,7 @@ clone the repository referenced by this tutorial:
    cd scala
    ```
 
-There are several folders.
+   There are several folders.
 
 0. cd into the folder relevant to the next section of this tutorial:
 
@@ -489,23 +487,23 @@ Docs on it is at:
    brew install sbt
    ```
 
-The response:
+   The response:
 
-```
-xcode-select: error: unable to get active developer directory, use `xcode-select --switch` to set one (or see `man xcode-select`)
+   <pre>
+xcode-select: error: unable to get active developer directory, 
+  use `xcode-select --switch` to set one (or see `man xcode-select`)
 ==> Downloading https://homebrew.bintray.com/bottles/sbt-0.13.11.el_capitan.bott
 ######################################################################## 100.0%
 ==> Pouring sbt-0.13.11.el_capitan.bottle.tar.gz
 ==> Caveats
 You can use $SBT_OPTS to pass additional JVM options to SBT:
 SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
-
 This formula is now using the standard typesafe sbt launcher script.
 Project specific options should be placed in .sbtopts in the root of your project.
 Global settings should be placed in /usr/local/etc/sbtopts
 ==> Summary
 🍺  /usr/local/Cellar/sbt/0.13.11: 5 files, 1.2M
-```
+   </pre>
 
 0. Confirm:
 

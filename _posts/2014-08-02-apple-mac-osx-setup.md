@@ -330,15 +330,12 @@ See http://www.macworld.com/article/2824564/slow-internet-edit-your-dns-settings
 By default, if you move the mouse to one of the corners of the screen,
 stuff happens. It can be annoying.
 
-Click the Apple menu at the upper left corner.
-
-Select System Preferences.
-
-Select Desktop &amp; Screen Saver.
-
-Click Hot Corners at the lower-right corner.
-
-<img src="http://merc.tv/img/scr/mac_10.10_hot_corners.jpg" width="320" height="118" />
+0. Click the Apple menu at the upper left corner.
+0. Select System Preferences.
+0. Select Desktop &amp; Screen Saver.
+0. Click Hot Corners at the lower-right corner.
+<amp-img media="(min-width: 320px)" width="320" height="118" 
+layout="responsive" src="https://cloud.githubusercontent.com/assets/300046/14206160/5a816098-f7ce-11e5-8e9c-eb5c06d3b2ad.jpg"></amp-img><!-- http://merc.tv/img/scr/mac_10.10_hot_corners.jpg" -->
 
 ADVICE:
 I disabled each by selecting the dash (last choice) 

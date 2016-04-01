@@ -270,7 +270,10 @@ These come from the bash terminal:
 
 ## Finder Usage from Keyboard
 
-<img align="right" src="http://merc.tv/img/scr/mac_10.10_finder_keys.jpg" width="171" height="240" />
+<img align="right" alt="Mac 10.10 Finder keys" src="http://merc.tv/img/scr/mac_10.10_finder_keys.jpg" width="171" height="240" >
+
+   <!--<amp-img media="(min-width: 171px)" width="171" height="240" 
+   layout="responsive" src="https://cloud.githubusercontent.com/assets/300046/14206362/d5f6e13e-f7cf-11e5-899a-0ffa966916a2.jpg"></amp-img> http://merc.tv/img/scr/mac_10.10_finder_keys.jpg -->
 
 I probably click the Finder Favorites more than anything else.
 So I've memorized the keyboard keys.
