@@ -16,56 +16,66 @@ comments: true
 
 <a id="JDKSetupz"></a>
 
-### Java SDK (JDK) Setup
-
 There are several ways to install Java.
 This is the one that worked for me.
 
 
 <a name="WhichJava"></a>
 
-## which Java You Got?
+## Which Java You Got?
 
-To see what JRE you have already installed:
-</p><pre><strong>
-java -version
-</strong></pre>
+On a Terminal open to any folder:
 
-To see what JDK (Java Compiler) you have already installed:
-</p><pre><strong>
-javac -version
-</strong></pre>
-The response:
-</p><pre>
-javac 1.8.0_45
-</pre>
+0. To see what JRE you have already installed:
+
+   <pre><strong>
+   java -version
+   </strong></pre>
+
+   A sample response:
+
+   <pre>
+   Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)
+   </pre>
+
+0. To see what JDK (Java Compiler) you have already installed:
+
+   <pre><strong>
+   javac -version
+   </strong></pre>
+
+   A sample response:
+
+   <pre>
+   javac 1.8.0_45
+   </pre>
 
 
-if it's not installed, you will be prompted to install the JDK.
-Clever. 
+   if it's not installed, you will be prompted to install the JDK.
+   Clever. 
 
-Click <strong>More Info...</strong>.
+0. Click <strong>More Info...</strong>.
 
-</p><pre><strong>
-/usr/libexec/java_home -V
-</strong></pre>
-That's a capital V.
+   <pre><strong>
+   /usr/libexec/java_home -V
+   </strong></pre>
 
-The response on my machine:
-<pre>
+   That's a capital V.
+
+   The response on my machine:
+
+   <pre>
 Matching Java Virtual Machines (4):
 1.8.0_45, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
 1.7.0_65, x86_64:	"Java SE 7"	/Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home
 1.6.0_65-b14-466.1, x86_64:	"Java SE 6"	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 1.6.0_65-b14-466.1, i386:	"Java SE 6"	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-
 /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
-</pre>
+   </pre>
 
+   In OSX, all known JVM's are located at 
 
-In OSX, all known JVM's are located at /Library/Java/JavaVirtualMachines/.
-
-
+   /Library/Java/JavaVirtualMachines/.
 
 
 <a name="AppleJavaC"></a>
@@ -107,38 +117,47 @@ So install Jenv from https://github.com/gcuisinier/jenv/blob/master/README.md
 
 Since jenv (from http://www.jenv.be/) 
 is not in the core Homebrew formula collection yet:
-</p><pre><strong>
+
+<pre><strong>
 brew install https://raw.githubusercontent.com/entrypass/jenv/homebrew/homebrew/jenv.rb
 </strong></pre>
 
-
 To activate jenv:
-</p><pre><strong>
+
+<pre><strong>
 echo 'eval "$(jenv init -)"' >> ~/.bash_profile
 </strong></pre>
 
 To see if jenv can run:
-</p><pre><strong>
+
+<pre><strong>
 jenv 
 </strong></pre>
+
 lists its version and commands.
 
 
 To see what jenv recognizes:
-</p><pre><strong>
+
+<pre><strong>
 jenv versions
 </strong></pre>
+
 The response if none if brew cask was not installed:
+
 <tt>
 * system (set by /Users/wilsonmar/.jenv/version)
 </tt>
 
 
 Install Java using brew cask: 
-</p><pre><strong>
+
+<pre><strong>
 sudo brew update && brew cask install java
 </strong></pre>
+
 The response:
+
 <tt>
 ==> Downloading http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-ma
 </tt>
@@ -151,44 +170,53 @@ Mac OSX Setup Guide</a>, developed and distributed as a
 <a target="_blank" href="http://gitbook.com/">GitBook</a>.
 
 
-
 To add JDK 7:
-</p><pre><strong>
+
+<pre><strong>
 jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home
 </strong></pre>
+
 The response:
+
 <tt>
 oracle64-1.7.0.65 added
 </tt>
 
 
 To add JDK 8:
-</p><pre><strong>
+
+<pre><strong>
 jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
 </strong></pre>
+
 The response:
+
 <tt>
 oracle64-1.8.0.45 added
 </tt>
 
 
 List the libraries jenv knows about:
-</p><pre><strong>
+
+<pre><strong>
 jenv versions
 </strong></pre>
+
 Highlight, copy and paste the version you want to use.
 
 To configure global version:
-</p><pre><strong>
+
+<pre><strong>
 jenv global oracle64-1.8.0.45
 </strong></pre>
+
 The response:
+
 <tt>
 system<br />
 oracle64-1.7.0.65<br />
 * oracle64-1.8.0.45 (set by /Users/wilsonmar/.jenv/version)
 </tt>
-
 
 
 ## More on OSX
