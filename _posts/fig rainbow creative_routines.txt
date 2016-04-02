@@ -1,4 +1,0 @@
-fig rainbow creative_routines.txt
-
-Interactive Visualization by https://podio.com/site/creative-routines
-Based on http://masoncurrey.com/Daily-Rituals/

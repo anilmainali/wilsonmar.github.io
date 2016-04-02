@@ -173,7 +173,8 @@ import com.google.caliper.Benchmark;
 import com.google.caliper.Param;
 </pre>
 
-Google Caliper is used to benchmark some simple code.
+<a target="_blank" href="https://github.com/google/caliper">
+Google Caliper</a> is used to benchmark some simple code.
 
 Alternately, one can use Perfidix http://disy.github.io/perfidix/
 which offers Eclipse Integration and can be used like JUnit.
