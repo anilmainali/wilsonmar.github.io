@@ -102,12 +102,52 @@ If you use Google Calendar, import the .ics file:
 
 0. Switch to the Finder or File Explorer and <strong>delete the .ics file</strong> (Move to Trash on Macs).
 
-NOTE: This is a modification of https://support.google.com/calendar/answer/37118?hl=en.
+NOTE: This is a modification of 
+<a target="_blank" href="https://support.google.com/calendar/answer/37118?hl=en">
+this article</a>.
+
+
+## When Creative Each Day
+
+Based on the 
+<a target="_blank" href="http://masoncurrey.com/Daily-Rituals/">
+book Daily Rituals</a>
+by Mason Currey,
+the wide variation when various famous creatives go about various aspects of their lives is 
+<a target="_blank" href="https://podio.com/site/creative-routines">
+visualized by this</a>:<br />
+
+<a target="_blank" href="https://podio.com/site/creative-routines">
+<img alt="fig rainbow creative_routines partial" src="https://cloud.githubusercontent.com/assets/300046/14229206/bd6c04d4-f8ea-11e5-900a-b2cde317237b.jpg" width="465" height="201"></a><!-- full 976x532 -->
+
+The site allows <strong>interactive</strong> selection of specific activities
+(sleep, creative work, admin, food/leisure, exercise, other).
+
+
+## Activities by month over 4 years
+
+Within the <a target="_blank" href="http://www.timetoast.com/timelines/the-history-of-the-beatles">full timeline</a> of the Beatles,
+the years 1963-66 were the "Beatlemania" years.
+<a target="_blank" href="https://mostcontagious.wordpress.com/2010/01/21/the-beatles-visualized-like-never-before/">
+This infographic</a> annotates the 
+<a target="_blank" href="http://chartingthebeatles.com/#schedule">
+orginal concept</a> by Michael Deal 
+which illustrates the group's work activities, month-by-month:
+
+<a target="_blank" href="hhttps://mostcontagious.files.wordpress.com/2010/01/beatles.jpg">
+<img alt="fig black beatles 4 year schedule" src="https://cloud.githubusercontent.com/assets/300046/14229397/26bc50c4-f8f0-11e5-9a74-879d530b6eef.jpg" width="1297" height="1026"></a>
 
 
 
-## Twitter
+
+
+
+<!--
+&nbsp;
+
+## Most recent Tweets
 
 <a class="twitter-timeline"  href="https://twitter.com/wilsonmar" data-widget-id="711272963031470080">Tweets by @wilsonmar</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
           

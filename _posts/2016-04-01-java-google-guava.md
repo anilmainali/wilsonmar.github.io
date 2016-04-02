@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java Google Guava"
+title: "Java Google Guava Ecosystem"
 excerpt: "End of any doubt Googlers are our boss."
 tags: [google, guava, java, programming]
 image:
@@ -14,40 +14,43 @@ comments: true
 
 {% include _toc.html %}
 
+Among the billions of libraries on GitHub,
+this one is #2 (behind Log4J):
+
 * <a target="_blank" href="https://github.com/google/guava">
    https://github.com/google/guava</a>
-
-Among the billions of libraries on GitHub,
-this one is #2 behind Log4J.
 
 Although nearly 9,000 have starred it at time of writing,
 only around 1,000 are watching it.
 
 ## Why This Page
 
-The contribution of this particular page here is to present features of the library in the <strong>sequence</strong>
-to learn programming Java like the geniuses at Google.
+The contribution of this particular page here is to present an understandable <strong>sequence</strong>
+to learn programming Java using library along with
+static code quality scanners (such as Qulice) and profilers (such as JProfiler)
 
-It's kinda like diving into the "deep end" of Java so we can learn to swim with Olympic swimmers.
-
-Others have tried, which is why https://en.wikipedia.org/wiki/Google_Guava says developers of the library don't
-encourage outside contributions.
-
-I'm not doing this to have it on my resume, 
-but because I think this library is what it takes to be a good and fast Java programmer today.
+I think this is what it takes to be a good and fast Java programmer today.
 
 Might as well learn to do it right the first time than to pick up bad habits.
 
-And I'd like to see how the library holds up to static code quality scanners (such as Qulice) and
-profilers (such as JProfiler)
+> It's kinda like learning to swim by diving into the deep end of a pool filled with Olympic swimmers.
+
+This is probably why <a target="_blank" href="https://en.wikipedia.org/wiki/Google_Guava">
+the Wikipedia page on Guava</a> mention that developers of the library don't
+encourage outside contributions.
+
 
 ## Get It on Your Laptop
 
-On a Mac, create a group folder (google), then
+0. On a Mac, create a group folder (google), then
 
+   <tt><strong>
    git clone https://github.com/google/guava
+   </strong></tt>
 
-0. Process its Maven pom.xml file:
+   Its license is permissive Apache.
+
+0. Process its pom.xml file using Maven:
 
    mvn initialize
 
@@ -55,14 +58,156 @@ On a Mac, create a group folder (google), then
 
 ## Diving In
 
-<a target="_blank" href="https://github.com/google/guava/wiki">
+The starting point for the various components has been the repo's own wiki:
+
+   * <a target="_blank" href="https://github.com/google/guava/wiki">
    https://github.com/google/guava/wiki</a>
-   is the starting point for the various components.
 
 Learn this as if an "immersive" experience like moving to Mexico to learn Spanish.
 
 Or learning to cook in a 5-star restaurant.
 Well, this is like the names of knives.
+
+
+<a target="_blank" href="http://stackoverflow.com/questions/3759440/the-guava-library-for-java-what-are-its-most-useful-and-or-hidden-features?rq=1">
+its-most-useful-and-or-hidden-features</a>
+
+1. basic utilities to reduce menial labors to implement common methods and behaviors, 
+such as generics (introduced in JDK 1.5) extended with
+multisets, multimaps, bimaps, and immutable collections
+
+2. an extension to the Java collections framework (JCF) formerly called the Google Collections Library,
+
+3. other utilities which provide convenient and productive features such as 
+functional programming, caching, range objects, and hashing
+
+
+## Folders
+
+The structure of folders in the library:
+
+* guava-testlib 
+   * **src**/com/google/common
+      * collect
+      * escape
+      * graph
+      * testing
+      * util
+   * **test**/com/google/common
+      * collect
+      * testing
+      * util
+* guava-tests
+   * **benchmark**/com/google/common
+   * **test**/com/google/common 
+* guava
+   * src/com/google/common
+   * src/com/google/thirdparty
+
+## Packages
+
+Folders under the folders above:
+
+| Package     | testlib<br>src | testlib<br>test | tests<br>benchmark | tests<br>test | src |
+| :-------    |  :----------   |:--------------- | :----------------- | :-----------  | :-- |
+| annotations | - | - | - | - | X |
+| base        | - | - | X | X | X |
+| cache       | - | - | X | X | X |
+| collect     | X | X | X | X | X |
+| escape      | X | - | - | X | X |
+| eventbus    | - | - | X | X | X |
+| graph       | X | - | X | X | X |
+| hash        | - | - | X | X | X |
+| html        | - | - | - | X | X |
+| io          | - | - | X | X | X |
+| math        | - | - | X | X | X |
+| net         | - | - | - | X | X |
+| primitives  | - | - | X | X | X |
+| reflect     | - | - | - | X | X |
+| testing     | X | X | - | - | - |
+| util.concurrent | X | X | X | X | X |
+| xml         | - | - | - | X | X |
+
+There are similar ones in the Java Core library.
+
+Each of these are specified at the top of programs using them, such as:
+
+<pre>
+package com.google.common.annotations;
+
+import java.lang.annotation.Documented;
+</pre>
+
+## Deprecations
+
+Some, such as Date, have not been removed.
+
+## Benchmarking
+
+Let's look in library files within<br>
+/guava-tests/benchmark/com/google/common/util/concurrent
+
+Some have equivalent classes in the source.
+
+| In src | In guava-test/benchmark |
+| :----- | :------------ |
+| AbstractFuture.java | AbstractFutureFootprintBenchmark.java |
+| CycleDetectingLockFactory.java | CycleDetectingLockFactoryBenchmark.java | 
+| ExecutionList.java | ExecutionListBenchmark.java | 
+| FuturesGetChecked.java | FuturesGetCheckedBenchmark.java | 
+| - | MonitorBasedArrayBlockingQueue.java | 
+| - | MonitorBasedPriorityBlockingQueue.java | 
+| - | MonitorBenchmark.java | 
+| - | MoreExecutorsDirectExecutorBenchmark.java | 
+| - | SingleThreadAbstractFutureBenchmark.java | 
+| - | StripedBenchmark.java | 
+
+
+### Caliper library
+
+Several of the files begin with this:
+
+<pre>
+import com.google.caliper.BeforeExperiment;
+import com.google.caliper.Benchmark;
+import com.google.caliper.Param;
+</pre>
+
+Google Caliper is used to benchmark some simple code.
+
+Alternately, one can use Perfidix http://disy.github.io/perfidix/
+which offers Eclipse Integration and can be used like JUnit.
+Another option is JUnitbenchmarks http://labs.carrotsearch.com/junit-benchmarks.html for Junit 4+
+and build html charts to compare results.
+
+
+## Assertions
+
+### Stopwatch
+
+### Preconditions
+
+### Caching
+
+## Docs
+
+New release every 3 months, with breaking changes.
+@Beta included in each release.
+
+Announced on
+
+   * <a target="_blank" href="https://plus.google.com/+googleguava">
+   +GoogleGuava</a>
+
+   * <a target="_blank" href="http://groups.google.com/group/guava-announce">
+   groups.google.com/group/guava-announce</a>
+
+Specific releases:
+
+   * http://google.github.io/guava/releases/19.0/api/docs/
+
+## Videos
+
 
 "Making Java Bearable with Guava 2015 Edition by Daniel Hinojosa of DZone" (March 11, 2015 at DevNexus):
 
@@ -93,33 +238,39 @@ In this "Overview of Guava: Google Core Libraries for Java" (from 2012):
 
    <amp-youtube data-videoid="r8seIn7NZQw" layout="responsive" width="480" height="270"></amp-youtube>
 
+   * [01:14] Lists named static methods instead of constructors 
+   * [02:36] Maps wrapper around Collections
+   * [03:09] ImmutableList. are not just wrapper around core Java, for defensive
+   * [04:38] Preconditions
+   * [06:08] Range
+
 &nbsp;
 
-"Google Guava" by Mite Mitreski:
+"Google Guava - the Core Library You Always Wanted" by <a target="_blank" href="https://www.linkedin.com/in/mitemitreski">
+Mite Mitreski</a> from Macendonia, Stockholm, Sweden:
 
    <amp-youtube data-videoid="96R9I1i0AM4" layout="responsive" width="480" height="270"></amp-youtube>
 
+   * [03:18] It's not clear what Null means (like Boolean)
+   * [09:14] JSR-305 Annotations for software defect detection
+   * [17:52] Wrapper overload (table) pack numbers within larger numbers
+   * [18:50] Utility classes end with s.
+   * [19:24] CharMatcher.WHITESPACE easier than RegEx.
+   * [21:15] Cache Builders have different ones for local (not external)
+     for Eviction, 
+   * [23:41] .weakKeys() can be garbage collected avoids memory leaks
+   * [25:12] .recordStats() for CacheStats. 
+   * [26:00] Map != Cache
+   * [26:56] collect package for Immutable Collections
+   * etc. to 46.:05
+
 &nbsp;
 
-Eric Weiki:
+From Eric Weiki:
 
    <amp-youtube data-videoid="4ynVrMtg1TE" layout="responsive" width="480" height="270"></amp-youtube>
 
 
-<a target="_blank" href="http://stackoverflow.com/questions/3759440/the-guava-library-for-java-what-are-its-most-useful-and-or-hidden-features?rq=1">
-its-most-useful-and-or-hidden-features</a>
-
-1. basic utilities to reduce menial labors to implement common methods and behaviors, 
-such as generics (introduced in JDK 1.5) extended with
-multisets, multimaps, bimaps, and immutable collections
-
-2. an extension to the Java collections framework (JCF) formerly called the Google Collections Library,
-
-3. other utilities which provide convenient and productive features such as 
-functional programming, caching, range objects, and hashing
-
-
-## Series
 From LevelUp Lunch:
 
 1. Filtering Collections:
@@ -130,86 +281,8 @@ From LevelUp Lunch:
 
    <amp-youtube data-videoid="nAcs321_hAk" layout="responsive" width="480" height="270"></amp-youtube>
 
-## Packages Tested
 
-Guava is a good example of a professional approach to testing.
-
-| Package     | testlib<br>src | testlib<br>test | tests<br>benchmark | tests<br>test | src |
-| :-------    |  :----------   |:--------------- | :----------------- | :-----------  | :-- |
-| annotations | - | - | - | - | X |
-| base        | - | - | X | X | X |
-| cache       | - | - | X | X | X |
-| collect     | X | X | X | X | X |
-| escape      | X | - | - | X | X |
-| eventbus    | - | - | X | X | X |
-| graph       | X | - | X | X | X |
-| hash        | - | - | X | X | X |
-| html        | - | - | - | X | X |
-| io          | - | - | X | X | X |
-| math        | - | - | X | X | X |
-| net         | - | - | - | X | X |
-| primitives  | - | - | X | X | X |
-| reflect     | - | - | - | X | X |
-| testing     | X | X | - | - | - |
-| util        | X | X | X | X | X |
-| xml         | - | - | - | X | X |
-
-Columns in the table above are relate to this structure of folders in the library:
-
-* guava
-   * src/com/google/common
-   * src/com/google/thirdparty
-* guava-testlib 
-   * src/com/google/common
-      * collect
-      * escape
-      * graph
-      * testing
-      * util
-   * test/com/google/common
-      * collect
-      * testing
-      * util
-* guava-tests
-   * benchmark/com/google/common
-   * test/com/google/common 
-
-
-## Assertions
-
-Code in the test package use the assertEquals() function such as this:
-
-<pre>
-public class HtmlEscapersTest extends TestCase {
-
-  public void testHtmlEscaper() throws Exception {
-    assertEquals("xxx", htmlEscaper().escape("xxx"));
-</pre>
-
-### Stopwatch
-
-### Preconditions
-
-### Caching
-
-## Docs
-
-New release every 3 months, with breaking changes.
-@Beta included in each release.
-
-Announced on
-
-   * <a target="_blank" href="https://plus.google.com/+googleguava">
-   +GoogleGuava</a>
-
-   * <a target="_blank" href="http://groups.google.com/group/guava-announce">
-   groups.google.com/group/guava-announce</a>
-
-Specific releases:
-
-   * http://google.github.io/guava/releases/19.0/api/docs/
-
-## Discussion
+## Discussions
 
 * <a target="_blank" href="https://groups.google.com/forum/#!forum/guava-discuss">
    groups.google.com/forum/#!forum/guava-discuss</a>

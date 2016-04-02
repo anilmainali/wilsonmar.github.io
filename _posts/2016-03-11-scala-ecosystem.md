@@ -766,10 +766,8 @@ How Scala Conquered the Big Data World
 * http://www.lightbend.com/community/core-projects/play-framework
 
 * https://www.playframework.com/
-* http://akka.io/ for asynch and background processing
-* Slick
 
-* http://spray.io/ for REST/HTTP servlet container Akka actors.
+* Slick
 
 * http://scalatra.org/ web micro-framework for creating REST APIs.
 
@@ -792,6 +790,41 @@ As a "very fast open source small footprint JBDC API database",
 H2 outranked MySQL (#33), and PostgreSQL (#50). 
 MongoDB didn’t make the list for Scala.
 
+
+## Akka
+
+* http://akka.io/ for asynch and background processing
+
+* http://spray.io/ for REST/HTTP servlet container Akka actors.
+
+* Up, Up, and Out: Scaling Software with Akka:
+
+   <amp-youtube data-videoid="GBvtE61Wrto" layout="responsive" width="480" height="270"></amp-youtube>
+  
+## Play Framework
+
+"Introduction to Play Framework for Java developers" by Lightbend
+
+   <amp-youtube data-videoid="bLrmnjPQsZc" layout="responsive" width="480" height="270"></amp-youtube>
+
+
+Introduction the the Play Framework by James Ward (Heroku):
+
+   <amp-youtube data-videoid="9_YYgl65FLs" layout="responsive" width="480" height="270"></amp-youtube>
+  
+   * Asychronous and non-blocking (Google Docs, Trello)
+   * From vertical scalability to scale horizontally with stateless framework
+   * API first
+
+
+The Play Framework at LinkedIn: Productivity and Performance at Scale:
+
+   <amp-youtube data-videoid="8z3h4Uv9YbE" layout="responsive" width="480" height="270"></amp-youtube>
+
+
+"Node.js v.s. Play Framework" by Yevgeny(Jim) Brikman at ScalaMatsuri 2014 
+
+   <amp-youtube data-videoid="b6yLwvNSDck" layout="responsive" width="480" height="270"></amp-youtube>
 
 ## Learning Resources for Introduction
 In addition to resources noted above,
@@ -849,11 +882,14 @@ is the most thorough series I've seen so far.
 Martin Odersky
 (@odersky from Switzerland) 
 
-* https://www.youtube.com/watch?v=kkTFx3-duc8
-Scala with Style
+* Scala with Style:
 
-* https://www.youtube.com/watch?v=ecekSCX3B4Q
-Scala - the Simple Parts
+   <amp-youtube data-videoid="kkTFx3-duc8" layout="responsive" width="480" height="270"></amp-youtube>
+
+
+* Scala - the Simple Parts
+
+   <amp-youtube data-videoid="ecekSCX3B4Q" layout="responsive" width="480" height="270"></amp-youtube>
 
 * Martin conducted on Coursera COURSE:
 ![Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)
@@ -914,9 +950,11 @@ https://medium.com/@viktorklang/hi-eef4acf316a8#.ez6xx6gxe
 
 ## YouTube videos
 
-https://www.youtube.com/watch?v=Ytfw8Bg86p4
 Scala Language Basics
 by Mark Lewis
+
+   <amp-youtube data-videoid="Ytfw8Bg86p4" layout="responsive" width="480" height="270"></amp-youtube>
+
 
 https://www.youtube.com/watch?v=DzFt0YkZo8M
 Scala Tutorial 
@@ -924,17 +962,24 @@ by Derek Banas of http://newthinktank.com
 doesn't waste your time, so covers the topic thoroughly in a short time.
 http://goo.gl/O1CuGM
 
-https://www.youtube.com/watch?v=_qRYOayG9SM
+
 Busy Java Developer's Guide to Scala: Thinking
 by NewCircle Training
 
-https://www.youtube.com/watch?v=PKc5IwHG68k
+   <amp-youtube data-videoid="_qRYOayG9SM" layout="responsive" width="480" height="270"></amp-youtube>
+
+
 Scala versus Java
 by NewCircle Training
 
-https://www.youtube.com/watch?v=2Ji5i0x2gJI
+   <amp-youtube data-videoid="PKc5IwHG68k" layout="responsive" width="480" height="270"></amp-youtube>
+
+
 Intro to Functional Programming in Scala
 by Joe Barnes
+
+   <amp-youtube data-videoid="2Ji5i0x2gJI" layout="responsive" width="480" height="270"></amp-youtube>
+
 
 Videos gradually revealing each box as I talk can be seen in a YouTube playlist:
 https://goo.gl/AKEFKj 

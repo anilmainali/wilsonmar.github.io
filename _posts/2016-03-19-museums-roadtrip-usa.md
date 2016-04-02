@@ -34,7 +34,7 @@ By "museums" I include here <strong>gift shops</strong> at grand natural sights 
 ## Route on Google Maps
 
 <a target="_blank" title="Route around the US on Google map" href="http://wilsonmar.github.io/US_Landmarks_Roadtrip_v01.html">
-<img alt="Google route map" width="683" height="396" src="/images/US_Landmarks_Roadtrip_v01_683x396.png"></a>
+<img alt="map us_landmarks_roadtrip_v01_683x396" width="683" height="396" src="https://cloud.githubusercontent.com/assets/300046/14229554/5531ac58-f8f3-11e5-8ce4-c01a5289358e.png"></a>
 
 The about route was optimized for least driving time using Google Maps API driven by <a target="_blank" href="
 https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/optimal-road-trip/Computing%20the%20optimal%20road%20trip%20across%20the%20U.S..ipynb"> Machine Learning algorithms run in a Python Jupyter Notebook</a> as <a target="_blank" href="http://www.randalolson.com/2015/03/08/computing-the-optimal-road-trip-across-the-u-s/">described by Randal S. Olson</a>.

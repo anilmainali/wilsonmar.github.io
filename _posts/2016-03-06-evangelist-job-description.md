@@ -148,6 +148,7 @@ at a high-growth company in a rapidly emerging open source infrastructure catego
 
 * Casual dress code
 
+* MacBook (fully loaded)
 * Employee development opportunities 
 
 ## Summary

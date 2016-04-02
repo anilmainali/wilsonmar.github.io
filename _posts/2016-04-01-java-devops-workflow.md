@@ -22,11 +22,11 @@ We begin with a manual walkthrough, which we then automate.
 
 ## Establish Environment
 
-1\. Download and install environmental components on your laptop or a virtual instance.
+1\. Download and install a virtualization utility on your laptop or a virtual instance.
 
    * Vagrant
 
-   * VMWare Fusion on Mac runs Windows
+   * VMWare
 
    TODO: Instead of doing all the work below, 
    the results of it has been encapsulated into a Docker image at ...
@@ -40,7 +40,7 @@ We begin with a manual walkthrough, which we then automate.
 
    * On Linux, apt-get.
 
-3\. Download and install environmental utilities on your laptop or a virtual instance.
+3\. Download and install language support utilities on your laptop or a virtual instance.
 
    * <a target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">
    Java SDK download from Oracle</a>
@@ -49,14 +49,20 @@ We begin with a manual walkthrough, which we then automate.
    (on the Mac, https://wiki.openjdk.java.net/display/MacOSXPort/Main)
 
 
-   * Utility processsors such as Static Code Analysis.
+   * Utility processsors for Static Code quality Analysis.
+
+   clone the https://github.com/teamed/qulice, 
+   the maven plug-in to your local machine,
+   then add in the pom.xml of the project
+   the xml shown at http://www.qulice.com/.
+   
 
 > The primary objective of this tutorial is to get those learning Java to make use of
 static code scanners.
 
 ## Clone GitHub
 
-4\. Use Git to clone to your local laptop the repository containing sample programs:
+4\. Use Git to clone to your local laptop the repository containing source program code:
 
    * <a target="_blank" href="http://github.com/wilsonmar/java-sample-code/">http://github.com/wilsonmar/java-sample-code.git</a>
    based on code at http://www2.cs.uic.edu/~sloan/CLASSES/java/ 
@@ -73,6 +79,7 @@ such as after a new version in one of them.
 If "known-good" code don't work,
 then the issue is NOT the <strong>custom application code</strong> which the programmer has control.
 By process of elimination, the problem lies in the setup items above.
+
 
 5\. Clone or download utility class libraries (from 3rd parties) which custom Java program code specify for import
 
