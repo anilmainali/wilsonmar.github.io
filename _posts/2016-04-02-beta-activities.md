@@ -23,13 +23,13 @@ to build goodwill and additional assistance that beta participants can provide.
 
 Here is my advice:
 
-0. <a href="#Define"> Define actors and use cases</a>
-0. <a href="#Automate"> Automate use case flows by each actor</a>
-0. <a href="#Capture"> Capture detailed factual proof points
-0. <a href="#Detail"> Detail history of run speeds</a>
-0. <a href="#Help"> Help those who participate</a>
-0. <a href="#Delegate"> Delegate socialization of specifics</a>
-0. <a href="#Track"> Make it easy to track progress and get reports</a>
+0. <a href="#Define"> Define actors and use cases</a>.
+0. <a href="#Automate"> Automate use case flows by each actor</a>.
+0. <a href="#Capture"> Capture detailed factual proof points</a>.
+0. <a href="#Detail"> Detail history of run speeds</a>.
+0. <a href="#Help"> Help those who participate</a>.
+0. <a href="#Delegate"> Delegate socialization of specifics</a>.
+0. <a href="#Track"> Make it easy to track progress and get reports</a>.
 
 More about each is described below.
 
@@ -38,13 +38,14 @@ More about each is described below.
 ### Define actors and use cases
 
    Too many organizations release only the software and
-   expect everyone to just figure it out.
+   expect everyone to somehow just figure it all out on their own.
 
    This results in not enough coverage simply because people don't
    know about all the features.
 
-   Clarification of who is being served and what each does would
-   provide a richer basis for suggestions.
+   Clarification of who is being served by the product
+   and what each type of user does 
+   would provide a richer basis for suggestions.
 
 <a name="Automate"></a>
 
