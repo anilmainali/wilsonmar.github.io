@@ -85,13 +85,17 @@ More about each is described below.
 
 ### Detail history of run speeds
 
-   It would be useful to have timings captured during each automated run
-   so that anomalies can be identified early,
-   and comparisons have more data points over time and varying conditions.
+   If timings of each action taken by the automated scripts are
+   captured during each run, there would be data to diagnose
+   complaints about a particular interaction being slow.
 
-   Then if somone complains that a particular run seemed slow,
-   troubleshooting can include comparison against previous runs
-   at various points in various environments.
+   If those timings are captured 
+   at various points in various environments (including runs on developer laptops),
+   troubleshooting can include comparison across different environments
+   and under varying conditions over time.
+
+   This also enables anomalies to be identified earlier.
+
 
 <a name="Help"></a>
 
