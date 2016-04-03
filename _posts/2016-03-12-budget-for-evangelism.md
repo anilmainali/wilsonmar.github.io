@@ -19,7 +19,8 @@ comments: true
 
 Click here to download spreadsheet:<br>
 <a target="_blank" href="/assets/Dev_evangelism_budget_v02_wm_2016.03.22.xlsx">
-Dev_evangelism_budget_v02_wm_2016.03.22.xlsx</a><br>
+<img alt="btn green download button" src="https://cloud.githubusercontent.com/assets/300046/14232010/80d5fef0-f956-11e5-8caa-f9751ed960f5.png" width="379" height="137"><br>
+Dev_evangelism_budget_v02_wm_2016.03.22.xlsx</a><br />
 (select Save File).
 
 BTW, the file was created using Microsoft Office 2011 for Mac.
@@ -29,26 +30,26 @@ BTW, the file was created using Microsoft Office 2011 for Mac.
 
 ## The columns
 
-* "#" contains counts of the deliverable.
+* <strong>#</strong> contains counts of the deliverable.
 
-* Deliverables short description
+* **Deliverables** short description
 
-* Urgency: Number 1 is highest. You may want to use A,B,C,D instead here.
+* **Urgency**: Number 1 is highest. You may want to use A,B,C,D instead here.
 
   This column is not used in any calculation.
 
-* Effort: Number for estimating, taken from Agile practitioners.
+* **Effort**: Number for estimating, taken from Agile practitioners.
 
   This number may mean different things to different people.
 
   The coloring was set by highlighting the column and clicking Word's **Conditional Formatting** icon
   on the Home ribbon or menu Format.
 
-* %: auto-calculated by an Excel formula.
+* **%**: auto-calculated by an Excel formula.
 
   CAUTION: Typing in this column destroys the calculation.
 
-* Days: The number of man-days. The number in each row is a fraction of the
+* **Days**: The number of man-days. The number in each row is a fraction of the
   total under the same column within the **Totals** tab.
   A separate tab is used so the Assets sheet can be sorted easier.
 
@@ -56,13 +57,13 @@ BTW, the file was created using Microsoft Office 2011 for Mac.
 
   CAUTION: Typing in this column destroys the calculation.
 
-* Yield: is for comment about the outcome (FTW)
+* **Yield**: is for comment about the outcome (FTW).
 
-* Note:
+* **Note**:
 
 ## Usage
 
-This spreadsheet helps you see when you're over-extended with commitments.
+This spreadsheet helps you realize when you're over-extended with commitments.
 
 Review the man-days to see if it's reasonable,
 
@@ -79,6 +80,6 @@ You can sort this spreadsheet by various columns.
 
 ## There's more ...
 
-This is part of my Evangelist series:
+This is part of a series on Evangelism:
 
 {% include evangelist_links.html %}
