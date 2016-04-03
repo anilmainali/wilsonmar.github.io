@@ -14,8 +14,8 @@ comments: true
 
 {% include _toc.html %}
 
-The time during internal and public beta release reviews 
-is often the first time that partners and friends have 
+Public beta release reviews 
+are often the first time that partners and friends have 
 substantial hands-on experience with the upcoming version.
 
 I think too many developers waste the opportunity
@@ -121,17 +121,24 @@ More about each is described below.
 
    It takes a tremendous amount of time to stay in touch and clarify feedback.
 
-   Consider "deputizing" select individuals ("ambassadors") 
+   So consider "deputizing" select individuals ("ambassadors") 
    from among the user community to
    take responsibility for communicating personally with his/her peers
    about the demo.
 
-   This can be emails or, better yet, regular phone calls and
+   Ambassadors who live the product are in the best position to 
+   integrate comments from various others into 
+   single cohesive actionable statements.
+
+   Communications can be emails or, better yet, regular phone calls and
    video conference calls.
 
    It helps if communication events are planned ahead,
    with several reminders ahead of each event,
    and follow-ups after.
+
+   Direct and personal communications can help to smooth over inevitable gliches
+   so disappointments do not turn into long-term bitterness.
 
 <a name="Track"></a>
 
@@ -149,7 +156,7 @@ More about each is described below.
    Design the tracking and reports based on specific actors and use case
    flows so decisions and actions can be specifically actionable.
 
-> Let me help you! I've done it.
+> Let us help you! We've done it.
 
 ## More on Evanglism
 
