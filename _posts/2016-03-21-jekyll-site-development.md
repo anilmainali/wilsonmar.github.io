@@ -99,10 +99,22 @@ https://mademistakes.com/articles/using-jekyll-2016/
 Michael Rose presents a concise description of
 <a target="_blank" href="https://mmistakes.github.io/minimal-mistakes/theme-setup/">
 how to install the minimal-mistakes theme</a>.
+This post augments and clarifies it.
 
-This post picks it up from there.
+Begin by making a folder and populating it on my local machine.
+
+There is both a Master branch and a Develop branch.
+
+I don't care about all the change history, so I click "Download ZIP"
+and unzip it into that folder rather than:
+
+    git clone https://github.com/mmistakes/minimal-mistakes.git
 
 ### Grunt tasks
+After downloading, have Maven pull in dependencies based on the Gemfile:
+
+   bundle install
+
 Behind the scenes is a running of the **Gruntfie.js** that comes with the theme.
 It defines the parameters of various tasks that are downloaded:
 
