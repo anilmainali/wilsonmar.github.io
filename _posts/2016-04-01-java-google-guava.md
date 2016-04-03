@@ -195,12 +195,11 @@ Announced on
    * <a target="_blank" href="http://groups.google.com/group/guava-announce">
    groups.google.com/group/guava-announce</a>
 
-Specific releases:
+Docs on specific releases:
 
-   * http://google.github.io/guava/releases/19.0/api/docs/
+   * [google.github.io/guava/releases/19.0/api/docs/](http://google.github.io/guava/releases/19.0/api/docs/)
 
 ## Videos
-
 
 "Making Java Bearable with Guava 2015 Edition by Daniel Hinojosa of DZone" (March 11, 2015 at DevNexus):
 

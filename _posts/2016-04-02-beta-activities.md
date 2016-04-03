@@ -14,7 +14,7 @@ comments: true
 
 {% include _toc.html %}
 
-Public beta release reviews 
+Public beta releases 
 are often the first time that partners and friends have 
 substantial hands-on experience with the upcoming version.
 
@@ -44,7 +44,7 @@ More about each is described below.
    know about all the features.
 
    Clarification of who is being served and what each does would
-   provide a richer jumping point for suggestions.
+   provide a richer basis for suggestions.
 
 <a name="Automate"></a>
 
@@ -72,7 +72,11 @@ More about each is described below.
 
    General platitudes like "oh it's great" does a marketer no good.
 
-   What are needed are "sound bites" and quotes that can be published.
+   Marketers need specific and relatable "sound bites" 
+   and quotes that can be published. An example:
+
+   "It now takes me 2 minutes to do what used to take 30 minutes.
+   Love the automatic features of this new release."
 
    So we want to encourage beta reviewers to 
    take measurements before, during, and after demo activities.
