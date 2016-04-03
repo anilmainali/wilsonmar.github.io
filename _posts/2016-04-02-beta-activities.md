@@ -19,22 +19,24 @@ is often the first time that partners and friends have
 substantial hands-on experience with the upcoming version.
 
 I think too many developers waste the opportunity
-to build goodwill and real assistance that beta participants can provide.
+to build goodwill and additional assistance that beta participants can provide.
 
 ### Define actors and use cases
 
    Too many organizations release only the software and
    expect everyone to just figure it out.
 
-   This results in not enough coverage simply because people may not
-   know about certain features.
+   This results in not enough coverage simply because people don't
+   know about all the features.
 
-   Clarification of who is being served and what they do would
+   Clarification of who is being served and what each does would
    provide a richer jumping point for suggestions.
 
 ### Automation of use case flows
 
    Automation of keystrokes are useful not just for testing.
+
+   Ideally, automation activities should start 
 
    Being able to run the demo sequence automatically would provide 
    <strong>salespeople and others confidence</strong> 
@@ -87,9 +89,27 @@ to build goodwill and real assistance that beta participants can provide.
    Such communication is an opportunity to "sell" the product,
    and contribute to continued willingness to pay maintenance fees.
 
+### Delegate socialization of specifics
 
+   It takes a tremendous amount of time to stay in touch and clarify feedback.
 
-> Let me help you! I've done this.
+   Consider "deputizing" select individuals ("ambassadors") 
+   from among the user community to
+   take responsibility to communicate personally with his/her peers
+   about the demo.
+
+### Make it easy to track progress
+
+   Provide a system for demo participants to track their 
+   activities and communications.
+
+   Make it easy by providing a special "bcc" address for 
+   ambassadors when they send out emails.
+
+   A system can then parse emails to collate the information,
+   and present it in reports.
+
+> Let me help you! I've done it.
 
 ## More on Evanglism
 
