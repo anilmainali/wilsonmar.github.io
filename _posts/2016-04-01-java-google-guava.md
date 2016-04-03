@@ -182,14 +182,6 @@ Another option is JUnitbenchmarks http://labs.carrotsearch.com/junit-benchmarks.
 and build html charts to compare results.
 
 
-## Assertions
-
-### Stopwatch
-
-### Preconditions
-
-### Caching
-
 ## Docs
 
 New release every 3 months, with breaking changes.
@@ -267,10 +259,11 @@ Mite Mitreski</a> from Macendonia, Stockholm, Sweden:
 
 &nbsp;
 
-From Eric Weiki:
+If you speak German, from Eric Weiki:
 
    <amp-youtube data-videoid="4ynVrMtg1TE" layout="responsive" width="480" height="270"></amp-youtube>
 
+&nbsp;
 
 From LevelUp Lunch:
 
@@ -278,10 +271,23 @@ From LevelUp Lunch:
 
    <amp-youtube data-videoid="sAoDG22uzGA" layout="responsive" width="480" height="270"></amp-youtube>
 
+   &nbsp;
+
 2. Transforming objects:
 
    <amp-youtube data-videoid="nAcs321_hAk" layout="responsive" width="480" height="270"></amp-youtube>
 
+
+<!--
+## Assertions
+
+### Stopwatch
+
+### Preconditions
+
+### Caching
+
+-->
 
 ## Discussions
 
