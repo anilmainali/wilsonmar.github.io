@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beta Activities"
-excerpt: "7 strategies to make betas more useful"
+excerpt: "7+ strategies to make betas more useful"
 tags: [beta, guava, java, programming]
 image:
   feature: pic jump into tiny pool 1900x500.jpg 
