@@ -137,8 +137,8 @@ To see the site the way GitHub would generate it
 
     bundle exec jekyll serve --safe
 
-    BTW, the precise version of plug-ins used by GitHub on-line is listed
-    <a target="_blank" href="https://pages.github.com/versions/">here</a>.
+   The precise version of plug-ins used by GitHub on-line is listed
+   <a target="_blank" href="https://pages.github.com/versions/">here</a>.
 
 PROTIP: Leave this terminal instance running and open another Terminal
 instance to work on the content of the site.
@@ -177,6 +177,19 @@ with an alternative file you placed in the **images** folder.
 
 Return to this page from any other by clicking on the site's title this theme
 presents at the upper left corner.
+
+
+## Change README.md content
+The text in the README.md file at the root is not shown on the website.
+
+It was written for those who work with the site's code, not readers of the resulting website.
+
+So the content of this page should be changed from being about the theme
+to about the website derived from the theme template, such as:
+
+    "I hope you'll file an issue or send a Pull Request. I need the help."
+
+File mm-theme-post-600.jpg within the images folder can be deleted.
 
 
 ## Tabs, folders, and index.md files (for SEO)
