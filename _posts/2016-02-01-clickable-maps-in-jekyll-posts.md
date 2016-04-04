@@ -12,7 +12,7 @@ Clickable US map (Click on Oregon or Washington state):
 
 <img src="https://cloud.githubusercontent.com/assets/300046/14015545/77b35900-f17f-11e5-83b7-f931da813eb2.gif" alt="Us states" usemap="#us-states" />
 <map name="us-states">
-{% for s in site.collections['us-states'] %}
+{% for s in site.collections['/assets/us-states'] %}
     <area shape="poly" coords="{{ s.coord }}" 
           href="{{ s.href }}" 
           alt="{{ s.alt }}" title="{{ s.title }}" >
