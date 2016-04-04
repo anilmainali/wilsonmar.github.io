@@ -216,6 +216,10 @@ source ~/.profile
 Some say at this point close the terminal and open again.
 
 
+This also provides instructions on installation of Ruby:
+
+http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/
+
 
 ## More on OSX
 

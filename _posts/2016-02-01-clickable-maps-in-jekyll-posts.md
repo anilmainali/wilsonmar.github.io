@@ -8,15 +8,18 @@ comments: true
 <i>{{ page.excerpt }}</i>
 <hr />
 
-Clickable map:
+Clickable US map:
 
 <img src="https://cloud.githubusercontent.com/assets/300046/14015545/77b35900-f17f-11e5-83b7-f931da813eb2.gif" alt="Us states" usemap="#us-states" />
 <map name="us-states">
 {% for s in site.collections['us-states'] %}
-<area shape="poly" coords="28,197,46,185,72,199,72,241,88,243,102,261,92,263,70,241,42,243,28,257,12,259,34,243,20,233,16,223,34,215,22,207,30,205,28,197"
-    href="#AK" 
-    alt="AK" title="State" >
+    <area shape="poly" coords="{{ s.coord }}" 
+          href="{{ s.href }}" 
+          alt="{{ s.alt }}" title="{{ s.title }}" >
 {% endfor %}
+</map>
+<!-- Thanks to David Jacquel for http://stackoverflow.com/questions/36192890/clickable-image-map-in-jekyll-site -->
+
 
 I was not able to get them working by doing an include:
 

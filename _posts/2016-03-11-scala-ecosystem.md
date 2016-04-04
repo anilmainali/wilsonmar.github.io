@@ -186,23 +186,29 @@ On a Mac, press control + L. On Windows press Ctrl + L.
 
 0. PROTIP: Navigate to the folder you want before entering scala REPL.
 
-## Print Line function
+## Print Line functions and semicolons
 
 0. Enter the scala REPL again at the command line.
+
+0. Print text without line breaks:
+
+   ```
+   print("Hello, World");print(10)
+   ```
+
+   NOTE: Semicolons ("ugly cockroaches") are used only with multiple verbs on same line.
+
+   This is an example of how Scala has more <strong>syntactic flexibility</strong> than Java coding.
 
 0. Print text within REPL:
 
    ```
-   println("Hello, World!");
+   println("Hello, World!")
    ```
-
-   NOTE: Semicolons ("ugly cockroaches") are used only with multiple verbs on same line.
-   Here's an example of how Scala has more <strong>syntactic flexibility</strong> than Java coding.
 
    NOTE: Everything returns something (all Scala code is "expression based").
 
-   More about Scala coding is at
-   <a href="scala-coding.md">scala-coding.md</a>.
+   More at [Scala coding](/scala-programming).
 
 0. Exit REPL again.
 
@@ -374,17 +380,17 @@ Exit out to the operating system command line to compile.
 
 0. List files created during compilation:
 
-<pre>
-ls -al
-</pre>
+   <tt><strong>
+   ls -al
+   </strong></tt>
 
-The response:
+   The response:
 
-* HelloWorld.class
-* HelloWorld$.class
-* HelloWorld$delayedInit$body.class
+   * HelloWorld.class
+   * HelloWorld$.class
+   * HelloWorld$delayedInit$body.class
 
-NOTE: Compilation creates class files containing Java byte code.
+   NOTE: Compilation creates class files containing Java byte code.
 
 
 ## Run scala class file
@@ -417,6 +423,7 @@ an exit occurs back to the OS shell after execution.
 
 
 ## Compile and run a package
+
 0. In a command line window, navigate to the folder containing
 file named <strong>pkg.scala</strong>. 
 
@@ -948,45 +955,6 @@ one of the main contributors to Akka and co-author of Scala Future)
 * Defends Scala vs. C#
 https://medium.com/@viktorklang/hi-eef4acf316a8#.ez6xx6gxe
 
-## YouTube videos
-
-Scala Language Basics
-by Mark Lewis
-
-   <amp-youtube data-videoid="Ytfw8Bg86p4" layout="responsive" width="480" height="270"></amp-youtube>
-
-
-https://www.youtube.com/watch?v=DzFt0YkZo8M
-Scala Tutorial 
-by Derek Banas of http://newthinktank.com
-doesn't waste your time, so covers the topic thoroughly in a short time.
-http://goo.gl/O1CuGM
-
-
-Busy Java Developer's Guide to Scala: Thinking
-by NewCircle Training
-
-   <amp-youtube data-videoid="_qRYOayG9SM" layout="responsive" width="480" height="270"></amp-youtube>
-
-
-Scala versus Java
-by NewCircle Training
-
-   <amp-youtube data-videoid="PKc5IwHG68k" layout="responsive" width="480" height="270"></amp-youtube>
-
-
-Intro to Functional Programming in Scala
-by Joe Barnes
-
-   <amp-youtube data-videoid="2Ji5i0x2gJI" layout="responsive" width="480" height="270"></amp-youtube>
-
-
-Videos gradually revealing each box as I talk can be seen in a YouTube playlist:
-https://goo.gl/AKEFKj 
-for the expanded URL:
-https://www.youtube.com/playlist?list=PLsnl23XQgokHh5u2C4dbegMJdqfzY8K9k
-
-The QR code is provided of the link is provided here in case you prefer to watch videos on your smartphone. 
 
 
 ## Notifications

@@ -1,7 +1,8 @@
 # Site wide configuration
 
 title:            [_]
-url: http://wilsonmar.github.io
+url:
+# url: http://wilsonmar.github.io
 locale:           en_US
 encoding:         UTF-8
 github:

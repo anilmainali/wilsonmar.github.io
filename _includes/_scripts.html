@@ -17,6 +17,37 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<!-- added by WM -->
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script> 
+<!-- Citrix Concierge screen share -->
+<script src="https://websdk.live.gotoassist.com/concierge.min.js"></script>
+{% if author.citrix %}
+<script>
+    concierge.setApplicationKey("{{ author.citrix }}");
+    concierge.addDefaultButton("Chat (Citrix)"); 
+</script>
+{% endif %}
+
+<!--
+<script src="soundmanager2-nodebug-jsmin.js"></script>
+-->
+<script src="soundmanager2.js"></script>
+<script>
+soundManager.setup({
+  url: '/swf/',
+  flashVersion: 9, // optional: shiny features (default = 8)
+  // optional: ignore Flash where possible, use 100% HTML5 mode
+  // preferFlash: false,
+  onready: function() {
+    // Ready to use; soundManager.createSound() etc. can now be called.
+  }
+  ontimeout: function() {
+    // Hrmm, SM2 could not start. Missing SWF? Flash blocked? Show an error, etc.?
+  }
+});
+</script>
+
 {% endif %}
 {% if page.comments %}
   {% include _disqus_comments.html %}

@@ -14,6 +14,8 @@ comments: true
 
 {% include _toc.html %}
 
+{% include tts1.html %}
+
 Public beta releases 
 are often the first time that partners and friends have 
 substantial hands-on experience with the upcoming version.
@@ -21,7 +23,7 @@ substantial hands-on experience with the upcoming version.
 I think too many developers waste the opportunity
 to build goodwill and additional assistance that beta participants can provide.
 
-Here is my advice:
+Here is a summary of my advice explained further below:
 
 0. <a href="#Define"> Define actors and use cases</a>.
 0. <a href="#Automate"> Automate use case flows by each actor</a>.
