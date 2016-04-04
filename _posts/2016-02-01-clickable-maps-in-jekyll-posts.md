@@ -8,7 +8,7 @@ comments: true
 <i>{{ page.excerpt }}</i>
 <hr />
 
-Clickable US map:
+Clickable US map (Click on Oregon or Washington state):
 
 <img src="https://cloud.githubusercontent.com/assets/300046/14015545/77b35900-f17f-11e5-83b7-f931da813eb2.gif" alt="Us states" usemap="#us-states" />
 <map name="us-states">
@@ -20,6 +20,13 @@ Clickable US map:
 </map>
 <!-- Thanks to David Jacquel for http://stackoverflow.com/questions/36192890/clickable-image-map-in-jekyll-site -->
 
+<a name="WA"></a>
+
+#### WA = Washington
+
+<a name="OR"></a>
+
+#### OR = Oregon
 
 I was not able to get them working by doing an include:
 
