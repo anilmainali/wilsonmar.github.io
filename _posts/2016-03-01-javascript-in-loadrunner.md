@@ -16,28 +16,24 @@ comments: true
 {% include _toc.html %}
 
 
-JavaScript is popular.
+JavaScript is popular now.
 
-Although still capable, LoadRunner's days as a Windows desktop program.
+This is one of a series on how LoadRunner has embraced JavaScript:
 
-Attention has been moving to the cloud.
+1. <a href="#TruClient">Create TruClient script with JavaScript</a>.
 
-There are several ways HP has embraced JavaScript:
+2. <a href="#LRCJS">Call JavaScript within a LoadRunner C-language script</a>. 
 
-1. <a href="#TruClient">TruClient makes use of JavaScript</a>.
-
-2. <a href="#LRCJS">Call JavaScript from within a LoadRunner C-language script</a>. 
-
-3. <a href="#LRJS">Scripting in JavaScript</a> (instead of C or Java).
+3. <a href="#LRJS">Scripting in JavaScript language</a> (instead of C or Java).
 
 Here are examples of each.
 
 
 <a name="TruClient"></a>
 
-## TruClient makes use of JavaScript
+## Create TruClient scripts with JavaScript
 
-Download Zip of the <strong>UISamples</strong> folder at:
+Download Zip of the <strong>UISamples</strong> TruClient script repository at:
 
    <a target="_blank" href="https://github.com/TruClient/UISamples">
    https://github.com/TruClient/UISamples</a>
@@ -53,22 +49,32 @@ I created a whole 2-day hands-on class explaning these.
 
 <a name="LRCJS"></a>
 
-## Call JavaScript from within a LoadRunner C-language script 
+## Call JavaScript within a LoadRunner C-language script 
 
-Download a Zip of the <strong>random_birthdate_js</strong> folder at:
+A tutorial on how you can create and use a JavaScript file within a LoadRunner C-language script
+(using Agile principles) is in the README.md file within the the
+<strong>random_birthdate_js</strong> folder at:
 
    <a target="_blank" href="https://github.com/wilsonmar/LoadRunner/tree/master/random_birthdate_js">
    https://github.com/wilsonmar/LoadRunner/tree/master/random_birthdate_js</a>
 
-The README.md file contains the tutorial on how you can create the script on your own,
-using Agile principles.
+Download a Zip the whole set of LoadRunner sample scripts from:
 
-> Call me to get good at this without wasting a lot of time.
+   <a target="_blank" href="https://github.com/wilsonmar/LoadRunner">
+   https://github.com/wilsonmar/LoadRunner</a>
+
+If you have a Git client, clone the set of LoadRunner sample scripts using command:
+
+   <a target="_blank" href="https://github.com/wilsonmar/LoadRunner">
+   git clone https://github.com/wilsonmar/LoadRunner.git</a>
+
+
+> Call me to get good at JavaScript without wasting a lot of time.
 
 
 <a href="#LRJS"></a>
 
-## Scripting in JavaScript
+## Script in JavaScript language
 
 To use VuGen to generate a LoadRunner script in JavaScript: 
 
@@ -88,29 +94,34 @@ To use VuGen to generate a LoadRunner script in JavaScript:
 
 5. Make a recording using WebTours (after starting it).
 
-## GET call
+6. Login as "jojo" with password "bean".
+   Search for a flight.
+   Stop recording.
 
-An example of the JavaScript code generated to 
-emulate a client retrieving an index.html file:
+What follows is a hands-on tutorial to show you the most important edits to make to LoadRunner scripts. 
+
+> I write programs that makes these edits for you. Call me!
+
+
+### Adjust link retrieval mode 
+
+A request generated looks like this:
 
 {% highlight html %}
-var pEndPoint = 'http://localhost:1080/CGI-BIN//login.pl?username=&password=&getInfo=true';
 web.url(
 {
     name : 'login.pl', 
-    url : '{pEndPoint}',			
+    url : 'http://localhost:1080/CGI-BIN//login.pl?username=&password=&getInfo=true',			
     resource : 0, 
     recContentType : 'text/html', 
-    referer : 'http://127.0.0.1:1080/WebTours/home.html', 
+    referer : '', 
     snapshot : 't10.inf', 
     mode : 'HTML'
     }
   );
 {% endhighlight %}
 
-`{pEndPoint}` is the run parameter which can be changed to:
-
-    http://api.search.yahoo.com/NewsSearchService/V1/
+A value in referer is not needed for the Web Tours sample application being used.
 
 NOTE: The `mode: HTML` activates a feature of LoadRunner which 
 scans the html returned and issue requests for 
@@ -119,70 +130,98 @@ links to CSS, JavaScript, images, etc.
 (Images specified within CSS are not retrieved this way)
 
 CHALLENGE: Change to `mode: HTTP` for LoadRunner to NOT request links as well.
-
-You can generate only invididual resource requests during recording by setting:
+Generate just individual resource requests during recording by setting:
 
    <img src="/images/LR1250 Recording Recording option 1034x204.png">
 
+Run the generated script.
 
-### Image by Screen Name
 
-LoadRunner can generate script code like this based on the text of the link
-(rather than the URL of the link):
+### Add a Parameter to make GET call 
+
+Parametize JavaScript code generated to 
+emulate a client retrieving an index.html file:
 
 {% highlight html %}
-web.image(
+var pEndPoint = 'http://api.search.yahoo.com/NewsSearchService/V1/';
+{% endhighlight %}
+
+`{pEndPoint}` is a run parameter which can be changed to:
+
+    http://api.search.yahoo.com/NewsSearchService/V1/
+
+
+### Verify response
+
+How do you know whether the correct screen was returned?
+
+Add code to scan the stream after receipt to identify a string of text:
+
+{% highlight html %}
+web.regFind(
+{
+   text : 'Find Flight', 
+   search : 'Body'
+}
+);
+{% endhighlight %}
+
+Run the script both ways so you see the output either way.
+
+NOTE: An error is raised immediately if the text is not found,
+but at where the request is made, not at this script line 
+which registers the capture during request execution.
+
+
+### Register Find String after download
+
+Add a foundcount to the call:
+
+{% highlight html %}
+web.regFind(
+{
+    text : 'Find Flight', 
+    foundcount : departDate_isfound,
+    search : 'Body'
+}
+);
+{% endhighlight %}
+
+CHALLENGE: Look at the Help screen for the function to come up with a way to  
+fail if the text is found (such as an error message).
+
+
+### Control whether to stop on error
+
+Some test run scenarios do not want to end if an error occurs,
+so use a variable named rc (return code) 
+when returning control up the call hierarchy rather than stopping: 
+
+{% highlight html %}
+var rc=0;
+rc = web.image(
 {
     name : 'Search Flights Button', 
     alt : 'Search Flights Button', 
     snapshot : 't3.inf'
 }
 );
-{% endhighlight %}
-
-
-### Use generic functions
-
-The function above can instead be called using a generic function
-such as:
-
-{% highlight html %}
-var rc=0;
-rc = wi.web.image( "Search Flights Button", "Search Flights Button" );
 if( rc != 0 ){
    lr.outputMessage(">> ERROR Logged-in=" + lr.evalString( "{UserIds_userid}" ));
-   // Handle error here.
+   // Handle error here:
+   return rc;  // 
 }else{
    lr.outputMessage(">> Logged-in=" + lr.evalString( "{UserIds_userid}" ));
 }
 {% endhighlight %}
 
-The function above is defined within 
-<strong>wi.utilities.js</strong> in GitHub:
-
-{% highlight html %}
-function wi.web.image( in_name, in_alt )
-{
-   var rc=0;
-
-   web.image( in_name, in_alt )
-   {
-       name : _in_name, 
-       alt : _in_alt, 
-       snapshot : 't3.inf'
-   }
-
-   return rc;
-);
-{% endhighlight %}
 
 The variable rc (return code) is set at the front of the function  
-so the function can return a status.  
+so the function can return a status.
 
+Unlike C, there is no LR_PASS in JavaScript, so we need to use 0.
 
 ### OutputMessage
-
-PROTIP: Do not use generic functions to output messages. 
 
 {% highlight html %}
 lr.outputMessage(">> Logged-in=" + lr.evalString( "{UserIds_userid}" ));
@@ -191,24 +230,45 @@ lr.outputMessage(">> Logged-in=" + lr.evalString( "{UserIds_userid}" ));
 PROTIP: Specify a special set of characters at the front of output messages
 so they are easy to identify among potentially many output lines.
 
-NOTE: There are other types of messages.
+CHALLENGE: Look in Help for other types of messages.
 
-### Register Find String after download
 
-To scan the stream after receipt to identify a string of text:
+### Use generic functions
+
+Replace the function with a call to a generic function
+such as:
 
 {% highlight html %}
-web.regFind(
-{
-   text : 'Find Flight', search : 'Body'
+var rc=0;
+    rc = wi.web.image( "Search Flights Button", "Search Flights Button" );
+if( rc != 0 ){
+    lr.outputMessage(">> ERROR Logged-in=" + lr.evalString( "{UserIds_userid}" ));
+    // Handle error here.
+    return rc;
+}else{
+    lr.outputMessage(">> Logged-in=" + lr.evalString( "{UserIds_userid}" ));
 }
+{% endhighlight %}
+
+
+The function above is defined within 
+<strong>wi.utilities.js</strong> in GitHub:
+
+{% highlight html %}
+function wi.web.image( in_name, in_alt )
+{
+   var rc=0;
+   rc = web.image( in_name, in_alt )
+   {
+      name : _in_name, 
+      alt : _in_alt, 
+      snapshot : 't3.inf'
+   }
+   return rc;
 );
 {% endhighlight %}
 
-CAUTION: An error would be raised immediately if the text is not found.
-
-CHALLENGE: Look at the Help screen for the function to come up with a way to  
-fail if the text is found (such as an error message).
+PROTIP: Do not use generic functions to output messages. 
 
 
 ### Capture Parameter Extended
@@ -218,7 +278,6 @@ To have LoadRunner count the number of times it finds text in the input stream:
 {% highlight html %}
 web.regSaveParamEx(
 {
-    foundvar : ????,
     paramName : 'departDate', 
     lb : 'name=\"departDate\" value=\"', 
     rb : '\"', 
@@ -228,9 +287,11 @@ web.regSaveParamEx(
 );
 {% endhighlight %}
 
-The code to take action depending on what is in the variable updated:  
+The code to take action depending on what is in the variable updated. 
 
-???
+NOTE: LoadRunner automatically creates the paramName parameter
+specified.
+
 
 <hr />
 
@@ -238,11 +299,12 @@ The code to take action depending on what is in the variable updated:
 
 PROTIP: Replace think-time functions with a generic function:
 
-   wi.StartTrans( pCurrentTrans, rc );
+   wi.StartTrans( pCurrentTrans, in_rc );
 
 Add a call to end transaction:
 
-   rc = wi.EndTrans( pCurrentTrans, rc );
+   rc = wi.EndTrans( pCurrentTrans, in_rc );
+
 
 
 ### Start and End Transaction Names
@@ -265,9 +327,28 @@ Parametizing transaction names is needed to make generic functions
 that reduce the amount of coding. The less coding lines, the smaller the script's memory footprint.
 Smaller scripts allow for more Vusers to fit into available memory on load generator machines.
 
+PROTIP: Start transaction immediately before web request functions
+to avoid having data preparating time be counted in the transaction time.
 
 
 <hr />
+
+### Get Image by Screen Name
+
+LoadRunner can generate script code like this based on the text of the link
+(rather than the URL of the link):
+
+{% highlight html %}
+web.image(
+{
+name : 'Search Flights Button', 
+alt : 'Search Flights Button', 
+snapshot : 't3.inf'
+}
+);
+{% endhighlight %}
+
+
 
 ### Submit form to Sign-up
 
