@@ -95,8 +95,8 @@ To use VuGen to generate a LoadRunner script in JavaScript:
 5. Make a recording using WebTours (after starting it).
 
 6. Login as "jojo" with password "bean".
-   Search for a flight.
-   Stop recording.
+   Click Flights.
+   In "Find Flights", click "Sign Off", then Stop recording.
 
 What follows is a hands-on tutorial to show you the most important edits to make to LoadRunner scripts. 
 
@@ -110,18 +110,19 @@ A request generated looks like this:
 {% highlight html %}
 web.url(
 {
-    name : 'login.pl', 
-    url : 'http://localhost:1080/CGI-BIN//login.pl?username=&password=&getInfo=true',			
+    name : 'index.htm', 
+    url : 'http://127.0.0.1:1080/WebTours/index.htm', 
+    targetFrame : '', 
     resource : 0, 
     recContentType : 'text/html', 
     referer : '', 
-    snapshot : 't10.inf', 
+    snapshot : 't1.inf', 
     mode : 'HTML'
-    }
-  );
+}
+);
 {% endhighlight %}
 
-A value in referer is not needed for the Web Tours sample application being used.
+A value in referer is not needed because the Web Tours sample application does not use it.
 
 NOTE: The `mode: HTML` activates a feature of LoadRunner which 
 scans the html returned and issue requests for 
