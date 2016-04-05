@@ -141,7 +141,7 @@ emulate a client retrieving an index.html file:
   );
 {% endhighlight %}
 
-"{pEndPoint}" is the run parameter containing:
+"{pEndPoint}" is the run parameter containing an End Point such as:
 
     http://api.search.yahoo.com/NewsSearchService/V1/
 
