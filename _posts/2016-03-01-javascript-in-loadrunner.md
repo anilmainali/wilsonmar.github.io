@@ -193,7 +193,6 @@ so they are easy to identify among potentially many output lines.
 
 NOTE: There are other types of messages.
 
-
 ### Register Find String after download
 
 To scan the stream after receipt to identify a string of text:
@@ -239,7 +238,7 @@ The code to take action depending on what is in the variable updated:
 
 PROTIP: Replace think-time functions with a generic function:
 
-   wi.StarTrans( pCurrentTrans, rc );
+   wi.StartTrans( pCurrentTrans, rc );
 
 Add a call to end transaction:
 
