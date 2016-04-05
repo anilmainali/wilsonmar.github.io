@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Image search"
-excerpt: "A picture is worth a 1,000 words"
-tags: [authentication, personalization, jekyll]
+title: "Image search and edit"
+excerpt: "Make picture be worth a 1,000 words"
+tags: [photo, editing, authentication, personalization, jekyll]
 image:
   feature: pic blue lake searching 1900x500.jpg
   credit: Braintree Books
@@ -88,7 +88,7 @@ Here's a list for your brainstorming pleasure:
 * Country: USA
 
 
-## What I'd rather not
+## Avoid words
 
 Avoid an image with words in it, in case you have to localize your site.
 
@@ -122,6 +122,9 @@ SVG images cannot be saved that way.
 Yet they are the preferred type of image file because they scale well,
 meaning they look crisp at different sizes.
 
+But I save SVG files anyway with their png or jpg clones
+by naming such files with the same prefix as their clone formats
+in the same folder.
 
 ## Save credit information with images
 
@@ -131,7 +134,7 @@ But you'll sleep better at night knowing that you're not being hunted.
 
 So save your worry for other things by doing the right thing.
 
-One way to do it is creating a text file named the same as the image,
+What I do is create a text file named the same as the image,
 but with a .txt extension.
 In the file
 
@@ -142,3 +145,5 @@ In the file
 I personally have a website called assets that I use to save my images.
 
 I tag each image so I can find them later.
+
+
