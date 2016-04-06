@@ -87,20 +87,16 @@ Tutorials on APIs include:
 
 * http://www.restapitutorial.com/
 
-* https://www.youtube.com/watch?v=7YcW25PHnAA
+   <amp-youtube data-videoid="7YcW25PHnAA" 
+   layout="responsive" width="480" height="270">
+   </amp-youtube>
 
 
 <a name="SpecDB"></a>
 
 ## Specification databases
 
-Several databases have grown up over the years:
-
-* <a href="#WADL">WADL</a>
-* Swagger
-* RAML
-* DOORS requirements
-* etc.
+Several databases for APIs have grown up over the years:
 
 Specifications for REST API (such as Swagger)
    are more amenable as the basis for generating code
@@ -111,6 +107,64 @@ Specifications for REST API (such as Swagger)
    or don't provide enough information for use in code generation
    at this point in time.
 
+
+|   | Swagger | <a href="#RAML">RAML</a> | API-Blueprint |
+| --- | --- | --- | --- |
+| Format:  | JSON | YAML | Markdown |
+| Sponsor: | <a href="#Who">Reverb</a> | <a target="_blank" href="http://mulesoft.com/">Mulesoft</a> | Apiary |
+| Initial: | July, 2011 | Sep, 2013 | April, 2013 |
+| Approach: | Bottom-up | Top-down | Top-down |
+
+Other alternatives include:
+
+  * <a target="_blank" href="http://github.com/mashery/iodocs"> IO-Docs</a> from <a target="_blank" href="http://mashery.com/product/io-docs">Mashery</a> (licensed).
+
+  * <a target="_blank" href="http://jsondoc.org/">JASONDoc</a> has a 
+  <a target="_blank" href="https://github.com/jdorn/json-editor">Editor</a> that reads a JSON Schema
+  and generates an HTML form to manipulate it.
+
+  * <a target="_blank" href="http://Apiary.io">Apiary.io</a> (licensed)
+
+  * <a href="#WADL">WADL</a>
+
+  * <a target="_blank" href="http://www.w3.org/TR/wsdl/">WSDL</a> 
+    SOAP
+
+  * <a target="_blank" href="http://en.wikipedia.org/wiki/Web_Application_Description_Language">WADL (Web Application Description Language) generated to describe SOAP are not viable for REST API because they do not include enough information.
+
+  * DOORS requirements
+
+<a id="RAML"></a>
+
+### RAML
+
+RAML (at <a target="_blank" href="http://raml.org/"> RAML.org</a>)
+can reuse WADL (pronounced "waddle") 
+introspection logic of 
+<a target="_blank" href="http://restlet.com/">
+Restlet Framework resources</a>
+developed by Java (SE/EE, Google AppEngine, OSGi, GWT, Android) 
+REST API developers using the 
+Restlet Studio and the 
+APISpark cloud managed by
+Reslet based in France with an office in Palo Alto.
+
+Reslet (in Oct. 2015) bought Czech Filip Kolařík's 
+<a target="_blank" href="https://chrome.google.com/webstore/detail/dhc-resthttp-api-client/aejoelaoggembcahagimdiliamlcdmfm">
+DHC (Dev HTTP Client) Chrome Add-in</a> 
+and https://www.sprintapi.com/dhcs.html
+to test and debug web APIs
+
+Swagger2RAML converts Swagger JSON to RAML YAML.
+
+
+   <amp-youtube data-videoid="vu8_QLkW1mg" 
+   layout="responsive" width="480" height="270">
+   </amp-youtube>
+
+API Description Languages: Which One Is Right For Me?
+Aug. 15, 2014 by Laura dot Heritage at 
+soa.com (Akana, formerly SOA Software).
 
 <a name="WADL-example"></a>
 
