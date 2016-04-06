@@ -55,6 +55,13 @@ That is why <a target="_blank" href="http://www.tableau.com/learn/whitepapers/fo
 
 <img width="550" alt="gartner adv quadrant 2015" src="https://cloud.githubusercontent.com/assets/300046/12011013/d49ac22e-ac7a-11e5-8427-aabe5e7c7a87.png">
 
+In the Magic Quadrant of Feb. 2016, Gartner's kept Tableau at the top
+for Execution even though it downgraded most other vendors on that scale
+while it acknowledged Microsoft's fast rise to be the leader in
+Completeness of Vision:
+
+![fig gartner bi quadrant feb 2016](https://cloud.githubusercontent.com/assets/300046/14320055/e129619e-fbd0-11e5-9a47-1dae7ca66d5e.png)
+
 Another alternative are JavaScript libraries developers incorporate into their home-grown visualization solutions:
 
   * <a target="_blank" href="https://leanpub.com/D3-Tips-and-Tricks">
