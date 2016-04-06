@@ -27,9 +27,6 @@ PROTIP: A recent innovation (from the geniuses at Google) enables websites to lo
    * <a target="_blank" rel="amphtml" href="https://www.ampproject.org/docs/get_started/about-amp.html">
    ampproject.org/docs</a>
 
-   * <a target="_blank" rel="amphtml" href="https://www.youtube.com/watch?v=iZZdhTUP5qg">
-   Google I/O 2015 - The next generation mobile web</a>
-
 The rest of this section describes its use.
 
 ## Marvel at the speed of AMP
@@ -62,11 +59,13 @@ See Google's search demo featuring the AMP carousel:
 
 Paul Bakaus, Developer Advocate has two videos:
 
-   {% include youtube-amp-video-01.html %}
+   <amp-youtube data-videoid="lBTCB7yLs8Y" layout="responsive" width="480" height="270"></amp-youtube>
 
-   Also:
+   &nbsp;
 
-   {% include youtube-amp-video-02.html %}
+   The more technical
+
+   <amp-youtube data-videoid="SOx1XfOjJPI" layout="responsive" width="480" height="270"></amp-youtube>
 
 &nbsp;
 
@@ -76,7 +75,9 @@ BTW, the above videos were served using AMP on this Jekyll-based site.
 ## How I added AMP to my Jekyll-based site
 
 PROTIP: You don't need to have the whole site under AMP. 
-Add the JavaScriipt to use AMP when you can.
+Add the JavaScript to use AMP when you can.
+
+   <amp-twitter width=486 height=657 layout="responsive" data-tweetid="716443188538449920" data-cards="hidden">
 
 ### Add JavaScript libraries
 
@@ -97,7 +98,7 @@ Add the JavaScriipt to use AMP when you can.
 
 Yes, these really should be under the fold, but that's what Google does.
 
-### Use amp-youtube> tags
+### Use \<amp-youtube> tags
 
 Instead of this:
 
@@ -262,9 +263,8 @@ Make sure that `gem install hitimes -v '1.2.2'` succeeds before bundling.
 5.  In a browser, view the site in validation mode:
 
     ```
-    localhost://4000#development=1
+    http://localhost:4000/#development=1
     ```
-
 
    * <a target="_blank" rel="amphtml" href="https://www.ampproject.org/docs/guides/validate.html"> https://www.ampproject.org/docs/guides/validate.html</a>
 
@@ -347,7 +347,7 @@ In order to do DNS pre-connects for faster speed, AMP needs an extra attribute i
 
 Add rel="canonical" to regular href links
 
-### Use <amp-ad> for advertisements
+### Use \<amp-ad> for advertisements
 
 AMP enables lazy-load of and prioritization of ads identified like this:
 
@@ -359,7 +359,7 @@ AMP enables lazy-load of and prioritization of ads identified like this:
    &LT;/amp-ad>
    </code></pre>
 
-Ad Platforms integrated into AMP
+Ad Platforms integrated into AMP:
 
    * AdSense by Google
    * A9 by Amazon

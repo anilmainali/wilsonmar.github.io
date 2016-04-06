@@ -137,17 +137,3 @@ which illustrates the group's work activities, month-by-month:
 <a target="_blank" href="hhttps://mostcontagious.files.wordpress.com/2010/01/beatles.jpg">
 <img alt="fig black beatles 4 year schedule" src="https://cloud.githubusercontent.com/assets/300046/14229397/26bc50c4-f8f0-11e5-9a74-879d530b6eef.jpg" width="1297" height="1026"></a>
 
-
-
-
-
-
-<!--
-&nbsp;
-
-## Most recent Tweets
-
-<a class="twitter-timeline"  href="https://twitter.com/wilsonmar" data-widget-id="711272963031470080">Tweets by @wilsonmar</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
--->
-          

@@ -35,6 +35,9 @@ Here is a summary of my advice explained further below:
 
 More about each is described below.
 
+<amp-twitter width=486 height=657 layout="responsive" data-tweetid="716443188538449920" data-cards="hidden">
+
+
 <a name="Define"></a>
 
 ### Define actors and use cases

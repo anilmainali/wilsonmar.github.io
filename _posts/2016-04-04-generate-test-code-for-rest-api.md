@@ -16,20 +16,20 @@ comments: true
 I have a dream ...
 
 where developers get their 
-<a href="#TestScripts">test code</a> 
-not by waiting for testers,
-but by 
+<a href="#TestScripts">test scripts</a> 
+not by waiting for manual coding, but by 
 
-<img width="451" alt="fig test code gen" 
-src="/images/fig test code gen 1480x838.png">
+<img width="451" alt="fig test code gen v01" 
+src="/images/fig test code gen v01 998x568.png">
 
 0. <a href="#TestCodeGener">test code generation programs</a> referencing
 
 0. a <a href="#SpecDB">specification database</a>
 
-0. also used to create client application programs,
+0. also used to create <a href="#ClientApps">client applications</a> 
+   making calls to servers.
 
-0. all done by a <a href="#Toolchain">toolchain</a>
+0. All this done by a <a href="#Toolchain">toolchain</a>
    of Continuous Integration/Continous Deployment.
 
 0. The specifications can be specified manually or
@@ -50,7 +50,7 @@ src="/images/fig test code gen 1480x838.png">
 
 0. metrics from monitoring of servers.
 
-0. Analysis of these results are made light of the 
+0. Analysis of these results are made in light of the 
    original specifications.
 
 0. Insights from human or artificial intelligence 
@@ -67,6 +67,28 @@ The automation discusseed here has the objective of "testers"
 being developers themselves -- developers of test code generation programs.
 
 The audience for this page are developers who want to move faster.
+
+<a name="ClientApps"></a>
+
+## Client applications
+
+Let's for now focus on examples of clients making REST API calls.
+
+* Yahoo Weather
+
+* Google Weather
+
+* Twitter
+  http://www.ibm.com/developerworks/library/x-twitterREST/index.html
+
+* https://developer.salesforce.com/page/REST_API
+
+Tutorials on APIs include:
+
+* http://www.restapitutorial.com/
+
+* https://www.youtube.com/watch?v=7YcW25PHnAA
+
 
 <a name="SpecDB"></a>
 
@@ -177,7 +199,7 @@ Since Swagger users may prefer JSON formatting.
 
 0. Response code (if not standard 200).
 
-0. Reptitions.
+0. Repetitions.
 
 0. Negative tests (to force 400 to return).
 

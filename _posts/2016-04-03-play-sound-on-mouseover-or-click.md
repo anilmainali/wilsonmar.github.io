@@ -4,9 +4,9 @@ title: "Sound out text on page"
 excerpt: "Listen to this"
 tags: [text to speech, JavaScript, programming]
 image:
-  feature: pic jump into tiny pool 1900x500.jpg 
-  credit: 
-  creditlink: 
+  feature: pic black rainbow sound 1900X500.jpg
+  credit: Mp3jack at deviantart.com
+  creditlink: http://mp3jack.deviantart.com/art/8-Bit-Sound-Desktop-492031573
 comments: true
 ---
 <i>{{ page.excerpt }}</i>
